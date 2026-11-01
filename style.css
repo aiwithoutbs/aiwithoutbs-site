@@ -17,3 +17,4 @@ footer{border-top:2px solid #ddd;margin-top:3em;padding:20px;font-size:16px;colo
 .signup input{font-size:18px;padding:10px;width:100%;max-width:340px;border:2px solid #222;box-sizing:border-box}
 .signup button{font-size:18px;padding:10px 16px;margin-top:8px;background:#222;color:#fff;border:0;cursor:pointer}
 .signup .msg{margin:8px 0 0;font-weight:bold}
+.sponsor{border:2px dashed #222;padding:14px 18px;margin:0 0 1.5em;color:#222;background:#fff}.sponsor p{margin:0 0 10px}.sponsor .btn{display:inline-block;background:#222;color:#fff;padding:10px 16px;text-decoration:none;font-weight:bold}
