@@ -12,3 +12,8 @@ blockquote{font:700 1.3em Arial,sans-serif;margin:0;padding:18px;background:#f4b
 .pn{display:flex;justify-content:space-between;margin:2em 0;font:700 20px Arial}.pn a{color:#d62828}
 footer{border-top:2px solid #ddd;margin-top:3em;padding:20px;font-size:16px;color:#555}
 @media(max-width:600px){body{font-size:19px}h1{font-size:1.8em}}
+.signup{background:#fff8e6;border:2px solid #222;padding:18px;margin:0 0 1.5em;color:#222}
+.signup .pitch{margin:0 0 10px;font-size:18px}
+.signup input{font-size:18px;padding:10px;width:100%;max-width:340px;border:2px solid #222;box-sizing:border-box}
+.signup button{font-size:18px;padding:10px 16px;margin-top:8px;background:#222;color:#fff;border:0;cursor:pointer}
+.signup .msg{margin:8px 0 0;font-weight:bold}
