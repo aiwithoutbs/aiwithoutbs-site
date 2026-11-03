@@ -16,12 +16,12 @@ module.exports=async(req,res)=>{
       const subject="You're in: your first AI play (no BS)";
       if(process.env.BREVO_SMTP_KEY&&process.env.BREVO_SMTP_LOGIN){
         const t=require('nodemailer').createTransport({host:'smtp-relay.brevo.com',port:587,secure:false,auth:{user:process.env.BREVO_SMTP_LOGIN,pass:process.env.BREVO_SMTP_KEY}});
-        await t.sendMail({from:`"AI without BS" <${process.env.SENDER_EMAIL||'info@bowandarrowconsultingco.com'}>`,to:email,subject,html});
+        await t.sendMail({from:`"AI without BS" <${process.env.SENDER_EMAIL||'info@bowandarrowconsultingco.com'}>`,to:email,replyTo:'Admin@anchorsenterprisemanagement.com',subject,html});
         return res.status(200).json({ok:true});
       }
       const w=process.env.BREVO_API_KEY
-        ?await fetch('https://api.brevo.com/v3/smtp/email',{method:'POST',headers:{'api-key':process.env.BREVO_API_KEY,'Content-Type':'application/json',accept:'application/json'},body:JSON.stringify({sender:{name:'AI without BS',email:process.env.SENDER_EMAIL||'info@bowandarrowconsultingco.com'},to:[{email}],subject,htmlContent:html})})
-        :await fetch(`${API}/emails`,{method:'POST',headers:h(),body:JSON.stringify({from:'AI without BS <onboarding@resend.dev>',to:[email],subject,html})});
+        ?await fetch('https://api.brevo.com/v3/smtp/email',{method:'POST',headers:{'api-key':process.env.BREVO_API_KEY,'Content-Type':'application/json',accept:'application/json'},body:JSON.stringify({sender:{name:'AI without BS',email:process.env.SENDER_EMAIL||'info@bowandarrowconsultingco.com'},to:[{email}],replyTo:{email:'Admin@anchorsenterprisemanagement.com'},subject,htmlContent:html})})
+        :await fetch(`${API}/emails`,{method:'POST',headers:h(),body:JSON.stringify({from:'AI without BS <onboarding@resend.dev>',to:[email],reply_to:'Admin@anchorsenterprisemanagement.com',subject,html})});
       if(!w.ok)console.error('welcome',await w.text());
     }catch(e){console.error('welcome',e)}
     return res.status(200).json({ok:true});
