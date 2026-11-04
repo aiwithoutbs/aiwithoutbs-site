@@ -3,11 +3,11 @@
   "name": "Grok",
   "slug": "grok",
   "url": "https://grok.com",
-  "what_its_for": "",
+  "what_its_for": "AI chat for answers, writing, and research.",
   "tags": [
    "writing",
    "research",
-   "images/design"
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "$8/mo (Plus)",
@@ -18,10 +18,11 @@
   "name": "ChatGPT",
   "slug": "chatgpt",
   "url": "https://chatgpt.com",
-  "what_its_for": "",
+  "what_its_for": "Conversational AI for writing, ideas, and answers.",
   "tags": [
    "writing",
-   "research"
+   "research",
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "$8/mo (Go)",
@@ -32,11 +33,11 @@
   "name": "Claude",
   "slug": "claude",
   "url": "https://claude.ai",
-  "what_its_for": "",
+  "what_its_for": "AI that writes and works with long documents.",
   "tags": [
    "writing",
    "research",
-   "coding/website"
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "$17/mo billed yearly (Pro)",
@@ -47,10 +48,11 @@
   "name": "Gemini",
   "slug": "gemini",
   "url": "https://gemini.google.com",
-  "what_its_for": "",
+  "what_its_for": "Google AI for chat, search, and daily tasks.",
   "tags": [
    "writing",
-   "research"
+   "research",
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "$4.99/mo (AI Plus)",
@@ -61,10 +63,11 @@
   "name": "Microsoft Copilot",
   "slug": "microsoft-copilot",
   "url": "https://copilot.microsoft.com",
-  "what_its_for": "",
+  "what_its_for": "AI helper inside Microsoft 365 apps.",
   "tags": [
    "writing",
-   "productivity"
+   "productivity",
+   "research"
   ],
   "free_tier": true,
   "paid_from": "$9.99/mo (Microsoft 365 Personal)",
@@ -75,7 +78,7 @@
   "name": "Perplexity",
   "slug": "perplexity",
   "url": "https://www.perplexity.ai",
-  "what_its_for": "",
+  "what_its_for": "Answers questions and shows the sources.",
   "tags": [
    "research"
   ],
@@ -88,7 +91,7 @@
   "name": "Canva AI",
   "slug": "canva-ai",
   "url": "https://www.canva.com",
-  "what_its_for": "",
+  "what_its_for": "Makes designs, posts, and graphics with AI help.",
   "tags": [
    "images/design",
    "marketing/social"
@@ -102,9 +105,10 @@
   "name": "Otter.ai",
   "slug": "otter-ai",
   "url": "https://otter.ai",
-  "what_its_for": "",
+  "what_its_for": "Turns meetings and calls into written notes.",
   "tags": [
-   "meetings/notes"
+   "meetings/notes",
+   "voice"
   ],
   "free_tier": true,
   "paid_from": "$8.49/mo billed yearly (Pro)",
@@ -115,9 +119,10 @@
   "name": "Zapier AI",
   "slug": "zapier-ai",
   "url": "https://zapier.com",
-  "what_its_for": "",
+  "what_its_for": "Connects your apps and automates tasks.",
   "tags": [
-   "automation"
+   "automation",
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "$19.99/mo billed yearly (Professional)",
@@ -128,10 +133,11 @@
   "name": "Notion AI",
   "slug": "notion-ai",
   "url": "https://www.notion.com/product/ai",
-  "what_its_for": "",
+  "what_its_for": "Writes, summarizes, and organizes notes inside Notion.",
   "tags": [
+   "writing",
    "productivity",
-   "writing"
+   "meetings/notes"
   ],
   "free_tier": true,
   "paid_from": "$20/member/mo (Business, full AI)",
@@ -142,7 +148,7 @@
   "name": "Fathom",
   "slug": "fathom",
   "url": "https://www.fathom.ai",
-  "what_its_for": "",
+  "what_its_for": "Records meetings and writes the notes for you.",
   "tags": [
    "meetings/notes"
   ],
@@ -155,7 +161,7 @@
   "name": "Jasper",
   "slug": "jasper",
   "url": "https://www.jasper.ai",
-  "what_its_for": "",
+  "what_its_for": "Writes marketing content and sales copy.",
   "tags": [
    "writing",
    "marketing/social"
@@ -169,9 +175,10 @@
   "name": "Grammarly",
   "slug": "grammarly",
   "url": "https://www.grammarly.com",
-  "what_its_for": "",
+  "what_its_for": "Checks grammar, clarity, and tone.",
   "tags": [
-   "writing"
+   "writing",
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "$12/mo (Pro)",
@@ -182,7 +189,7 @@
   "name": "ElevenLabs",
   "slug": "elevenlabs",
   "url": "https://elevenlabs.io",
-  "what_its_for": "",
+  "what_its_for": "Creates realistic voices from text.",
   "tags": [
    "voice"
   ],
@@ -195,7 +202,7 @@
   "name": "Descript",
   "slug": "descript",
   "url": "https://www.descript.com",
-  "what_its_for": "",
+  "what_its_for": "Edits video and audio by editing the text.",
   "tags": [
    "video",
    "voice"
@@ -209,10 +216,11 @@
   "name": "HubSpot AI (Breeze)",
   "slug": "hubspot-ai",
   "url": "https://www.hubspot.com/products/artificial-intelligence",
-  "what_its_for": "",
+  "what_its_for": "AI tools for sales, marketing, and support.",
   "tags": [
    "sales/CRM",
-   "marketing/social"
+   "marketing/social",
+   "customer service"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -223,9 +231,10 @@
   "name": "Microsoft Designer",
   "slug": "microsoft-designer",
   "url": "https://designer.microsoft.com",
-  "what_its_for": "",
+  "what_its_for": "Creates images and social graphics with AI.",
   "tags": [
-   "images/design"
+   "images/design",
+   "marketing/social"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -236,10 +245,10 @@
   "name": "Gamma",
   "slug": "gamma",
   "url": "https://gamma.app",
-  "what_its_for": "",
+  "what_its_for": "Turns text into presentations and slides.",
   "tags": [
    "productivity",
-   "images/design"
+   "writing"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -250,7 +259,7 @@
   "name": "Fireflies.ai",
   "slug": "fireflies",
   "url": "https://fireflies.ai",
-  "what_its_for": "",
+  "what_its_for": "Records calls and makes meeting summaries.",
   "tags": [
    "meetings/notes"
   ],
@@ -263,9 +272,10 @@
   "name": "Make.com",
   "slug": "make",
   "url": "https://www.make.com",
-  "what_its_for": "",
+  "what_its_for": "Builds automations that connect different apps.",
   "tags": [
-   "automation"
+   "automation",
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -276,7 +286,7 @@
   "name": "Midjourney",
   "slug": "midjourney",
   "url": "https://www.midjourney.com",
-  "what_its_for": "",
+  "what_its_for": "Creates images from written descriptions.",
   "tags": [
    "images/design"
   ],
@@ -289,10 +299,9 @@
   "name": "Adobe Firefly",
   "slug": "adobe-firefly",
   "url": "https://www.adobe.com/products/firefly.html",
-  "what_its_for": "",
+  "what_its_for": "Generates and edits images with Adobe AI.",
   "tags": [
-   "images/design",
-   "video"
+   "images/design"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -303,9 +312,10 @@
   "name": "DeepL",
   "slug": "deepl",
   "url": "https://www.deepl.com",
-  "what_its_for": "",
+  "what_its_for": "Translates text and documents between languages.",
   "tags": [
-   "writing"
+   "writing",
+   "productivity"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -316,7 +326,7 @@
   "name": "QuickBooks AI (Intuit Assist)",
   "slug": "quickbooks",
   "url": "https://quickbooks.intuit.com",
-  "what_its_for": "",
+  "what_its_for": "Helps with invoices, reports, and bookkeeping.",
   "tags": [
    "bookkeeping/finance"
   ],
@@ -329,10 +339,9 @@
   "name": "Tidio",
   "slug": "tidio",
   "url": "https://www.tidio.com",
-  "what_its_for": "",
+  "what_its_for": "Live chat and AI bots for website visitors.",
   "tags": [
-   "customer",
-   "service"
+   "customer service"
   ],
   "free_tier": true,
   "paid_from": "$24.17/mo (Starter)",
@@ -343,10 +352,9 @@
   "name": "Intercom Fin",
   "slug": "intercom",
   "url": "https://www.intercom.com",
-  "what_its_for": "",
+  "what_its_for": "AI that answers customer support questions.",
   "tags": [
-   "customer",
-   "service"
+   "customer service"
   ],
   "free_tier": false,
   "paid_from": "$29/seat/mo + $0.99 per Fin outcome",
@@ -357,9 +365,10 @@
   "name": "Calendly",
   "slug": "calendly",
   "url": "https://calendly.com",
-  "what_its_for": "",
+  "what_its_for": "Lets people book meetings on your calendar.",
   "tags": [
-   "productivity"
+   "productivity",
+   "meetings/notes"
   ],
   "free_tier": null,
   "paid_from": "$10/seat/mo (Standard)",
@@ -370,9 +379,10 @@
   "name": "Motion",
   "slug": "motion",
   "url": "https://www.usemotion.com",
-  "what_its_for": "",
+  "what_its_for": "Automatically plans your tasks and calendar.",
   "tags": [
-   "productivity"
+   "productivity",
+   "automation"
   ],
   "free_tier": false,
   "paid_from": "$19/seat/mo",
@@ -383,7 +393,7 @@
   "name": "Loom",
   "slug": "loom",
   "url": "https://www.loom.com",
-  "what_its_for": "",
+  "what_its_for": "Records short videos to explain things.",
   "tags": [
    "video",
    "productivity"
@@ -397,10 +407,9 @@
   "name": "CapCut",
   "slug": "capcut",
   "url": "https://www.capcut.com",
-  "what_its_for": "",
+  "what_its_for": "Edits videos with AI captions and effects.",
   "tags": [
-   "video",
-   "marketing/social"
+   "video"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -411,9 +420,10 @@
   "name": "Synthesia",
   "slug": "synthesia",
   "url": "https://www.synthesia.io",
-  "what_its_for": "",
+  "what_its_for": "Makes videos with AI people speaking your script.",
   "tags": [
-   "video"
+   "video",
+   "voice"
   ],
   "free_tier": true,
   "paid_from": "$19/mo (Starter; first month $9)",
@@ -424,9 +434,10 @@
   "name": "HeyGen",
   "slug": "heygen",
   "url": "https://www.heygen.com",
-  "what_its_for": "",
+  "what_its_for": "Creates talking-avatar videos from text.",
   "tags": [
-   "video"
+   "video",
+   "voice"
   ],
   "free_tier": true,
   "paid_from": "$29/mo (Creator)",
@@ -437,7 +448,7 @@
   "name": "Opus Clip",
   "slug": "opus-clip",
   "url": "https://www.opus.pro",
-  "what_its_for": "",
+  "what_its_for": "Turns long videos into short social clips.",
   "tags": [
    "video",
    "marketing/social"
@@ -451,9 +462,10 @@
   "name": "Buffer AI Assistant",
   "slug": "buffer",
   "url": "https://buffer.com",
-  "what_its_for": "",
+  "what_its_for": "Helps write and schedule social posts.",
   "tags": [
-   "marketing/social"
+   "marketing/social",
+   "writing"
   ],
   "free_tier": true,
   "paid_from": "$5/mo per channel (Essentials)",
@@ -464,7 +476,7 @@
   "name": "Hootsuite OwlyWriter",
   "slug": "hootsuite-owlywriter",
   "url": "https://www.hootsuite.com",
-  "what_its_for": "",
+  "what_its_for": "Writes social media posts with AI.",
   "tags": [
    "marketing/social",
    "writing"
@@ -478,11 +490,10 @@
   "name": "Copy.ai",
   "slug": "copy-ai",
   "url": "https://www.copy.ai",
-  "what_its_for": "",
+  "what_its_for": "Generates marketing copy, emails, and ads.",
   "tags": [
    "writing",
-   "marketing/social",
-   "sales/CRM"
+   "marketing/social"
   ],
   "free_tier": true,
   "paid_from": "$24/mo billed yearly",
@@ -493,7 +504,7 @@
   "name": "Writesonic",
   "slug": "writesonic",
   "url": "https://writesonic.com",
-  "what_its_for": "",
+  "what_its_for": "Writes articles, product descriptions, and ads.",
   "tags": [
    "writing",
    "marketing/social"
@@ -507,7 +518,7 @@
   "name": "Wix AI Website Builder",
   "slug": "wix",
   "url": "https://www.wix.com",
-  "what_its_for": "",
+  "what_its_for": "Builds websites from a short description.",
   "tags": [
    "coding/website"
   ],
@@ -520,7 +531,7 @@
   "name": "Squarespace AI",
   "slug": "squarespace-ai",
   "url": "https://www.squarespace.com",
-  "what_its_for": "",
+  "what_its_for": "Designs and builds websites with AI help.",
   "tags": [
    "coding/website"
   ],
@@ -533,7 +544,7 @@
   "name": "Durable",
   "slug": "durable",
   "url": "https://durable.com",
-  "what_its_for": "",
+  "what_its_for": "Creates small-business websites in minutes.",
   "tags": [
    "coding/website"
   ],
@@ -546,7 +557,7 @@
   "name": "Lovable",
   "slug": "lovable",
   "url": "https://lovable.dev",
-  "what_its_for": "",
+  "what_its_for": "Builds websites and apps from text prompts.",
   "tags": [
    "coding/website"
   ],
@@ -559,7 +570,7 @@
   "name": "Bolt.new",
   "slug": "bolt-new",
   "url": "https://bolt.new",
-  "what_its_for": "",
+  "what_its_for": "Generates web apps and sites with AI.",
   "tags": [
    "coding/website"
   ],
@@ -572,7 +583,7 @@
   "name": "Beautiful.ai",
   "slug": "beautiful-ai",
   "url": "https://www.beautiful.ai",
-  "what_its_for": "",
+  "what_its_for": "Designs professional slide decks easily.",
   "tags": [
    "productivity",
    "images/design"
@@ -586,7 +597,7 @@
   "name": "Microsoft Teams Premium (Intelligent Recap)",
   "slug": "teams-premium",
   "url": "https://www.microsoft.com/en-us/microsoft-teams/premium",
-  "what_its_for": "",
+  "what_its_for": "Summarizes Teams meetings automatically.",
   "tags": [
    "meetings/notes"
   ],
@@ -599,9 +610,10 @@
   "name": "Zoom AI Companion",
   "slug": "zoom-ai-companion",
   "url": "https://www.zoom.com/en/products/ai-assistant/",
-  "what_its_for": "",
+  "what_its_for": "Takes notes and summarizes Zoom meetings.",
   "tags": [
-   "meetings/notes"
+   "meetings/notes",
+   "productivity"
   ],
   "free_tier": null,
   "paid_from": "See site",
@@ -612,7 +624,7 @@
   "name": "Read.ai",
   "slug": "read-ai",
   "url": "https://www.read.ai",
-  "what_its_for": "",
+  "what_its_for": "Gives meeting summaries and participation insights.",
   "tags": [
    "meetings/notes"
   ],
@@ -625,9 +637,10 @@
   "name": "Mailchimp AI",
   "slug": "mailchimp-ai",
   "url": "https://mailchimp.com",
-  "what_its_for": "",
+  "what_its_for": "Helps design and send email campaigns.",
   "tags": [
-   "marketing/social"
+   "marketing/social",
+   "writing"
   ],
   "free_tier": null,
   "paid_from": "$13/mo (lowest plan shown)",
@@ -638,9 +651,10 @@
   "name": "Klaviyo AI",
   "slug": "klaviyo-ai",
   "url": "https://www.klaviyo.com",
-  "what_its_for": "",
+  "what_its_for": "Automates personalized email and text marketing.",
   "tags": [
-   "marketing/social"
+   "marketing/social",
+   "automation"
   ],
   "free_tier": true,
   "paid_from": "See site",
@@ -651,10 +665,9 @@
   "name": "Freshdesk Freddy AI",
   "slug": "freshdesk-freddy",
   "url": "https://www.freshworks.com/freshdesk/",
-  "what_its_for": "",
+  "what_its_for": "Suggests answers and handles support tickets.",
   "tags": [
-   "customer",
-   "service"
+   "customer service"
   ],
   "free_tier": null,
   "paid_from": "$19/agent/mo billed yearly",
