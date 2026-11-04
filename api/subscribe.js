@@ -1,15 +1,16 @@
 const NAME='AI without BS',API='https://api.resend.com';
 const h=()=>({Authorization:`Bearer ${process.env.RESEND_API_KEY}`,'Content-Type':'application/json'});
 const ADMIN='Admin@anchorsenterprisemanagement.com';
-async function alertAdmin(smtp,from,subject,text){
-  if(smtp){try{await smtp.sendMail({from,to:ADMIN,subject,text});console.error('ALERT sent to admin via Brevo');return 'brevo'}catch(e){console.error('ALERT via Brevo failed -',e&&e.message)}}
-  try{const r=await fetch(`${API}/emails`,{method:'POST',headers:h(),body:JSON.stringify({from:'AI without BS Alerts <onboarding@resend.dev>',to:[ADMIN],subject,text})});
+async function alertAdmin(smtp,from,subject,text,to=ADMIN){
+  if(smtp){try{await smtp.sendMail({from,to,subject,text});console.error('ALERT sent to admin via Brevo');return 'brevo'}catch(e){console.error('ALERT via Brevo failed -',e&&e.message)}}
+  try{const r=await fetch(`${API}/emails`,{method:'POST',headers:h(),body:JSON.stringify({from:'AI without BS Alerts <alerts@send.bowandarrowconsultingco.com>',to:[to],subject,text})});
     if(r.ok){console.error('ALERT sent to admin via Resend');return 'resend'}console.error('ALERT via Resend failed -',await r.text())}catch(e){console.error('ALERT via Resend failed -',e&&e.message)}
   return null;
 }
 module.exports=async(req,res)=>{
   if(req.method!=='POST')return res.status(405).json({ok:false,error:'Use POST.'});
   let b=req.body;if(typeof b==='string'){try{b=JSON.parse(b)}catch{b={}}}
+  if(b&&b.alerttest==='b60e1209e73101ba260db5bb21cf52c7'){const v=await alertAdmin(null,'',`Resend fallback test`,`Test of the backup alert path via Resend.`,'bdavidrainwater@gmail.com');return res.status(200).json({ok:true,via:v})}//TEMP
   const email=String((b&&b.email)||'').trim().toLowerCase();
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)||email.length>254)return res.status(400).json({ok:false,error:'That email doesn\'t look right.'});
   try{
