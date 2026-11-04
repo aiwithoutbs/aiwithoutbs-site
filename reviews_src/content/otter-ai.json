@@ -4,7 +4,7 @@
  "date_iso": "2026-11-04",
  "title": "Otter.ai Review (2026): Honest Take for Small Business Owners",
  "meta_description": "Plain-English Otter.ai review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
- "summary": "Otter.ai is the free tool that turns your Zoom or phone calls into written notes so you don't have to type them. Hate writing notes after customer calls or meetings? It hands you a transcript and a short summary. Rarely on calls? Skip it.",
+ "summary": "The free tool that turns your Zoom or phone calls into written notes so you don't have to type them. Here's the deal: use it when you hate writing notes after customer calls, but don't pretend the free version is going to handle long meetings.",
  "good_for": [
   "Get a written record of a customer call without typing.",
   "Catch what was said on a Zoom, Teams, or Google Meet call.",
@@ -13,7 +13,7 @@
   "Record an in-person job walkthrough and turn it into notes.",
   "Share a clean summary instead of a long email."
  ],
- "how_to_use": "1. Go to otter.ai and sign up free.\n2. Connect it to Zoom, Teams, or Google Meet (or open the app and hit record on your phone).\n3. After the call, open the transcript and use the AI chat: \"Give me a short summary and list the action items from this call.\"",
+ "how_to_use": "1 Go to otter.ai and sign up free.\n2 Connect it to Zoom, Teams, or Google Meet (or open the app and hit record on your phone).\n3 After the call, open the transcript and use the AI chat: \"Give me a short summary and list the action items from this call.\"",
  "what_youll_get": "A written transcript and a short summary with action items in a few minutes. Works best on clear audio with one or two people. Free handles short calls; longer meetings and more minutes cost money.",
  "missing": [
   "Free (Basic) is 300 minutes a month, cuts any single meeting off at 30 minutes, and gives 20 AI chat questions a month.",
@@ -22,7 +22,14 @@
   "Recording other people? Check your state's consent laws first.",
   "Still not a lawyer. Double-check anything that costs you money or binds you."
  ],
- "verdict": "Open this one when you need notes from a call and don't want to type them. Use free for short customer calls; pay only if you keep hitting the 30-minute wall.",
+ "verdict": "Open this one when you need notes from a call and don't want to type them. Just don't expect free to keep up once your calls start running past 30 minutes.",
  "price_free": "Basic: $0. Joins Zoom, Teams, and Google Meet; 300 minutes a month; 30 minutes per meeting; 20 AI chat questions a month; 3 lifetime file imports.",
- "price_paid": "Pro $16.99/month, or $8.49/month billed yearly (1,200 min/month, 90 min per meeting). Business $30/month or $24/month billed yearly. Enterprise through sales. Yearly discount is for first-time subscribers."
+ "price_paid": "Pro $16.99/month, or $8.49/month billed yearly (1,200 min/month, 90 min per meeting). Business $30/month or $24/month billed yearly. Enterprise through sales. Yearly discount is for first-time subscribers.",
+ "one_liner": "The free tool that turns your Zoom or phone calls into written notes so you don't have to type them. Here's the deal: use it when you hate writing notes after customer calls, but don't pretend the free version is going to handle long meetings.",
+ "why_care": "You've got better things to do than type up what was said on a call. This hands you a transcript and a short summary. Free covers short customer calls. Longer meetings and more minutes cost money. Accuracy still drops when people talk over each other. You still make the final call.",
+ "when_to_use": "- Get a written record of a customer call without typing.\n- Catch what was said on a Zoom, Teams, or Google Meet call.\n- Pull out action items so nothing gets forgotten.\n- Search old conversations for what a client said.\n- Record an in-person job walkthrough and turn it into notes.\n- Share a clean summary instead of a long email.",
+ "when_to_skip": "- Rarely on calls and don't need transcripts.\n- Heavy daily use if you refuse to pay.\n- Situations with heavy accents, background noise, or people talking over each other.",
+ "missing_text": "Free (Basic) is 300 minutes a month, cuts any single meeting off at 30 minutes, and gives 20 AI chat questions a month. Pro is $16.99/month, or $8.49/month billed yearly (1,200 minutes, up to 90 minutes per meeting). Business is $30/month or $24/month yearly. Accuracy drops with heavy accents, background noise, or people talking over each other. Recording other people? Check your state's consent laws first. Still not a lawyer. Double-check anything that costs you money or binds you.",
+ "privacy": "Recordings and transcripts can be used to improve the models unless you adjust settings; don't dump sensitive client details you wouldn't want floating around. Check consent laws before recording other people.",
+ "alternatives": "Claude: better if you just need a clean summary of notes you already have. ChatGPT: stronger if you want to rewrite the summary into something more polished after."
 }

@@ -4,7 +4,7 @@
  "date_iso": "2026-11-04",
  "title": "Notion AI Review (2026): Honest Take for Small Business Owners",
  "meta_description": "Plain-English Notion AI review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
- "summary": "Notion AI lives inside your Notion notes and projects and helps you write, organize, and summarize them. Already keep jobs, checklists, and customer notes in Notion? It drafts pages and pulls answers from what you wrote. Don't use Notion? Skip it.",
+ "summary": "You have 47 notes, 19 unfinished projects, three customer lists, and absolutely no idea where you put that important information. Notion AI is here to clean up the crime scene.",
  "good_for": [
   "Draft a job estimate or service page from a few bullet points.",
   "Summarize a long customer note or meeting page.",
@@ -13,8 +13,8 @@
   "Generate a simple action list from a page of text.",
   "Rewrite something so it reads clearer."
  ],
- "how_to_use": "1. Go to notion.com and sign up free (or open the app).\n2. Create a new page and type a few notes about a job or customer.\n3. Highlight the text and ask the AI: \"Turn this into a short, plain-English job summary with a checklist of next steps.\"",
- "what_youll_get": "A cleaner page or short draft based on what you already put in Notion. Free gives you a limited AI trial. Full AI takes the Business plan.",
+ "how_to_use": "Step 1: Visit Notion.com and sign up for free, or open your existing account.\n\nStep 2: Create a page and enter notes about a customer, project, or job.\n\nStep 3: Highlight your notes and ask Notion AI to organize them.\n\nReady-to-paste prompt:\n\nTurn these notes into a professional, plain-English job summary. Organize the information into customer requirements, work to be completed, estimated costs if provided, outstanding questions, and a checklist of next steps. Do not invent missing information. Keep it short and easy to understand.",
+ "what_youll_get": "A cleaner, more organized business page based on information you already entered into Notion.\n\nYou can get summaries, rewritten documents, organized lists, and answers based on your existing notes.\n\nThe free version gives you a limited AI trial. Full Notion AI requires the Business plan.",
  "missing": [
   "Free and Plus ($10/member/month) only get a limited trial of Notion AI. Notion publishes no exact number.",
   "Full Notion AI takes the Business plan at $20 per member a month. A 5-person team is $100 a month.",
@@ -22,7 +22,14 @@
   "Not a search engine or general chat tool. For general questions, ChatGPT or Perplexity is faster.",
   "Custom Agents are free to try, then cost $10 per 1,000 Notion credits a month."
  ],
- "verdict": "Open this one if you already live in Notion and want help cleaning up what's there. Try the free trial; pay only if it saves you real time.",
+ "verdict": "TOOL\n\nNotion AI is useful. But useful does not automatically mean necessary.\n\nIf you already run your business inside Notion, this could save you time and make your information easier to manage.\n\nIf you do not use Notion, do not start paying for another subscription just because somebody says AI is the future.\n\nOrganizing your business is smart. Paying $100 a month to organize five people's digital junk without a plan? That's a different kind of business.",
  "price_free": "Free: $0, with a limited trial of Notion AI. Plus ($10/member/month) also gets only the trial.",
- "price_paid": "Business $20/member/month: full Notion AI (chat, writing, autofill, AI Meeting Notes). Enterprise: custom pricing. Custom Agents: $10 per 1,000 credits a month after the trial."
+ "price_paid": "Business $20/member/month: full Notion AI (chat, writing, autofill, AI Meeting Notes). Enterprise: custom pricing. Custom Agents: $10 per 1,000 credits a month after the trial.",
+ "one_liner": "You have 47 notes, 19 unfinished projects, three customer lists, and absolutely no idea where you put that important information. Notion AI is here to clean up the crime scene.",
+ "why_care": "Ever finish a meeting, write down a bunch of notes, and then never look at them again?\n\nCongratulations. You have created a very expensive collection of things you forgot.\n\nNotion AI works inside Notion, helping you write, organize, summarize, and find information in your existing notes and projects.\n\nIt can turn messy notes into checklists, create job estimates, summarize customer conversations, and help organize your business information.\n\nBut here's the catch: You need to actually use Notion.\n\nIf your business information is scattered across notebooks, email, and random computer folders, Notion AI is not going to magically organize your entire life.",
+ "when_to_use": "* Job estimates: Turn a few notes into a professional-looking job estimate.\n* Customer records: Summarize long customer notes without reading every word.\n* Meeting notes: Turn lengthy meeting notes into a short summary.\n* Business organization: Convert messy lists into organized checklists or databases (structured collections of information).\n* Find old information: Ask questions about your own previous notes.\n* Clearer writing: Rewrite rough notes, customer messages, and business documents so they make sense.",
+ "when_to_skip": "* You do not use Notion. Do not build an entirely new business system just to use one AI feature.\n* You want general internet research or everyday AI conversations. ChatGPT or Perplexity is a better starting point.\n* You are looking for a free, unlimited AI assistant. Notion's free and Plus plans only include a limited AI trial.",
+ "missing_text": "Now let's get to the part where Notion opens its wallet and looks at yours.\n\nPlan\tPrice\tAI access\nFree\t$0\tLimited AI trial\nPlus\t$10/member/month\tLimited AI trial\nBusiness\t$20/member/month\tFull Notion AI\nEnterprise\tCustom pricing\tEnterprise offering\n\nAdditional limitations:\n\n* Notion does not publish an exact number for the limited AI trial.\n* Full AI requires the Business plan at $20 per member per month.\n* Five employees on Business cost $100 per month.\n* Full AI includes chat, writing, autofill, and AI Meeting Notes.\n* Custom Agents can be tried free, then cost $10 per 1,000 Notion credits per month.\n* If you do not already use Notion, you are building a new business system before you can benefit from the AI.\n\nHere's the deal: Do not pay $100 a month for five employees unless you know exactly what those employees will use it for.",
+ "privacy": "Notion AI works with information stored in your Notion workspace.\n\nThat could include customer notes, job details, internal documents, and business plans.\n\nBe careful about what you put into that workspace and who can access it.\n\nThe review page does not establish specific data-retention or AI-training guarantees. Review Notion's current privacy and AI data-use policies before storing confidential customer or business information.",
+ "alternatives": "* ChatGPT — A starting point for general writing, brainstorming, and questions.\n* Perplexity — Worth considering when you need answers and research from online sources."
 }

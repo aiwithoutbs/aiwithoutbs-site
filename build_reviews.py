@@ -1,12 +1,31 @@
 """Build /reviews from reviews_src/. Run: python3 build_reviews.py
 A tool gets a page ONLY if reviews_src/content/<slug>.json exists and passes validation."""
-import json,html,os,glob,sys
+import json,html,os,glob,sys,re
 SITE="https://aiwithoutbs.vercel.app"
 TIERS=["Use it","Worth a try","Niche","Skip"]
-REQ={"title":(20,65),"meta_description":(70,160),"summary":(40,300),"good_for":None,"how_to_use":(20,1500),
-     "what_youll_get":(40,1200),"missing":None,"verdict_tier":None,"verdict":(20,400),"price_free":(5,300),
+REQ={"title":(20,65),"meta_description":(70,160),"summary":(40,600),"good_for":None,"how_to_use":(20,2500),
+     "what_youll_get":(40,2000),"missing":None,"verdict_tier":None,"verdict":(20,1500),"one_liner":(20,600),"why_care":(20,2000),"when_to_use":(20,2000),"when_to_skip":(20,1500),"privacy":(20,1500),"alternatives":(20,1000),"missing_text":(20,3000),"price_free":(5,300),
      "price_paid":(5,400),"last_checked":(6,20)}
 H=lambda s:html.escape(str(s))
+def rich(txt):
+    """Plain text -> HTML: bullet lines -> ul, tab rows -> table, 'Ready-to-paste prompt:' block -> pre, rest -> p."""
+    out=[];ul=[];tb=[];lines=txt.split("\n");i=0
+    def flush():
+        if ul: out.append("<ul>"+"".join(f"<li>{H(x)}</li>" for x in ul)+"</ul>"); ul.clear()
+        if tb: out.append('<table class="plans">'+"".join("<tr>"+"".join(f"<{'th' if j==0 else 'td'}>{H(x)}</{'th' if j==0 else 'td'}>" for x in r)+"</tr>" for j,r in enumerate(tb))+"</table>"); tb.clear()
+    while i<len(lines):
+        l=lines[i].strip();i+=1
+        if not l: flush(); continue
+        if l[:2] in("* ","- ","• ") or l[0]=="•": flush() if tb else None; ul.append(l.lstrip("*-• ").strip()); continue
+        if "\t" in lines[i-1]: flush() if ul else None; tb.append([x.strip() for x in lines[i-1].split("\t") if x.strip()]); continue
+        flush()
+        if l.lower().startswith("ready-to-paste prompt"):
+            out.append(f"<p><b>{H(l)}</b></p>"); p=[]
+            while i<len(lines) and lines[i].strip()=="": i+=1
+            while i<len(lines) and lines[i].strip(): p.append(lines[i].strip()); i+=1
+            out.append(f'<pre class="prompt">{H(chr(10).join(p))}</pre>'); continue
+        out.append(f"<p>{H(l)}</p>")
+    flush(); return "".join(out)
 DIR={t['slug']:t for t in json.load(open('reviews_src/directory.json'))}
 tools={t["slug"]:t for t in json.load(open("reviews_src/tools.json"))}
 def validate(slug,c):
@@ -26,7 +45,7 @@ def validate(slug,c):
 SIGNUP=open("index.html").read().split("<footer>",1)[1].split("</footer>")[0]
 def page(path,title,desc,body,jsonld):
     url=SITE+path
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{H(title)}</title><meta name="description" content="{H(desc)}"><link rel="canonical" href="{url}"><meta property="og:type" content="article"><meta property="og:title" content="{H(title)}"><meta property="og:description" content="{H(desc)}"><meta property="og:url" content="{url}"><meta property="og:site_name" content="AI without BS"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/style.css"><script type="application/ld+json">{json.dumps(jsonld)}</script></head><body><header class="top"><a class="logo" href="/">AI <span>without</span> BS</a> <a class="navlink" href="/reviews">Reviews</a> <a class="navlink" href="/directory">Directory</a></header><main>{body}</main><footer>{SIGNUP}</footer></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{H(title)}</title><meta name="description" content="{H(desc)}"><link rel="canonical" href="{url}"><meta property="og:type" content="article"><meta property="og:title" content="{H(title)}"><meta property="og:description" content="{H(desc)}"><meta property="og:url" content="{url}"><meta property="og:site_name" content="AI without BS"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/style.css"><script type="application/ld+json">{json.dumps(jsonld)}</script></head><body><header class="top"><a class="logo" href="/">AI <span>without</span> BS</a> <a class="navlink" href="/reviews">Reviews</a> <a class="navlink" href="/directory">Directory</a> <a class="navlink" href="/glossary">AI Jargon</a></header><main>{body}</main><footer>{SIGNUP}</footer></body></html>'''
 os.makedirs("reviews",exist_ok=True)
 for f in glob.glob("reviews/*.html"): os.remove(f)
 pub=[];bad=0
@@ -41,12 +60,18 @@ for f in sorted(glob.glob("reviews_src/content/*.json")):
     src="".join(f'<li><a href="{H(u)}" rel="nofollow noopener" target="_blank">{H(u)}</a></li>' for u in t["price_sources"])
     dt=DIR.get(slug); cat_link=f' (or just <a href="/directory?cat={dt["tags"][0]}#list">{H(dt["tags"][0])}</a> tools)' if dt else ''
     body=f'''<p class="kicker">AI tool review · Last checked: {H(c["last_checked"])}</p><h1>{H(t["name"])} review for small business</h1><p class="sub">{H(c["summary"])}</p>
-<p class="verdict"><span class="tag">Researched</span> <b>Verdict: {H(c["verdict_tier"])}.</b> {H(c["verdict"])}</p>
-<section><h2>What it's good for</h2>{li(c["good_for"])}</section>
-<section><h2>How to use it</h2><pre class="prompt">{H(c["how_to_use"])}</pre></section>
-<section><h2>What you'll get</h2><p>{H(c["what_youll_get"])}</p>{exh}</section>
-<section><h2>What you're missing</h2>{li(c["missing"])}</section>
+<p class="verdict"><span class="tag">Researched</span> <b>Verdict: {H(c["verdict_tier"])}.</b></p>
+<section><h2>WHY YOU SHOULD CARE</h2>{rich(c["why_care"])}</section>
+<section><h2>WHEN TO USE IT</h2>{rich(c["when_to_use"])}</section>
+<section><h2>WHEN TO SKIP IT</h2>{rich(c["when_to_skip"])}</section>
+<section><h2>HOW TO USE IT</h2>{rich(c["how_to_use"])}</section>
+<section><h2>WHAT YOU'LL GET</h2>{rich(c["what_youll_get"])}{exh}</section>
+<section><h2>WHAT YOU'RE MISSING</h2>{rich(c["missing_text"])}</section>
+<section><h2>PRIVACY</h2>{rich(c["privacy"])}</section>
+<section><h2>ALTERNATIVES</h2>{rich(c["alternatives"])}</section>
 <section><h2>Price</h2><p><b>Free:</b> {H(c["price_free"])}</p><p><b>Paid:</b> {H(c["price_paid"])}</p><p>Sources (official, checked {H(c["last_checked"])}):</p><ul>{src}</ul><p>Official site: <a href="{H(t["official_url"])}" rel="nofollow noopener" target="_blank">{H(t["official_url"])}</a></p></section>
+<section><h2>VERDICT</h2><p class="verdict"><b>{H(c["verdict_tier"])}.</b></p>{rich(c["verdict"])}</section>
+<p>Spot a wrong price or fact? Email <a href="mailto:info@bowandarrowconsultingco.com">info@bowandarrowconsultingco.com</a> and we'll fix it. <a href="/reviews#how-we-review">How we review</a>.</p>
 <p>See every AI tool we track in the <a href="/directory">AI tool directory</a>{cat_link}.</p>
 <nav class="pn"><a href="/reviews">← All reviews</a><a href="/directory">Directory</a><a href="/">Home →</a></nav>'''
     ld={"@context":"https://schema.org","@type":"Article","headline":c["title"],"description":c["meta_description"],"dateModified":c.get("date_iso","2026-11-04"),"author":{"@type":"Organization","name":"AI without BS"},"about":{"@type":"SoftwareApplication","name":t["name"],"url":t["official_url"],"applicationCategory":"BusinessApplication"}}
@@ -60,7 +85,13 @@ idx=f'''<p class="kicker">AI tool reviews</p><h1>Honest AI tool reviews for smal
 <section><h2>How we check</h2><p>Prices, limits and features come from each tool's official pages, linked on every review with the date we checked. Hands-on testing is being added; any example marked "illustrative" was not a real test run. No star ratings, no made-up quotes, no paid placements.</p></section>'''
 open("reviews/index.html","w").write(page("/reviews","AI Tool Reviews for Small Business | AI without BS","Plain-English reviews of AI tools for small business owners: what each one does, what it costs, and when to skip it. Checked against official sources.",idx,{"@context":"https://schema.org","@type":"CollectionPage","name":"AI Tool Reviews","url":SITE+"/reviews"}))
 exec(open("build_directory.py").read())
-urls=["/","/reviews","/directory"]+[f"/pages/{os.path.basename(p)[:-5]}" for p in sorted(glob.glob("pages/*.html"))]+[f"/reviews/{s}" for s,_,_ in pub]
+g=open("notes/v2/glossary.txt").read().replace("\u2019","'").splitlines()
+gt=next(l[6:] for l in g if l.startswith("TITLE ")); gs=next(l[9:] for l in g if l.startswith("SUBTITLE "))
+terms=[l.split("|",1) for l in g if "|" in l]
+gb=f'<p class="kicker">AI jargon, translated</p><h1>{H(gt)}</h1><p class="sub">{H(gs)}. {len(terms)} AI terms you keep hearing, explained in plain English for small business owners.</p><section><dl class="glossary">'+"".join(f'<dt id="{H(re.sub(r"[^a-z0-9]+","-",k.strip().lower()).strip("-"))}"><b>{i}. {H(k.strip())}</b></dt><dd>{H(v.strip())}</dd>' for i,(k,v) in enumerate(terms,1))+'</dl></section><p>Ready to use it? Read our <a href="/reviews">AI tool reviews</a> or browse the <a href="/directory">AI tool directory</a>.</p>'
+gld={"@context":"https://schema.org","@type":"DefinedTermSet","name":gt,"url":SITE+"/glossary","hasDefinedTerm":[{"@type":"DefinedTerm","name":k.strip(),"description":v.strip()} for k,v in terms]}
+open("glossary.html","w").write(page("/glossary","AI Jargon Explained: What the Hell Does That Mean? | AI without BS","Plain-English AI glossary for small business owners: LLM, tokens, hallucination, RAG, agents and 20 more AI terms explained without the BS.",gb,gld))
+urls=["/","/reviews","/directory","/glossary"]+[f"/pages/{os.path.basename(p)[:-5]}" for p in sorted(glob.glob("pages/*.html"))]+[f"/reviews/{s}" for s,_,_ in pub]
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{SITE}{u}</loc></url>\n" for u in urls)+"</urlset>\n")
 open("robots.txt","w").write(f"User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: {SITE}/sitemap.xml\n")
 print(f"published {len(pub)} reviews:",[s for s,_,_ in pub]); sys.exit(bad)

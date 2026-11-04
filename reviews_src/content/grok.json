@@ -1,7 +1,7 @@
 {
  "title": "Grok Review (2026): Honest Take for Small Business Owners",
  "meta_description": "Plain-English Grok review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
- "summary": "Grok is an AI chat from xAI that answers questions, writes, and searches the web and X. It drafts emails, summarizes notes, and checks what's happening now without five open tabs. If you don't need quick drafts or live info, skip it.",
+ "summary": "The cocky little AI that pulls what's happening right now off the web and X, then hands you a usable draft before your coffee gets cold. AI's here to stay. Quit whining and put the damn thing to work.",
  "good_for": [
   "Draft a polite reply to a customer complaint or late-payment email.",
   "Turn rough notes from a job into a clean summary and next steps.",
@@ -10,7 +10,7 @@
   "Summarize a long PDF or contract so you know the main points.",
   "Make a simple image for a post or flyer (heavier image use needs a paid plan)."
  ],
- "how_to_use": "1. Go to grok.com or the X app and start a free chat.\n2. Paste this prompt: \"Write a short, calm reply to this customer email. Keep it under 100 words and end with a clear next step: [paste the email].\"\n3. Read it, change anything that doesn't sound like you, then send.",
+ "how_to_use": "1 Go to grok.com or the X app and start a free chat.\n2 Paste this prompt: \"Turn these rough notes into a clean job summary and a short list of next steps. Keep the language plain and practical: [paste notes].\"\n3 Read it, fix anything that doesn't sound like you, then use it.",
  "what_youll_get": "A usable first draft or summary in under a minute. Check names, prices, and facts before you send it. Free covers the basics; heavy use and video cost money.",
  "missing": [
   "Free plan has usage limits. xAI doesn't publish a number, just \"Limited.\" Hit it and you wait or pay.",
@@ -20,9 +20,16 @@
   "Double-check anything about money, legal, or medical."
  ],
  "verdict_tier": "Worth a try",
- "verdict": "Free to start and handy for everyday drafts and quick lookups. Treat it as a first pass, not the final word.",
+ "verdict": "It's free and it actually gets you off the blank page when you've got rough notes or a post that needs writing before lunch. Just don't treat the output like it came from someone who's been doing this longer than you, because it hasn't, and it'll still occasionally talk like it invented the wheel when it just looked it up.",
  "price_free": "Free: $0/month, with daily access to Grok; usage is \"Limited\" (no exact limit published).",
  "price_paid": "Plus $8/month ($80/year); Premium $30/month ($300/year, 4x Plus usage, image and video); Super $100/month; Ultra $200/month. Prices exclude tax. See grok.com for current pricing.",
  "last_checked": "Nov 4, 2026",
- "date_iso": "2026-11-04"
+ "date_iso": "2026-11-04",
+ "one_liner": "The cocky little AI that pulls what's happening right now off the web and X, then hands you a usable draft before your coffee gets cold. AI's here to stay. Quit whining and put the damn thing to work.",
+ "why_care": "Most of these tools just reheat last year's internet. This one actually looks at what's going on today. You get a first pass on rough notes, a short post, or a quick price check without opening five tabs and losing your mind. Free to start. Heavy use costs money. It talks like it knows everything. It doesn't. You still make the call.",
+ "when_to_use": "- Turn a pile of rough job notes into a clean summary and next steps in under a minute.\n- Write a short Facebook or Nextdoor post about a service you offer.\n- Look up recent prices, local rules, or what people are actually saying on X right now.\n- Pull the main points out of a long PDF or contract so you know what matters.\n- Knock out a simple image for a post or flyer (heavier image work needs a paid plan).\n- Get something on the page when you're stuck staring at a blank one.",
+ "when_to_skip": "- Long, careful document work where the wording has to be exact. Claude usually does that cleaner.\n- Anything where being confidently wrong on numbers or fast-moving news will cost you money or reputation.\n- Video generation or heavy daily use on the free plan.",
+ "missing_text": "Free plan has usage limits. xAI doesn't publish a number, just \"Limited.\" Hit it and you wait or pay. It can sound confident when it's wrong, especially on fast-moving news or numbers. Video generation and heavier use need a paid plan. Paid tiers: Plus $8/month ($80/year); Premium $30/month ($300/year, 4x Plus usage, image and video); Super $100/month; Ultra $200/month. Prices exclude tax. See grok.com for current pricing. Not the best pick for long, careful document work. Double-check anything about money, legal, or medical.",
+ "privacy": "Chats can be used to improve the models (their system) unless you adjust settings; don't dump sensitive client or financial details you wouldn't want floating around.",
+ "alternatives": "Claude: better when the document is long and the wording has to sound like a grown adult wrote it. ChatGPT: snappier for quick one-off drafts if you're already living in that ecosystem."
 }

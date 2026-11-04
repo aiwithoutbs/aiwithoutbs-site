@@ -4,7 +4,7 @@
  "date_iso": "2026-11-04",
  "title": "Gemini Review (2026): Honest Take for Small Business Owners",
  "meta_description": "Plain-English Google Gemini review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
- "summary": "Gemini is Google's free AI, and it works best if your email and files already live in Google. It helps you write and research without jumping tools. Don't live in Google and just need a basic writing bot? Skip it.",
+ "summary": "Google's free AI that works best if your email and files already live in Google. Here's the deal: use it when you're already in their world and just need a quick draft or search without jumping tools.",
  "good_for": [
   "Draft an email without starting from scratch (Gemini inside Gmail itself needs a paid plan).",
   "Summarize a long document or file you upload.",
@@ -13,7 +13,7 @@
   "Research a topic and get a clean summary with Deep Research.",
   "Answer everyday questions while you're already in Google."
  ],
- "how_to_use": "1. Go to gemini.google.com (use the same Google account you use for email).\n2. Paste this prompt: \"Write a short, calm reply to this customer email. Keep it under 100 words and end with a clear next step: [paste the email].\"\n3. Read it, change anything that doesn't sound like you, then send.",
+ "how_to_use": "1 Go to gemini.google.com (use the same Google account you use for email).\n2 Paste this prompt: \"Summarize this long document I just uploaded. Pull out the main points, any deadlines, and anything I need to watch out for. Keep it under 200 words.\"\n3 Read it, change anything that doesn't sound like you, then use it.",
  "what_youll_get": "A usable draft or short summary in under a minute. Check names, prices, and facts. Free runs a lighter model (Flash-Lite); stronger models, more use, and Gemini inside Gmail and Docs cost money.",
  "missing": [
   "Free plan runs the lighter Flash-Lite model with usage limits. Google publishes no exact number; paid plans just say 2x or 4x Free.",
@@ -22,7 +22,14 @@
   "Not the strongest pick for long, careful documents. Claude is often better there.",
   "Still not a lawyer or accountant. Double-check anything that costs you money or binds you."
  ],
- "verdict": "Open this one if your business already runs on Google. Use free for quick drafts and searches; pay only if you keep hitting the wall.",
+ "verdict": "Open this one if your business already runs on Google. Just don't expect the free version to keep up once you start leaning on it for anything beyond quick drafts and searches.",
  "price_free": "Free: $0 with a Google account. Flash-Lite model, image generation, Deep Research, 15 GB storage. Usage is limited (no exact number published).",
- "price_paid": "US: Google AI Plus $4.99/month (400 GB, Gemini in Gmail); AI Pro $19.99/month or $199.99/year (Pro model, Gmail/Docs, 5 TB); AI Ultra $99.99 or $199.99/month. Business: Gemini Enterprise from $21/seat/month. No partial refunds."
+ "price_paid": "US: Google AI Plus $4.99/month (400 GB, Gemini in Gmail); AI Pro $19.99/month or $199.99/year (Pro model, Gmail/Docs, 5 TB); AI Ultra $99.99 or $199.99/month. Business: Gemini Enterprise from $21/seat/month. No partial refunds.",
+ "one_liner": "Google's free AI that works best if your email and files already live in Google. Here's the deal: use it when you're already in their world and just need a quick draft or search without jumping tools.",
+ "why_care": "If your business already runs on Gmail and Drive, this one can help you write and research without leaving the place you already work. Free to start. The stronger models and Gmail integration cost money. It still talks like it knows more than it does. You still make the final call.",
+ "when_to_use": "- Draft an email without starting from scratch (Gemini inside Gmail itself needs a paid plan).\n- Summarize a long document or file you upload.\n- Do a quick web search and get a short answer with sources.\n- Make a simple image for a post or flyer.\n- Research a topic and get a clean summary with Deep Research.\n- Answer everyday questions while you're already in Google.",
+ "when_to_skip": "- Long, careful document work. Claude is often better there.\n- You don't already live in Google and just need a basic writing bot.\n- Heavy daily use if you refuse to pay.",
+ "missing_text": "Free plan runs the lighter Flash-Lite model with usage limits. Google publishes no exact number; paid plans just say 2x or 4x Free. Paid (US): Google AI Plus $4.99/month, AI Pro $19.99/month ($199.99/year), AI Ultra $99.99 or $199.99/month. Plus isn't sold in every country. Gemini inside Gmail and Docs is paid only, and Google AI plans need a personal Google account. Workspace business accounts need Gemini Enterprise (from $21/seat/month). Not the strongest pick for long, careful documents. Still not a lawyer or accountant. Double-check anything that costs you money or binds you.",
+ "privacy": "Chats can be used to improve the models unless you adjust settings; don't dump sensitive client or financial details you wouldn't want floating around.",
+ "alternatives": "Claude: better when the document is long and the wording has to sound like a grown adult wrote it. ChatGPT: more consistent for quick short drafts if you're not already living in Google."
 }

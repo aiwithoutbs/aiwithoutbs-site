@@ -4,7 +4,7 @@
  "date_iso": "2026-11-04",
  "title": "Claude Review (2026): Honest Take for Small Business Owners",
  "meta_description": "Plain-English Claude review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
- "summary": "Claude is the free AI that handles long documents and careful writing without sounding like a robot. Got a contract, a long email chain, or a proposal that has to sound like a grown adult wrote it? This one usually does it cleaner. Only need quick short drafts? Skip it.",
+ "summary": "The one that actually reads the whole document and writes like it has a brain instead of rushing out something that sounds like every other chatbot. Here's the deal: pull this one out when the wording has to hold up under scrutiny.",
  "good_for": [
   "Summarize a long contract or PDF so you know the real points.",
   "Draft a proposal or estimate that doesn't sound stiff or salesy.",
@@ -13,7 +13,7 @@
   "Compare two options and lay out the pros and cons without fluff.",
   "Clean up a long piece of writing so it reads like a person wrote it."
  ],
- "how_to_use": "1. Go to claude.ai and start a free chat.\n2. Paste this prompt: \"Summarize this document in plain English. Pull out the main points, any deadlines, and anything I need to watch out for. Keep it under 200 words: [paste or upload the doc].\"\n3. Read it, fix anything that doesn't match what you need, then use it.",
+ "how_to_use": "1 Go to claude.ai and start a free chat.\n2 Paste this prompt: \"Rewrite this messy client email into something clear and professional. Keep my meaning, drop the stiff language, and end with a clear next step: [paste the email].\"\n3 Read it, fix anything that doesn't match what you need, then use it.",
  "what_youll_get": "A clear summary or solid rewrite in a minute or two. It tends to stay closer to the original meaning than some other tools. Check numbers, names, and anything about money or legal language before you rely on it.",
  "missing": [
   "Free plan limits reset every 5 hours, with a weekly cap on top. Anthropic publishes no message count; it depends on how long and heavy your chats are.",
@@ -22,7 +22,14 @@
   "No AI image generator listed on any plan. Need pictures? Use ChatGPT, Grok, or Canva.",
   "Still not a lawyer or accountant. Double-check anything that costs you money or binds you."
  ],
- "verdict": "Open this one when the document is long or the writing has to sound like a real business owner. Use it for the careful stuff, not the quick-and-dirty.",
+ "verdict": "Open this one when the document is long or the writing has to sound like a real business owner. Just don't expect it to keep up if all you need is a quick answer and you're already running late.",
  "price_free": "Free: $0. Limited usage every 5 hours and every week (no fixed number published). Includes web search, file uploads, memory, and up to 5 Projects.",
- "price_paid": "Pro $20/month, or $17/month billed yearly ($200 up front); Max $100/month; Ultra $200/month. Team (2-150 seats) and Enterprise ($20/seat/month plus usage) also available. Prices exclude tax."
+ "price_paid": "Pro $20/month, or $17/month billed yearly ($200 up front); Max $100/month; Ultra $200/month. Team (2-150 seats) and Enterprise ($20/seat/month plus usage) also available. Prices exclude tax.",
+ "one_liner": "The one that actually reads the whole document and writes like it has a brain instead of rushing out something that sounds like every other chatbot. Here's the deal: pull this one out when the wording has to hold up under scrutiny.",
+ "why_care": "Most of these tools rush and sound stiff. This one takes its time and usually stays closer to what you actually meant. Good when you've got a long contract, a messy email chain, or a proposal that can't sound like a sales pitch. Free to start. The stronger models cost money. Still not a lawyer. You still make the final call.",
+ "when_to_use": "- Summarize a long contract or PDF so you know the real points.\n- Draft a proposal or estimate that doesn't sound stiff or salesy.\n- Rewrite a messy client email into something clear and professional.\n- Turn rough notes into a clean, organized write-up.\n- Compare two options and lay out the pros and cons without fluff.\n- Clean up a long piece of writing so it reads like a person wrote it.",
+ "when_to_skip": "- Quick one-line answers or real-time social chatter. ChatGPT or Grok are usually faster.\n- Anything that needs pictures. No AI image generator listed on any plan.\n- Heavy daily use if you refuse to pay.",
+ "missing_text": "Free plan limits reset every 5 hours, with a weekly cap on top. Anthropic publishes no message count; it depends on how long and heavy your chats are. The stronger Opus models, Research, and Claude Code are paid only. Pro is $20/month, or $17/month billed yearly ($200). Max is $100/month, Ultra $200/month. Team (2-150 seats) and Enterprise ($20/seat/month plus usage) also available. Prices exclude tax. Not the fastest for quick one-line answers or real-time social chatter. No AI image generator listed on any plan. Still not a lawyer or accountant. Double-check anything that costs you money or binds you.",
+ "privacy": "Chats can be used to improve the models unless you adjust settings; don't dump sensitive client or financial details you wouldn't want floating around.",
+ "alternatives": "ChatGPT: faster when you just need a short draft and don't care if it rushes a little. Grok: better if you also want live stuff from X and the web in the same chat."
 }

@@ -4,7 +4,7 @@
  "date_iso": "2026-11-04",
  "title": "Canva AI Review (2026): Honest Take for Small Business Owners",
  "meta_description": "Plain-English Canva AI review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
- "summary": "Canva AI is the free design tool that helps you make posts, flyers, and simple graphics without being a designer. Need a decent Facebook post or flyer without paying a designer every time? This gets you most of the way. Never make visuals? Skip it.",
+ "summary": "I'll tell you exactly what this does: it makes your flyer look like you paid somebody, in about five minutes, for free. Logos and real branding? It'll lose that game every time.",
  "good_for": [
   "Make a Facebook or Instagram post from a template.",
   "Create a simple flyer or service card.",
@@ -13,7 +13,7 @@
   "Resize one design for different posts (check your plan).",
   "Generate a basic image to drop into a graphic."
  ],
- "how_to_use": "1. Go to canva.com and sign up free.\n2. Search for a template (example: \"cleaning service Facebook post\").\n3. Click Magic Write or the AI tools and paste: \"Rewrite this service description in plain English for a local Facebook post. Keep it short: [paste your text].\"",
+ "how_to_use": "1 Go to canva.com and sign up free.\n2 Search for a template (example: \"cleaning service Facebook post\").\n3 Click Magic Write or the AI tools and paste: \"Rewrite this service description in plain English for a local Facebook post. Keep it short: [paste your text].\"",
  "what_youll_get": "A finished-looking post or flyer in a few minutes that you can edit and download. Free covers basic designs and a small AI allowance. More AI and premium stock cost money.",
  "missing": [
   "Free plan: up to 20 AI uses a month, shared across the AI tools. Bigger jobs burn more. No Ultra AI.",
@@ -22,7 +22,14 @@
   "A free trial only gets the free AI allowance until it turns paid.",
   "Not for complex logos, branding, or print-ready professional work. Check text, spacing, and whether it looks like your business."
  ],
- "verdict": "Open this one when you need a post or flyer that doesn't look like it was made in Word. Use free for occasional stuff; pay only if you make graphics every week and keep hitting the AI limit.",
+ "verdict": "Posts and flyers are its home court, and it wins there all day. Make graphics every week and the 20 free AI uses run out before your coffee does, so either pay the $144 a year or quit pretending it's a designer.",
  "price_free": "Free: $0. Editor, templates, 1 Brand Kit, up to 20 AI uses a month.",
- "price_paid": "Pro US$144/year for one person (up to 200 Premium or 20 Ultra AI uses a month); Business US$250/year per person; Enterprise through sales. Prices exclude tax. See canva.com/pricing for current pricing."
+ "price_paid": "Pro US$144/year for one person (up to 200 Premium or 20 Ultra AI uses a month); Business US$250/year per person; Enterprise through sales. Prices exclude tax. See canva.com/pricing for current pricing.",
+ "one_liner": "I'll tell you exactly what this does: it makes your flyer look like you paid somebody, in about five minutes, for free. Logos and real branding? It'll lose that game every time.",
+ "why_care": "You've got better things to do than fight with spacing and colors. This one gets you most of the way to a decent Facebook post or flyer without hiring someone every time. Free covers occasional stuff. Making graphics every week and leaning on the AI costs money. Still not a designer. You still make the final call.",
+ "when_to_use": "- Make a Facebook or Instagram post from a template.\n- Create a simple flyer or service card.\n- Write short captions or rewrite text inside a design with Magic Write.\n- Remove a background from a photo (check your plan).\n- Resize one design for different posts (check your plan).\n- Generate a basic image to drop into a graphic.",
+ "when_to_skip": "- Complex logos, branding, or print-ready professional work.\n- You never make visuals and don't plan to start.\n- Heavy weekly design work if you refuse to pay.",
+ "missing_text": "Free plan: up to 20 AI uses a month, shared across the AI tools. Bigger jobs burn more. No Ultra AI. Pro is US$144/year for one person (up to 200 Premium AI uses a month). Business is US$250/year per person. See canva.com/pricing for monthly prices. Some tools, like Background Remover and Magic Resize, may need Pro. Check canva.com/pricing before you count on them. Not for complex logos, branding, or print-ready professional work. Check text, spacing, and whether it looks like your business.",
+ "privacy": "Designs and uploads can be used to improve the models unless you adjust settings; don't dump sensitive client details you wouldn't want floating around.",
+ "alternatives": "ChatGPT: better if you just need a simple image and don't care about templates. Adobe Firefly: stronger if you need more control and you're already paying for Adobe."
 }
