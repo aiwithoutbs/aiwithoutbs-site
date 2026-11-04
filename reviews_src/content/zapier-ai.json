@@ -1,0 +1,28 @@
+{
+ "verdict_tier": "Worth a try",
+ "last_checked": "Nov 4, 2026",
+ "date_iso": "2026-11-04",
+ "title": "Zapier AI Review (2026): Honest Take for Small Business Owners",
+ "meta_description": "Plain-English Zapier AI review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
+ "summary": "Zapier AI is the free tool that connects your apps and helps you build simple automations without writing code. Want a new customer form to land in a spreadsheet and email you a note? This wires it up. Never need apps talking to each other? Skip it.",
+ "good_for": [
+  "Send a new lead into a spreadsheet and a text to your phone.",
+  "Have form answers emailed to you automatically.",
+  "Move info from one app to another without copy-paste.",
+  "Describe what you want in plain English and let Zapier's AI draft the Zap.",
+  "Add an AI step that drafts a reply or summary inside a workflow (paid plans).",
+  "Test a small automation free before you pay."
+ ],
+ "how_to_use": "1. Go to zapier.com and sign up free.\n2. Click Create and describe what you want: \"When a new Google Form comes in, add the answers to a Google Sheet and email me.\"\n3. Let the AI suggest the steps, then test it with one real form.",
+ "what_youll_get": "A working automation that moves data between apps. Free handles basic two-step Zaps. Multi-step workflows and AI steps cost money and eat your monthly task allowance.",
+ "missing": [
+  "Free is 100 tasks a month and two-step Zaps only, with no AI steps, filters, or paths.",
+  "Professional starts at $19.99/month billed yearly ($29.99 monthly) for 750 tasks. Team starts at $69/month yearly. See zapier.com/pricing.",
+  "AI steps can cost more than one task each, so costs climb fast if you lean on them.",
+  "Still not a developer. Complex logic or custom apps need more setup or help.",
+  "Not for chat or research. ChatGPT or Claude are better there."
+ ],
+ "verdict": "Open this one when you want two apps to talk so you stop copying and pasting. Use free for one simple automation; pay only if you hit the task limit or need more than two steps.",
+ "price_free": "Free: $0. 100 tasks a month, two-step Zaps only, AI Zap builder with a daily message limit. 14-day Pro trial, no card.",
+ "price_paid": "Professional from $19.99/month billed yearly ($29.99 monthly) for 750 tasks; Team from $69/month yearly ($103.50 monthly) for 2,000 tasks. Overage on monthly plans costs extra."
+}
