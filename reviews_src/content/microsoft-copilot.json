@@ -1,0 +1,28 @@
+{
+ "verdict_tier": "Worth a try",
+ "last_checked": "Nov 4, 2026",
+ "date_iso": "2026-11-04",
+ "title": "Microsoft Copilot Review (2026): Honest Take for Small Business",
+ "meta_description": "Plain-English Microsoft Copilot review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
+ "summary": "Microsoft Copilot is the free AI that works best if your work already lives in Word, Excel, and Outlook. Paying for Microsoft 365? It drafts and summarizes right where you work. Don't use Microsoft tools? Skip it.",
+ "good_for": [
+  "Draft an email in Outlook without starting from a blank page (paid Microsoft 365).",
+  "Summarize a long Word document or email thread.",
+  "Clean up a spreadsheet or turn numbers into a short summary.",
+  "Make a first draft of a PowerPoint from notes.",
+  "Answer everyday questions at copilot.microsoft.com, free.",
+  "Rewrite a messy client message into something clearer."
+ ],
+ "how_to_use": "1. Go to copilot.microsoft.com and sign in with a Microsoft account.\n2. Paste this prompt: \"Write a short, calm reply to this customer email. Keep it under 100 words and end with a clear next step: [paste the email].\"\n3. Read it, change anything that doesn't sound like you, then send.",
+ "what_youll_get": "A usable draft or short summary in under a minute. It's more useful inside Word, Excel, or Outlook, which takes a paid plan. Check names, prices, and facts.",
+ "missing": [
+  "Free Copilot has usage limits \"subject to available capacity.\" Microsoft publishes no number. It also doesn't work inside Word, Excel, or Outlook.",
+  "Personal: Microsoft 365 Personal $9.99/month ($99.99/year) puts Copilot in Word, Excel, PowerPoint, and Outlook. Family $12.99/month (AI for the account owner only). Premium $19.99/month.",
+  "Business: Copilot add-on from $18/user/month, billed yearly, on top of your Microsoft 365 plan.",
+  "Not the strongest pick for long, careful documents. Claude is often better there.",
+  "Still not a lawyer or accountant. Double-check anything that costs you money or binds you."
+ ],
+ "verdict": "Open this one if your business already runs on Microsoft. Use free for quick drafts; pay only if you need it inside Word, Excel, and Outlook.",
+ "price_free": "Free: $0 at copilot.microsoft.com, Edge, and the Copilot apps. Limited usage, subject to capacity (no number published).",
+ "price_paid": "Personal $9.99/month ($99.99/year); Family $12.99/month; Premium $19.99/month ($199.99/year); Pro $99.99/month. Business: Copilot add-on from $18/user/month (annual); Business Standard with Copilot $23.50; Business Premium with Copilot $32."
+}
