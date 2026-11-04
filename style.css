@@ -21,3 +21,4 @@ footer{border-top:2px solid #ddd;margin-top:3em;padding:20px;font-size:16px;colo
 .navlink{float:right;font:700 18px Arial,sans-serif;color:#d62828;margin-top:8px}.verdict{font-size:1.15em;background:#fff8e6;border-left:8px solid #d62828;padding:12px 16px}
 .tool{margin:.6em 0}.tool .tags{color:#888;font-size:.85em}.soon{color:#888}
 #f .fb{margin:.5em 0;display:flex;flex-wrap:wrap;gap:.3em}#f button{padding:.3em .6em;border:1px solid #ccc;background:#fff;cursor:pointer;border-radius:4px}#f button.on{background:#222;color:#fff}#q{padding:.4em;width:16em}
+.why{font-size:.92em}

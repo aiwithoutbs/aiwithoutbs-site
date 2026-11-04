@@ -5,10 +5,13 @@ _today=datetime.date.today()
 _pubs={s:c for s,_,c in pub}
 _dl=sorted(DIR.values(),key=lambda t:t["name"].lower())
 _cats=sorted({c for t in _dl for c in t["tags"]})
+def _why(t):
+    w=t.get("why","").strip()
+    return f'<br><span class="why"><b>Why you\'d care:</b> {H(w)}</span>' if w else ""
 def _row(t):
     s=t["slug"];d=t["what_its_for"] or ("AI tool for "+", ".join(t["tags"])+".")
     rv=f'<a href="/reviews/{s}">Read our review</a>' if s in _pubs else '<span class="soon">Review coming</span>'
-    return f'<li class="tool" data-tags="{H(" ".join(t["tags"]))}" data-name="{H(t["name"].lower())}"><b><a href="{H(t["url"])}" rel="nofollow noopener" target="_blank">{H(t["name"])}</a></b> <span class="tags">{H(" · ".join(t["tags"]))}</span><br>{H(d)}<br><small>Free tier: {_FT.get(t["free_tier"],"See site")} · Paid from: {H(t["paid_from"])} · Checked {H(t["last_checked"])}</small> · {rv}</li>'
+    return f'<li class="tool" data-tags="{H(" ".join(t["tags"]))}" data-name="{H(t["name"].lower())}"><b><a href="{H(t["url"])}" rel="nofollow noopener" target="_blank">{H(t["name"])}</a></b> <span class="tags">{H(" · ".join(t["tags"]))}</span><br>{H(d)}{_why(t)}<br><small>Free tier: {_FT.get(t["free_tier"],"See site")} · Paid from: {H(t["paid_from"])} · Checked {H(t["last_checked"])}</small> · {rv}</li>'
 _new=[t for t in _dl if (_today-datetime.date.fromisoformat(t["date_added"])).days<=7]
 _rec=sorted(pub,key=lambda p:p[2].get("date_iso",""),reverse=True)[:5]
 _newh="<ul>"+"".join(f'<li><a href="#t-{t["slug"]}">{H(t["name"])}</a></li>' for t in _new)+"</ul>" if _new else "<p>Nothing new this week.</p>"

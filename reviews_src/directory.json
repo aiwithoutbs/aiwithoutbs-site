@@ -12,7 +12,8 @@
   "free_tier": true,
   "paid_from": "$8/mo (Plus)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "ChatGPT",
@@ -27,7 +28,8 @@
   "free_tier": true,
   "paid_from": "$8/mo (Go)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Claude",
@@ -42,7 +44,8 @@
   "free_tier": true,
   "paid_from": "$17/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Gemini",
@@ -57,7 +60,8 @@
   "free_tier": true,
   "paid_from": "$4.99/mo (AI Plus)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Microsoft Copilot",
@@ -72,7 +76,8 @@
   "free_tier": true,
   "paid_from": "$9.99/mo (Microsoft 365 Personal)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Perplexity",
@@ -85,7 +90,8 @@
   "free_tier": true,
   "paid_from": "$17/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Canva AI",
@@ -99,7 +105,8 @@
   "free_tier": true,
   "paid_from": "$144/yr (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Otter.ai",
@@ -113,7 +120,8 @@
   "free_tier": true,
   "paid_from": "$8.49/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Zapier AI",
@@ -127,7 +135,8 @@
   "free_tier": true,
   "paid_from": "$19.99/mo billed yearly (Professional)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Notion AI",
@@ -142,7 +151,8 @@
   "free_tier": true,
   "paid_from": "$20/member/mo (Business, full AI)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Fathom",
@@ -155,7 +165,8 @@
   "free_tier": true,
   "paid_from": "$15/user/mo billed yearly (Team)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Jasper",
@@ -169,7 +180,8 @@
   "free_tier": false,
   "paid_from": "$59/seat/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Grammarly",
@@ -183,7 +195,8 @@
   "free_tier": true,
   "paid_from": "$12/mo (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "ElevenLabs",
@@ -196,7 +209,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Descript",
@@ -210,7 +224,8 @@
   "free_tier": true,
   "paid_from": "$16/person/mo billed yearly (Hobbyist)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "HubSpot AI (Breeze)",
@@ -225,7 +240,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Microsoft Designer",
@@ -239,7 +255,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Gamma",
@@ -253,7 +270,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Fireflies.ai",
@@ -266,7 +284,8 @@
   "free_tier": true,
   "paid_from": "$10/seat/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Make.com",
@@ -280,7 +299,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Midjourney",
@@ -293,7 +313,8 @@
   "free_tier": false,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Adobe Firefly",
@@ -306,7 +327,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "DeepL",
@@ -320,7 +342,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "QuickBooks AI (Intuit Assist)",
@@ -333,7 +356,8 @@
   "free_tier": false,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Tidio",
@@ -346,7 +370,8 @@
   "free_tier": true,
   "paid_from": "$24.17/mo (Starter)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Intercom Fin",
@@ -359,7 +384,8 @@
   "free_tier": false,
   "paid_from": "$29/seat/mo + $0.99 per Fin outcome",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Calendly",
@@ -373,7 +399,8 @@
   "free_tier": null,
   "paid_from": "$10/seat/mo (Standard)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Motion",
@@ -387,7 +414,8 @@
   "free_tier": false,
   "paid_from": "$19/seat/mo",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Loom",
@@ -401,7 +429,8 @@
   "free_tier": true,
   "paid_from": "$18/user/mo (Business)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "CapCut",
@@ -414,7 +443,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Synthesia",
@@ -428,7 +458,8 @@
   "free_tier": true,
   "paid_from": "$19/mo (Starter; first month $9)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "HeyGen",
@@ -442,7 +473,8 @@
   "free_tier": true,
   "paid_from": "$29/mo (Creator)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Opus Clip",
@@ -456,7 +488,8 @@
   "free_tier": true,
   "paid_from": "$15/mo (Starter)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Buffer AI Assistant",
@@ -470,7 +503,8 @@
   "free_tier": true,
   "paid_from": "$5/mo per channel (Essentials)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Hootsuite OwlyWriter",
@@ -484,7 +518,8 @@
   "free_tier": null,
   "paid_from": "$99/mo (Standard)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Copy.ai",
@@ -498,7 +533,8 @@
   "free_tier": true,
   "paid_from": "$24/mo billed yearly",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Writesonic",
@@ -512,7 +548,8 @@
   "free_tier": null,
   "paid_from": "$79/mo billed yearly (Starter)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Wix AI Website Builder",
@@ -525,7 +562,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Squarespace AI",
@@ -538,7 +576,8 @@
   "free_tier": null,
   "paid_from": "$19/mo billed yearly (Basic)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Durable",
@@ -551,7 +590,8 @@
   "free_tier": true,
   "paid_from": "$25/mo (Launch)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Lovable",
@@ -564,7 +604,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Bolt.new",
@@ -577,7 +618,8 @@
   "free_tier": true,
   "paid_from": "$25/mo (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Beautiful.ai",
@@ -591,7 +633,8 @@
   "free_tier": null,
   "paid_from": "$14.50/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Microsoft Teams Premium (Intelligent Recap)",
@@ -604,7 +647,8 @@
   "free_tier": false,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Zoom AI Companion",
@@ -618,7 +662,8 @@
   "free_tier": null,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Read.ai",
@@ -631,7 +676,8 @@
   "free_tier": true,
   "paid_from": "$15/user/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Mailchimp AI",
@@ -645,7 +691,8 @@
   "free_tier": null,
   "paid_from": "$13/mo (lowest plan shown)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Klaviyo AI",
@@ -659,7 +706,8 @@
   "free_tier": true,
   "paid_from": "See site",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  },
  {
   "name": "Freshdesk Freddy AI",
@@ -672,6 +720,7 @@
   "free_tier": null,
   "paid_from": "$19/agent/mo billed yearly",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04"
+  "last_checked": "2026-11-04",
+  "why": ""
  }
 ]
