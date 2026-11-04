@@ -1,7 +1,7 @@
 {
  "title": "Grok Review (2026): Honest Take for Small Business Owners",
  "meta_description": "Plain-English Grok review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
- "summary": "Grok is an AI chat from xAI that answers questions, writes, and looks things up on the web and X. Draft emails, summarize notes, or check what's happening now without opening five tabs. If you don't need that, skip it.",
+ "summary": "Grok is an AI chat from xAI that answers questions, writes, and searches the web and X. It drafts emails, summarizes notes, and checks what's happening now without five open tabs. If you don't need quick drafts or live info, skip it.",
  "good_for": [
   "Draft a polite reply to a customer complaint or late-payment email.",
   "Turn rough notes from a job into a clean summary and next steps.",
@@ -11,16 +11,16 @@
   "Make a simple image for a post or flyer (heavier image use needs a paid plan)."
  ],
  "how_to_use": "1. Go to grok.com or the X app and start a free chat.\n2. Paste this prompt: \"Write a short, calm reply to this customer email. Keep it under 100 words and end with a clear next step: [paste the email].\"\n3. Read it, change anything that doesn't sound like you, then send.",
- "what_youll_get": "A usable first draft or quick summary in under a minute. You still need to check names, prices, and facts before you use it. On the free plan you can do the basics; heavier use and video creation sit behind paid plans.",
+ "what_youll_get": "A usable first draft or summary in under a minute. Check names, prices, and facts before you send it. Free covers the basics; heavy use and video cost money.",
  "missing": [
-  "The free plan has usage limits. xAI doesn't publish an exact number; it just says \"Limited.\" When you hit the limit, you wait or upgrade.",
+  "Free plan has usage limits. xAI doesn't publish a number, just \"Limited.\" Hit it and you wait or pay.",
   "It can sound confident when it's wrong, especially on fast-moving news or numbers.",
   "Video generation and heavier use need a paid plan. Paid tiers: Plus $8/month, Premium $30/month, Super $100/month, Ultra $200/month. See grok.com for current pricing.",
-  "It is not the strongest choice for long, careful document work. Claude is often better for that.",
-  "Always double-check anything that involves money, legal, or medical claims."
+  "Not the best pick for long, careful document work. Claude is often better there.",
+  "Double-check anything about money, legal, or medical."
  ],
  "verdict_tier": "Worth a try",
- "verdict": "It's free to start and useful for everyday drafts and quick lookups if you treat the output as a first pass, not the final word.",
+ "verdict": "Free to start and handy for everyday drafts and quick lookups. Treat it as a first pass, not the final word.",
  "price_free": "Free: $0/month, with daily access to Grok; usage is \"Limited\" (no exact limit published).",
  "price_paid": "Plus $8/month ($80/year); Premium $30/month ($300/year, 4x Plus usage, image and video); Super $100/month; Ultra $200/month. Prices exclude tax. See grok.com for current pricing.",
  "last_checked": "Nov 4, 2026",
