@@ -1,0 +1,28 @@
+{
+ "verdict_tier": "Niche",
+ "last_checked": "Nov 4, 2026",
+ "date_iso": "2026-11-04",
+ "title": "Notion AI Review (2026): Honest Take for Small Business Owners",
+ "meta_description": "Plain-English Notion AI review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
+ "summary": "Notion AI lives inside your Notion notes and projects and helps you write, organize, and summarize them. Already keep jobs, checklists, and customer notes in Notion? It drafts pages and pulls answers from what you wrote. Don't use Notion? Skip it.",
+ "good_for": [
+  "Draft a job estimate or service page from a few bullet points.",
+  "Summarize a long customer note or meeting page.",
+  "Turn a messy list into a clean checklist or database.",
+  "Ask questions about your own past notes.",
+  "Generate a simple action list from a page of text.",
+  "Rewrite something so it reads clearer."
+ ],
+ "how_to_use": "1. Go to notion.com and sign up free (or open the app).\n2. Create a new page and type a few notes about a job or customer.\n3. Highlight the text and ask the AI: \"Turn this into a short, plain-English job summary with a checklist of next steps.\"",
+ "what_youll_get": "A cleaner page or short draft based on what you already put in Notion. Free gives you a limited AI trial. Full AI takes the Business plan.",
+ "missing": [
+  "Free and Plus ($10/member/month) only get a limited trial of Notion AI. Notion publishes no exact number.",
+  "Full Notion AI takes the Business plan at $20 per member a month. A 5-person team is $100 a month.",
+  "Works best if you already keep your stuff in Notion. Otherwise you're building a new system.",
+  "Not a search engine or general chat tool. For general questions, ChatGPT or Perplexity is faster.",
+  "Custom Agents are free to try, then cost $10 per 1,000 Notion credits a month."
+ ],
+ "verdict": "Open this one if you already live in Notion and want help cleaning up what's there. Try the free trial; pay only if it saves you real time.",
+ "price_free": "Free: $0, with a limited trial of Notion AI. Plus ($10/member/month) also gets only the trial.",
+ "price_paid": "Business $20/member/month: full Notion AI (chat, writing, autofill, AI Meeting Notes). Enterprise: custom pricing. Custom Agents: $10 per 1,000 credits a month after the trial."
+}
