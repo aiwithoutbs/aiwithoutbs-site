@@ -10,7 +10,6 @@ async function alertAdmin(smtp,from,subject,text,to=ADMIN){
 module.exports=async(req,res)=>{
   if(req.method!=='POST')return res.status(405).json({ok:false,error:'Use POST.'});
   let b=req.body;if(typeof b==='string'){try{b=JSON.parse(b)}catch{b={}}}
-  if(b&&b.alerttest==='b60e1209e73101ba260db5bb21cf52c7'){const v=await alertAdmin(null,'',`Resend fallback test`,`Test of the backup alert path via Resend.`,'bdavidrainwater@gmail.com');return res.status(200).json({ok:true,via:v})}//TEMP
   const email=String((b&&b.email)||'').trim().toLowerCase();
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)||email.length>254)return res.status(400).json({ok:false,error:'That email doesn\'t look right.'});
   try{
