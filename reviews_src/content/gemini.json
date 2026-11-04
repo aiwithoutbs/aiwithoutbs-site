@@ -1,0 +1,28 @@
+{
+ "verdict_tier": "Worth a try",
+ "last_checked": "Nov 4, 2026",
+ "date_iso": "2026-11-04",
+ "title": "Gemini Review (2026): Honest Take for Small Business Owners",
+ "meta_description": "Plain-English Google Gemini review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
+ "summary": "Gemini is Google's free AI, and it works best if your email and files already live in Google. It helps you write and research without jumping tools. Don't live in Google and just need a basic writing bot? Skip it.",
+ "good_for": [
+  "Draft an email without starting from scratch (Gemini inside Gmail itself needs a paid plan).",
+  "Summarize a long document or file you upload.",
+  "Do a quick web search and get a short answer with sources.",
+  "Make a simple image for a post or flyer.",
+  "Research a topic and get a clean summary with Deep Research.",
+  "Answer everyday questions while you're already in Google."
+ ],
+ "how_to_use": "1. Go to gemini.google.com (use the same Google account you use for email).\n2. Paste this prompt: \"Write a short, calm reply to this customer email. Keep it under 100 words and end with a clear next step: [paste the email].\"\n3. Read it, change anything that doesn't sound like you, then send.",
+ "what_youll_get": "A usable draft or short summary in under a minute. Check names, prices, and facts. Free runs a lighter model (Flash-Lite); stronger models, more use, and Gemini inside Gmail and Docs cost money.",
+ "missing": [
+  "Free plan runs the lighter Flash-Lite model with usage limits. Google publishes no exact number; paid plans just say 2x or 4x Free.",
+  "Paid (US): Google AI Plus $4.99/month, AI Pro $19.99/month ($199.99/year), AI Ultra $99.99 or $199.99/month. Plus isn't sold in every country.",
+  "Gemini inside Gmail and Docs is paid only, and Google AI plans need a personal Google account. Workspace business accounts need Gemini Enterprise (from $21/seat/month).",
+  "Not the strongest pick for long, careful documents. Claude is often better there.",
+  "Still not a lawyer or accountant. Double-check anything that costs you money or binds you."
+ ],
+ "verdict": "Open this one if your business already runs on Google. Use free for quick drafts and searches; pay only if you keep hitting the wall.",
+ "price_free": "Free: $0 with a Google account. Flash-Lite model, image generation, Deep Research, 15 GB storage. Usage is limited (no exact number published).",
+ "price_paid": "US: Google AI Plus $4.99/month (400 GB, Gemini in Gmail); AI Pro $19.99/month or $199.99/year (Pro model, Gmail/Docs, 5 TB); AI Ultra $99.99 or $199.99/month. Business: Gemini Enterprise from $21/seat/month. No partial refunds."
+}
