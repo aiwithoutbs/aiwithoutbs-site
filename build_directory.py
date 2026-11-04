@@ -1,5 +1,6 @@
 # exec'd by build_reviews.py (shares pub, DIR, page, H, SITE). Builds directory.html.
 import datetime
+_FT={True:"Yes",False:"No"}
 _today=datetime.date.today()
 _pubs={s:c for s,_,c in pub}
 _dl=sorted(DIR.values(),key=lambda t:t["name"].lower())
@@ -7,7 +8,7 @@ _cats=sorted({c for t in _dl for c in t["tags"]})
 def _row(t):
     s=t["slug"];d=t["what_its_for"] or ("AI tool for "+", ".join(t["tags"])+".")
     rv=f'<a href="/reviews/{s}">Read our review</a>' if s in _pubs else '<span class="soon">Review coming</span>'
-    return f'<li class="tool" data-tags="{H(" ".join(t["tags"]))}" data-name="{H(t["name"].lower())}"><b><a href="{H(t["url"])}" rel="nofollow noopener" target="_blank">{H(t["name"])}</a></b> <span class="tags">{H(" · ".join(t["tags"]))}</span><br>{H(d)}<br><small>Free tier: {"Yes" if t["free_tier"] else "No"} · Paid from: {H(t["paid_from"])} · Checked {H(t["last_checked"])}</small> · {rv}</li>'
+    return f'<li class="tool" data-tags="{H(" ".join(t["tags"]))}" data-name="{H(t["name"].lower())}"><b><a href="{H(t["url"])}" rel="nofollow noopener" target="_blank">{H(t["name"])}</a></b> <span class="tags">{H(" · ".join(t["tags"]))}</span><br>{H(d)}<br><small>Free tier: {_FT.get(t["free_tier"],"See site")} · Paid from: {H(t["paid_from"])} · Checked {H(t["last_checked"])}</small> · {rv}</li>'
 _new=[t for t in _dl if (_today-datetime.date.fromisoformat(t["date_added"])).days<=7]
 _rec=sorted(pub,key=lambda p:p[2].get("date_iso",""),reverse=True)[:5]
 _newh="<ul>"+"".join(f'<li><a href="#t-{t["slug"]}">{H(t["name"])}</a></li>' for t in _new)+"</ul>" if _new else "<p>Nothing new this week.</p>"
@@ -21,4 +22,4 @@ _body=f'''<p class="kicker">AI tool directory · {len(_dl)} tools · Updated {_t
 <section id="list"><h2>All tools by use case</h2><div id="f" hidden><input id="q" type="search" placeholder="Search tools" aria-label="Search tools"> <span id="cnt"></span><div class="fb">{_btns}</div></div>{_groups}</section>
 <p><small>Prices are the lowest paid plan shown on each official site on the date checked; "See site" means we could not confirm it. Tool links are not affiliate links.</small></p>{_js}'''
 _ld={"@context":"https://schema.org","@type":"ItemList","name":"AI tool directory for small business","url":SITE+"/directory","numberOfItems":len(_dl),"itemListElement":[{"@type":"ListItem","position":i+1,"name":t["name"],"url":(SITE+"/reviews/"+t["slug"]) if t["slug"] in _pubs else t["url"]} for i,t in enumerate(_dl)]}
-open("directory.html","w").write(page("/directory","AI Tool Directory for Small Business (2026) | AI without BS","A plain-English list of 50 AI tools for small business owners: what each is for, free tier, and starting price from official pages.",_body,_ld))
+open("directory.html","w").write(page("/directory","AI Tool Directory for Small Business (2026) | AI without BS",f"A plain-English list of {len(_dl)} AI tools for small business owners: what each is for, free tier, and starting price from official pages.",_body,_ld))
