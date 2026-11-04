@@ -1,0 +1,86 @@
+[
+ {
+  "slug": "grok",
+  "name": "Grok",
+  "official_url": "https://grok.com",
+  "price_sources": [
+   "https://x.ai/pricing",
+   "https://docs.x.ai/x-subscription/pricing"
+  ]
+ },
+ {
+  "slug": "chatgpt",
+  "name": "ChatGPT",
+  "official_url": "https://chatgpt.com",
+  "price_sources": [
+   "https://openai.com/chatgpt/pricing/",
+   "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus"
+  ]
+ },
+ {
+  "slug": "claude",
+  "name": "Claude",
+  "official_url": "https://claude.ai",
+  "price_sources": [
+   "https://claude.com/pricing"
+  ]
+ },
+ {
+  "slug": "gemini",
+  "name": "Google Gemini",
+  "official_url": "https://gemini.google.com",
+  "price_sources": [
+   "https://gemini.google/subscriptions/",
+   "https://one.google.com/about/google-ai-plans/"
+  ]
+ },
+ {
+  "slug": "microsoft-copilot",
+  "name": "Microsoft Copilot",
+  "official_url": "https://copilot.microsoft.com",
+  "price_sources": [
+   "https://www.microsoft.com/en-us/copilot/pricing/individuals",
+   "https://www.microsoft.com/en-us/microsoft-365/copilot/pricing"
+  ]
+ },
+ {
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "official_url": "https://www.perplexity.ai",
+  "price_sources": [
+   "https://www.perplexity.ai/hub/pricing"
+  ]
+ },
+ {
+  "slug": "canva-ai",
+  "name": "Canva AI (Magic Studio)",
+  "official_url": "https://www.canva.com",
+  "price_sources": [
+   "https://www.canva.com/pricing/"
+  ]
+ },
+ {
+  "slug": "otter-ai",
+  "name": "Otter.ai",
+  "official_url": "https://otter.ai",
+  "price_sources": [
+   "https://otter.ai/pricing"
+  ]
+ },
+ {
+  "slug": "zapier-ai",
+  "name": "Zapier AI",
+  "official_url": "https://zapier.com",
+  "price_sources": [
+   "https://zapier.com/pricing"
+  ]
+ },
+ {
+  "slug": "notion-ai",
+  "name": "Notion AI",
+  "official_url": "https://www.notion.com/product/ai",
+  "price_sources": [
+   "https://www.notion.com/pricing"
+  ]
+ }
+]
