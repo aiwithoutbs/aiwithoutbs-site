@@ -1,0 +1,29 @@
+{
+ "verdict_tier": "Worth a try",
+ "last_checked": "Nov 4, 2026",
+ "date_iso": "2026-11-04",
+ "title": "ChatGPT Review (2026): Honest Take for Small Business Owners",
+ "meta_description": "Plain-English ChatGPT review for small business owners: what it does, what it costs, what the free plan gets you, and what you miss.",
+ "summary": "ChatGPT is the free AI that knocks out the first draft so you don't stare at a blank screen. It spits out a decent email, post, or summary in 30 seconds so you can get on with the real work. If you don't mind the blank page, skip it.",
+ "good_for": [
+  "Draft a reply to an angry customer email so you don't fire one off hot.",
+  "Turn rough notes into a clean client update or estimate description.",
+  "Write a short Facebook or Nextdoor post about a service you offer.",
+  "Summarize a long email or document so you know the main points.",
+  "Make a simple image for a flyer or post.",
+  "Answer everyday questions about prices, rules, or how something works."
+ ],
+ "how_to_use": "1. Go to chatgpt.com and start a free chat.\n2. Paste this prompt: \"Write a short, calm reply to this customer email. Keep it under 100 words and end with a clear next step: [paste the email].\"\n3. Read it, change anything that doesn't sound like you, then send.",
+ "what_youll_get": "A usable first draft or quick answer in under a minute. Check names, prices, and facts before you use it. Free handles basic writing; more use, better models, and more images cost money.",
+ "missing": [
+  "Free plan limits messages, uploads, image creation, voice, and memory. OpenAI doesn't publish exact numbers, just \"limited.\"",
+  "It can sound confident when it's wrong on numbers, dates, or fast-moving topics.",
+  "Paid plans: Go $8/month, Plus $20/month, Pro $200/month. Monthly billing only. See chatgpt.com for current pricing.",
+  "Not the best pick for long, careful document work. Claude is often better there.",
+  "Your chats can be used to train their models unless you turn it off in Data Controls.",
+  "Double-check anything about money, legal, or medical."
+ ],
+ "verdict": "Keeps you off the blank page when a customer email or post is waiting. Use it for the first draft, then fix it yourself.",
+ "price_free": "Free: $0, for everyone. Limited messages, uploads, images, and memory (no exact limits published).",
+ "price_paid": "Go $8/month (US); Plus $20/month; Pro $200/month. Business is priced per user (2+ users); Enterprise through sales. Monthly billing only for Go, Plus, Pro. See chatgpt.com for current pricing."
+}
