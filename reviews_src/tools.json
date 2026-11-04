@@ -82,5 +82,13 @@
   "price_sources": [
    "https://www.notion.com/pricing"
   ]
+ },
+ {
+  "slug": "meta-muse",
+  "name": "Muse (Meta)",
+  "official_url": "https://muse.ai",
+  "price_sources": [
+   "https://www.meta.com/help/subscriptions/1021145227643680/"
+  ]
  }
 ]

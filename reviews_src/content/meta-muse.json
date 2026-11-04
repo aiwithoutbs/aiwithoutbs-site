@@ -1,0 +1,28 @@
+{
+ "verdict_tier": "Worth a try",
+ "last_checked": "Nov 4, 2026",
+ "date_iso": "2026-11-04",
+ "title": "Muse by Meta Review (2026): Honest Take for Small Business",
+ "meta_description": "Plain-English review of Muse, Meta's AI agent, for small business owners: what it does, what it costs, and what you miss.",
+ "summary": "Muse is Meta's free AI agent that does tasks in your connected apps and on the web, with your OK. David uses it to build Facebook Marketplace listings, and setup was easy. Never sell or hand off tasks? Skip it.",
+ "good_for": [
+  "Draft a Marketplace listing from the photos and details you give it (David's main use).",
+  "Get suggestions for better wording or a cleaner item description.",
+  "Put the title, price, and details together so it's ready to post.",
+  "Draft a customer email for you to check before it goes out.",
+  "Set reminders and keep an ongoing to-do conversation.",
+  "Pull details from your connected apps for simple follow-ups."
+ ],
+ "how_to_use": "1. Get the Muse app or go to muse.ai and sign in with your Meta (Facebook or Instagram) account.\n2. Connect the apps you want it to use.\n3. Tell it: \"Here are the photos and details for this item. Write a Facebook Marketplace listing with a title, price, and description.\"",
+ "what_youll_get": "A finished listing draft or task done in minutes. You approve before it posts, sends, or spends. Free handles light use; heavy daily use burns through the limit.",
+ "missing": [
+  "Free has a usage limit that refreshes. Meta publishes no number on its help pages.",
+  "Power is $20/month (500 million Muse tokens a week); Maximum is $100/month (3 billion a week). Meta doesn't say how many tokens a task uses.",
+  "Still in limited testing and not available everywhere. You must be 18+ to subscribe.",
+  "Meta doesn't officially document Marketplace features yet, so what works may change.",
+  "Built for one person, not shared team accounts. Check its work before it goes out."
+ ],
+ "verdict": "Open this one when you want an AI that does the task, like building a Marketplace ad, not just talks about it. Use free for light jobs; pay only if you keep hitting the limit.",
+ "price_free": "Free: $0 with a Meta account. Usage limit that refreshes (no number published).",
+ "price_paid": "Power $20/month (500M Muse tokens a week); Maximum $100/month (3B a week). Monthly billing, auto-renews. See muse.ai for current pricing."
+}

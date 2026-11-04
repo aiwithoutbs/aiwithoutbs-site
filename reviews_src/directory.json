@@ -722,5 +722,21 @@
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Suggest replies and route tickets faster."
+ },
+ {
+  "name": "Muse (Meta)",
+  "slug": "meta-muse",
+  "url": "https://muse.ai",
+  "what_its_for": "Personal AI agent from Meta that takes actions in your connected apps.",
+  "tags": [
+   "productivity",
+   "automation",
+   "marketing/social"
+  ],
+  "free_tier": true,
+  "paid_from": "$20/mo",
+  "date_added": "2026-11-04",
+  "last_checked": "2026-11-04",
+  "why": "Hand off routine tasks like drafting listings; you approve before anything goes out."
  }
 ]
