@@ -11,7 +11,7 @@ def _why(t):
 def _row(t):
     s=t["slug"];d=t["what_its_for"] or ("AI tool for "+", ".join(t["tags"])+".")
     rv=f'<a href="/reviews/{s}">Read our review</a>' if s in _pubs else '<span class="soon">Review coming</span>'
-    return f'<li class="tool" data-tags="{H(" ".join(t["tags"]))}" data-name="{H(t["name"].lower())}"><b><a href="{H(t["url"])}" rel="nofollow noopener" target="_blank">{H(t["name"])}</a></b> <span class="tags">{H(" · ".join(t["tags"]))}</span><br>{H(d)}{_why(t)}<br><small>Free tier: {_FT.get(t["free_tier"],"See site")} · Paid from: {H(t["paid_from"])} · Checked {H(t["last_checked"])}</small> · {rv}</li>'
+    return f'<li class="tool" data-tags="{H(" ".join(t["tags"]))}" data-name="{H(t["name"].lower())}"><b><a href="{H(t["url"])}" rel="nofollow noopener" target="_blank">{H(t["name"])}</a></b> <span class="tags">{H(" · ".join(t["tags"]))}</span><br>{H(d)}{_why(t)}<br><small>Free tier: {_FT.get(t["free_tier"],"Not confirmed")} · Paid from: {H(t["paid_from"])} · Checked {H(t["last_checked"])}</small> · {rv}</li>'
 _LAUNCH=49  # tools in the launch batch; anything after was added later
 _new=list(reversed(list(DIR.values())[_LAUNCH:]))[:6]
 _rec=sorted(pub,key=lambda p:p[2].get("date_iso",""),reverse=True)

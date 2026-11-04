@@ -207,7 +207,7 @@
    "voice"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "$6/mo Starter (monthly)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Make voiceovers for videos without hiring talent."
@@ -238,7 +238,7 @@
    "customer service"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "$20/seat/mo Starter (AI bundled)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Draft follow-up emails and summarize customer chats faster."
@@ -253,7 +253,7 @@
    "marketing/social"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "Free; no standalone paid plan (Microsoft 365 Personal $9.99/mo)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Make social graphics without opening a design program."
@@ -268,7 +268,7 @@
    "writing"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "$9/seat/mo billed yearly (Plus)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Turn a rough outline into a client deck in minutes."
@@ -297,7 +297,7 @@
    "productivity"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "$12/mo Core (monthly)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Stop doing the same data entry between tools."
@@ -325,7 +325,7 @@
    "images/design"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "$9.99/mo Standard",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Create custom graphics inside Adobe tools."
@@ -340,7 +340,7 @@
    "productivity"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "Not published (monthly, US)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Translate emails and docs accurately without Google Translate."
@@ -354,7 +354,7 @@
    "bookkeeping/finance"
   ],
   "free_tier": false,
-  "paid_from": "Not confirmed",
+  "paid_from": "$38/mo Simple Start (AI included)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Categorize expenses and answer bookkeeping questions faster."
@@ -441,7 +441,7 @@
    "video"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "$19.99/mo Pro",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Add captions and trim videos quickly for social posts."
@@ -560,7 +560,7 @@
    "coding/website"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "Billed yearly, see wix.com/plans",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Get a basic website up without hiring a developer."
@@ -602,7 +602,7 @@
    "coding/website"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "$25/mo Pro",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Build a simple site or tool without coding."
@@ -645,7 +645,7 @@
    "meetings/notes"
   ],
   "free_tier": false,
-  "paid_from": "Not confirmed",
+  "paid_from": "$10/user/mo billed yearly",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Get a written recap of Teams meetings automatically."
@@ -660,7 +660,7 @@
    "productivity"
   ],
   "free_tier": null,
-  "paid_from": "Not confirmed",
+  "paid_from": "Included on paid Zoom plans; Workplace Pro $16.99/user/mo",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Get notes and summaries from Zoom calls without typing."
@@ -704,7 +704,7 @@
    "automation"
   ],
   "free_tier": true,
-  "paid_from": "Not confirmed",
+  "paid_from": "Bundled in Klaviyo plans; no separate price",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
   "why": "Send better-timed emails without manual setup."
@@ -726,7 +726,7 @@
  {
   "name": "Muse (Meta)",
   "slug": "meta-muse",
-  "url": "https://muse.ai",
+  "url": "https://ai.meta.com/muse/",
   "what_its_for": "Personal AI agent from Meta that takes actions in your connected apps.",
   "tags": [
    "productivity",

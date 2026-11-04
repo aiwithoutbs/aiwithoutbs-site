@@ -41,7 +41,7 @@ for f in sorted(glob.glob("reviews_src/content/*.json")):
     src="".join(f'<li><a href="{H(u)}" rel="nofollow noopener" target="_blank">{H(u)}</a></li>' for u in t["price_sources"])
     dt=DIR.get(slug); cat_link=f' (or just <a href="/directory?cat={dt["tags"][0]}#list">{H(dt["tags"][0])}</a> tools)' if dt else ''
     body=f'''<p class="kicker">AI tool review · Last checked: {H(c["last_checked"])}</p><h1>{H(t["name"])} review for small business</h1><p class="sub">{H(c["summary"])}</p>
-<p class="verdict"><b>Verdict: {H(c["verdict_tier"])}.</b> {H(c["verdict"])}</p>
+<p class="verdict"><span class="tag">Researched</span> <b>Verdict: {H(c["verdict_tier"])}.</b> {H(c["verdict"])}</p>
 <section><h2>What it's good for</h2>{li(c["good_for"])}</section>
 <section><h2>How to use it</h2><pre class="prompt">{H(c["how_to_use"])}</pre></section>
 <section><h2>What you'll get</h2><p>{H(c["what_youll_get"])}</p>{exh}</section>
@@ -54,6 +54,7 @@ for f in sorted(glob.glob("reviews_src/content/*.json")):
     pub.append((slug,t["name"],c))
 cards="".join(f'<a class="card" href="/reviews/{s}"><b>{H(c["verdict_tier"])}</b><span>{H(n)}</span></a>' for s,n,c in pub) or '<p><b>Reviews coming soon.</b> We are checking each tool against its official pages first. Sign up below and you will hear when they land.</p>'
 idx=f'''<p class="kicker">AI tool reviews</p><h1>Honest AI tool reviews for small business</h1><p class="sub">What each tool actually does for your business, what it costs, and what you are missing. If it won't move your business forward, we say skip it.</p>
+<section id="how-we-review"><h2>How we review</h2><p>Every review is researched from the tool's official pages and dated. Reviews marked <b>Researched</b> are built from those official sources. Once we've used a tool hands-on and documented it, the review gets marked <b>Tested</b>. No star ratings, no made-up quotes.</p><p>Companies may sponsor the site or newsletter, but sponsorship never buys a recommendation, a better review, or a directory ranking. Sponsored spots are labeled.</p><p>Spot a wrong price or fact? Email info@bowandarrowconsultingco.com and we'll fix it.</p></section>
 <section><h2>The reviews</h2><div class="grid">{cards}</div></section>
 <p>Looking for a tool we have not reviewed yet? Check the <a href="/directory">AI tool directory</a>.</p>
 <section><h2>How we check</h2><p>Prices, limits and features come from each tool's official pages, linked on every review with the date we checked. Hands-on testing is being added; any example marked "illustrative" was not a real test run. No star ratings, no made-up quotes, no paid placements.</p></section>'''

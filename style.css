@@ -22,3 +22,4 @@ footer{border-top:2px solid #ddd;margin-top:3em;padding:20px;font-size:16px;colo
 .tool{margin:.6em 0}.tool .tags{color:#888;font-size:.85em}.soon{color:#888}
 #f .fb{margin:.5em 0;display:flex;flex-wrap:wrap;gap:.3em}#f button{padding:.3em .6em;border:1px solid #ccc;background:#fff;cursor:pointer;border-radius:4px}#f button.on{background:#222;color:#fff}#q{padding:.4em;width:16em}
 .why{font-size:.92em}
+.tag{display:inline-block;font-size:.75em;padding:1px 6px;border:1px solid currentColor;border-radius:4px;text-transform:uppercase;letter-spacing:.05em}
