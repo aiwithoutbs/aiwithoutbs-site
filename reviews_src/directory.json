@@ -3,7 +3,7 @@
   "name": "Grok",
   "slug": "grok",
   "url": "https://grok.com",
-  "what_its_for": "AI chat for answers, writing, and research.",
+  "what_its_for": "AI chatbot from xAI that answers questions and helps write.",
   "tags": [
    "writing",
    "research",
@@ -13,13 +13,13 @@
   "paid_from": "$8/mo (Plus)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Get fast answers and drafts in one place."
  },
  {
   "name": "ChatGPT",
   "slug": "chatgpt",
   "url": "https://chatgpt.com",
-  "what_its_for": "Conversational AI for writing, ideas, and answers.",
+  "what_its_for": "AI chatbot from OpenAI that chats, writes, and researches.",
   "tags": [
    "writing",
    "research",
@@ -29,13 +29,13 @@
   "paid_from": "$8/mo (Go)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Answer customer questions and draft emails faster."
  },
  {
   "name": "Claude",
   "slug": "claude",
   "url": "https://claude.ai",
-  "what_its_for": "AI that writes and works with long documents.",
+  "what_its_for": "AI chatbot from Anthropic that handles long documents.",
   "tags": [
    "writing",
    "research",
@@ -45,13 +45,13 @@
   "paid_from": "$17/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Summarize long contracts or write detailed proposals."
  },
  {
   "name": "Gemini",
   "slug": "gemini",
   "url": "https://gemini.google.com",
-  "what_its_for": "Google AI for chat, search, and daily tasks.",
+  "what_its_for": "AI chatbot from Google that chats and searches the web.",
   "tags": [
    "writing",
    "research",
@@ -61,13 +61,13 @@
   "paid_from": "$4.99/mo (AI Plus)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Research competitors and draft content quickly."
  },
  {
   "name": "Microsoft Copilot",
   "slug": "microsoft-copilot",
   "url": "https://copilot.microsoft.com",
-  "what_its_for": "AI helper inside Microsoft 365 apps.",
+  "what_its_for": "AI assistant inside Microsoft 365 apps.",
   "tags": [
    "writing",
    "productivity",
@@ -77,13 +77,13 @@
   "paid_from": "$9.99/mo (Microsoft 365 Personal)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Draft emails and reports right inside Word and Outlook."
  },
  {
   "name": "Perplexity",
   "slug": "perplexity",
   "url": "https://www.perplexity.ai",
-  "what_its_for": "Answers questions and shows the sources.",
+  "what_its_for": "AI search tool that answers with sources.",
   "tags": [
    "research"
   ],
@@ -91,13 +91,13 @@
   "paid_from": "$17/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Get researched answers without opening ten browser tabs."
  },
  {
   "name": "Canva AI",
   "slug": "canva-ai",
   "url": "https://www.canva.com",
-  "what_its_for": "Makes designs, posts, and graphics with AI help.",
+  "what_its_for": "Design tool from Canva that creates graphics with AI help.",
   "tags": [
    "images/design",
    "marketing/social"
@@ -106,13 +106,13 @@
   "paid_from": "$144/yr (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Make social posts and flyers without a designer."
  },
  {
   "name": "Otter.ai",
   "slug": "otter-ai",
   "url": "https://otter.ai",
-  "what_its_for": "Turns meetings and calls into written notes.",
+  "what_its_for": "Transcription app that turns calls into notes.",
   "tags": [
    "meetings/notes",
    "voice"
@@ -121,13 +121,13 @@
   "paid_from": "$8.49/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Stop taking notes on calls; get a summary after."
  },
  {
   "name": "Zapier AI",
   "slug": "zapier-ai",
   "url": "https://zapier.com",
-  "what_its_for": "Connects your apps and automates tasks.",
+  "what_its_for": "Automation platform that connects apps with AI help.",
   "tags": [
    "automation",
    "productivity"
@@ -136,13 +136,13 @@
   "paid_from": "$19.99/mo billed yearly (Professional)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Stop copying data between apps by hand."
  },
  {
   "name": "Notion AI",
   "slug": "notion-ai",
   "url": "https://www.notion.com/product/ai",
-  "what_its_for": "Writes, summarizes, and organizes notes inside Notion.",
+  "what_its_for": "AI writing helper inside Notion.",
   "tags": [
    "writing",
    "productivity",
@@ -152,13 +152,13 @@
   "paid_from": "$20/member/mo (Business, full AI)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Turn messy notes into clean docs and task lists."
  },
  {
   "name": "Fathom",
   "slug": "fathom",
   "url": "https://www.fathom.ai",
-  "what_its_for": "Records meetings and writes the notes for you.",
+  "what_its_for": "Meeting recorder that writes notes automatically.",
   "tags": [
    "meetings/notes"
   ],
@@ -166,13 +166,13 @@
   "paid_from": "$15/user/mo billed yearly (Team)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Stop taking notes on calls; get a summary emailed after."
  },
  {
   "name": "Jasper",
   "slug": "jasper",
   "url": "https://www.jasper.ai",
-  "what_its_for": "Writes marketing content and sales copy.",
+  "what_its_for": "AI writing tool that creates marketing copy.",
   "tags": [
    "writing",
    "marketing/social"
@@ -181,13 +181,13 @@
   "paid_from": "$59/seat/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Write social posts and emails without staring at a blank page."
  },
  {
   "name": "Grammarly",
   "slug": "grammarly",
   "url": "https://www.grammarly.com",
-  "what_its_for": "Checks grammar, clarity, and tone.",
+  "what_its_for": "Writing checker that fixes grammar and tone.",
   "tags": [
    "writing",
    "productivity"
@@ -196,13 +196,13 @@
   "paid_from": "$12/mo (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Send emails that sound clear and professional."
  },
  {
   "name": "ElevenLabs",
   "slug": "elevenlabs",
   "url": "https://elevenlabs.io",
-  "what_its_for": "Creates realistic voices from text.",
+  "what_its_for": "Voice generator that turns text into realistic speech.",
   "tags": [
    "voice"
   ],
@@ -210,13 +210,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Make voiceovers for videos without hiring talent."
  },
  {
   "name": "Descript",
   "slug": "descript",
   "url": "https://www.descript.com",
-  "what_its_for": "Edits video and audio by editing the text.",
+  "what_its_for": "Video editor that lets you edit by editing the text.",
   "tags": [
    "video",
    "voice"
@@ -225,13 +225,13 @@
   "paid_from": "$16/person/mo billed yearly (Hobbyist)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Fix mistakes in videos by deleting words instead of cutting clips."
  },
  {
   "name": "HubSpot AI (Breeze)",
   "slug": "hubspot-ai",
   "url": "https://www.hubspot.com/products/artificial-intelligence",
-  "what_its_for": "AI tools for sales, marketing, and support.",
+  "what_its_for": "AI features inside HubSpot CRM.",
   "tags": [
    "sales/CRM",
    "marketing/social",
@@ -241,13 +241,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Draft follow-up emails and summarize customer chats faster."
  },
  {
   "name": "Microsoft Designer",
   "slug": "microsoft-designer",
   "url": "https://designer.microsoft.com",
-  "what_its_for": "Creates images and social graphics with AI.",
+  "what_its_for": "AI design tool from Microsoft that creates images.",
   "tags": [
    "images/design",
    "marketing/social"
@@ -256,13 +256,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Make social graphics without opening a design program."
  },
  {
   "name": "Gamma",
   "slug": "gamma",
   "url": "https://gamma.app",
-  "what_its_for": "Turns text into presentations and slides.",
+  "what_its_for": "Presentation tool that turns text into slides.",
   "tags": [
    "productivity",
    "writing"
@@ -271,13 +271,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Turn a rough outline into a client deck in minutes."
  },
  {
   "name": "Fireflies.ai",
   "slug": "fireflies",
   "url": "https://fireflies.ai",
-  "what_its_for": "Records calls and makes meeting summaries.",
+  "what_its_for": "Meeting recorder that creates summaries and notes.",
   "tags": [
    "meetings/notes"
   ],
@@ -285,13 +285,13 @@
   "paid_from": "$10/seat/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Stop taking notes on calls; get a summary after."
  },
  {
   "name": "Make.com",
   "slug": "make",
   "url": "https://www.make.com",
-  "what_its_for": "Builds automations that connect different apps.",
+  "what_its_for": "Automation platform that connects apps into workflows.",
   "tags": [
    "automation",
    "productivity"
@@ -300,13 +300,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Stop doing the same data entry between tools."
  },
  {
   "name": "Midjourney",
   "slug": "midjourney",
   "url": "https://www.midjourney.com",
-  "what_its_for": "Creates images from written descriptions.",
+  "what_its_for": "AI image generator that creates pictures from text.",
   "tags": [
    "images/design"
   ],
@@ -314,13 +314,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Make custom images for posts without stock photos."
  },
  {
   "name": "Adobe Firefly",
   "slug": "adobe-firefly",
   "url": "https://www.adobe.com/products/firefly.html",
-  "what_its_for": "Generates and edits images with Adobe AI.",
+  "what_its_for": "AI image tool from Adobe that generates and edits pictures.",
   "tags": [
    "images/design"
   ],
@@ -328,13 +328,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Create custom graphics inside Adobe tools."
  },
  {
   "name": "DeepL",
   "slug": "deepl",
   "url": "https://www.deepl.com",
-  "what_its_for": "Translates text and documents between languages.",
+  "what_its_for": "Translation tool that converts text between languages.",
   "tags": [
    "writing",
    "productivity"
@@ -343,13 +343,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Translate emails and docs accurately without Google Translate."
  },
  {
   "name": "QuickBooks AI (Intuit Assist)",
   "slug": "quickbooks",
   "url": "https://quickbooks.intuit.com",
-  "what_its_for": "Helps with invoices, reports, and bookkeeping.",
+  "what_its_for": "AI helper inside QuickBooks.",
   "tags": [
    "bookkeeping/finance"
   ],
@@ -357,13 +357,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Categorize expenses and answer bookkeeping questions faster."
  },
  {
   "name": "Tidio",
   "slug": "tidio",
   "url": "https://www.tidio.com",
-  "what_its_for": "Live chat and AI bots for website visitors.",
+  "what_its_for": "Live chat tool with AI bots for websites.",
   "tags": [
    "customer service"
   ],
@@ -371,13 +371,13 @@
   "paid_from": "$24.17/mo (Starter)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Answer common customer questions without being online."
  },
  {
   "name": "Intercom Fin",
   "slug": "intercom",
   "url": "https://www.intercom.com",
-  "what_its_for": "AI that answers customer support questions.",
+  "what_its_for": "AI support agent inside Intercom.",
   "tags": [
    "customer service"
   ],
@@ -385,13 +385,13 @@
   "paid_from": "$29/seat/mo + $0.99 per Fin outcome",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Handle routine customer chats without hiring more staff."
  },
  {
   "name": "Calendly",
   "slug": "calendly",
   "url": "https://calendly.com",
-  "what_its_for": "Lets people book meetings on your calendar.",
+  "what_its_for": "Scheduling tool that lets people book time on your calendar.",
   "tags": [
    "productivity",
    "meetings/notes"
@@ -400,13 +400,13 @@
   "paid_from": "$10/seat/mo (Standard)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Stop the back-and-forth emails to set meetings."
  },
  {
   "name": "Motion",
   "slug": "motion",
   "url": "https://www.usemotion.com",
-  "what_its_for": "Automatically plans your tasks and calendar.",
+  "what_its_for": "AI calendar that plans tasks and meetings automatically.",
   "tags": [
    "productivity",
    "automation"
@@ -415,13 +415,13 @@
   "paid_from": "$19/seat/mo",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Stop manually rearranging your day when things change."
  },
  {
   "name": "Loom",
   "slug": "loom",
   "url": "https://www.loom.com",
-  "what_its_for": "Records short videos to explain things.",
+  "what_its_for": "Video recorder that captures your screen and face.",
   "tags": [
    "video",
    "productivity"
@@ -430,13 +430,13 @@
   "paid_from": "$18/user/mo (Business)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Explain something once on video instead of typing it out."
  },
  {
   "name": "CapCut",
   "slug": "capcut",
   "url": "https://www.capcut.com",
-  "what_its_for": "Edits videos with AI captions and effects.",
+  "what_its_for": "Video editor with AI captions and effects.",
   "tags": [
    "video"
   ],
@@ -444,13 +444,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Add captions and trim videos quickly for social posts."
  },
  {
   "name": "Synthesia",
   "slug": "synthesia",
   "url": "https://www.synthesia.io",
-  "what_its_for": "Makes videos with AI people speaking your script.",
+  "what_its_for": "AI video tool that creates talking avatar videos.",
   "tags": [
    "video",
    "voice"
@@ -459,13 +459,13 @@
   "paid_from": "$19/mo (Starter; first month $9)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Make training or explainer videos without filming yourself."
  },
  {
   "name": "HeyGen",
   "slug": "heygen",
   "url": "https://www.heygen.com",
-  "what_its_for": "Creates talking-avatar videos from text.",
+  "what_its_for": "AI video tool that creates talking avatar videos.",
   "tags": [
    "video",
    "voice"
@@ -474,13 +474,13 @@
   "paid_from": "$29/mo (Creator)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Turn a script into a video with a talking person."
  },
  {
   "name": "Opus Clip",
   "slug": "opus-clip",
   "url": "https://www.opus.pro",
-  "what_its_for": "Turns long videos into short social clips.",
+  "what_its_for": "Video tool that cuts long videos into short clips.",
   "tags": [
    "video",
    "marketing/social"
@@ -489,13 +489,13 @@
   "paid_from": "$15/mo (Starter)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Turn one long video into multiple social posts."
  },
  {
   "name": "Buffer AI Assistant",
   "slug": "buffer",
   "url": "https://buffer.com",
-  "what_its_for": "Helps write and schedule social posts.",
+  "what_its_for": "AI writing helper inside Buffer.",
   "tags": [
    "marketing/social",
    "writing"
@@ -504,13 +504,13 @@
   "paid_from": "$5/mo per channel (Essentials)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Draft social posts without starting from scratch."
  },
  {
   "name": "Hootsuite OwlyWriter",
   "slug": "hootsuite-owlywriter",
   "url": "https://www.hootsuite.com",
-  "what_its_for": "Writes social media posts with AI.",
+  "what_its_for": "AI writing tool inside Hootsuite.",
   "tags": [
    "marketing/social",
    "writing"
@@ -519,13 +519,13 @@
   "paid_from": "$99/mo (Standard)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Generate social post ideas and captions faster."
  },
  {
   "name": "Copy.ai",
   "slug": "copy-ai",
   "url": "https://www.copy.ai",
-  "what_its_for": "Generates marketing copy, emails, and ads.",
+  "what_its_for": "AI writing tool that generates marketing copy.",
   "tags": [
    "writing",
    "marketing/social"
@@ -534,13 +534,13 @@
   "paid_from": "$24/mo billed yearly",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Write product descriptions and ads without a blank page."
  },
  {
   "name": "Writesonic",
   "slug": "writesonic",
   "url": "https://writesonic.com",
-  "what_its_for": "Writes articles, product descriptions, and ads.",
+  "what_its_for": "AI writing tool that creates articles and ads.",
   "tags": [
    "writing",
    "marketing/social"
@@ -549,13 +549,13 @@
   "paid_from": "$79/mo billed yearly (Starter)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Draft blog posts and product copy quickly."
  },
  {
   "name": "Wix AI Website Builder",
   "slug": "wix",
   "url": "https://www.wix.com",
-  "what_its_for": "Builds websites from a short description.",
+  "what_its_for": "Website builder from Wix that creates sites from text.",
   "tags": [
    "coding/website"
   ],
@@ -563,13 +563,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Get a basic website up without hiring a developer."
  },
  {
   "name": "Squarespace AI",
   "slug": "squarespace-ai",
   "url": "https://www.squarespace.com",
-  "what_its_for": "Designs and builds websites with AI help.",
+  "what_its_for": "Website builder from Squarespace with AI design help.",
   "tags": [
    "coding/website"
   ],
@@ -577,13 +577,13 @@
   "paid_from": "$19/mo billed yearly (Basic)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Build a clean site faster with AI suggestions."
  },
  {
   "name": "Durable",
   "slug": "durable",
   "url": "https://durable.com",
-  "what_its_for": "Creates small-business websites in minutes.",
+  "what_its_for": "AI website builder that creates small-business sites.",
   "tags": [
    "coding/website"
   ],
@@ -591,13 +591,13 @@
   "paid_from": "$25/mo (Launch)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Get a simple business website live in minutes."
  },
  {
   "name": "Lovable",
   "slug": "lovable",
   "url": "https://lovable.dev",
-  "what_its_for": "Builds websites and apps from text prompts.",
+  "what_its_for": "AI builder that creates websites and apps from text.",
   "tags": [
    "coding/website"
   ],
@@ -605,13 +605,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Build a simple site or tool without coding."
  },
  {
   "name": "Bolt.new",
   "slug": "bolt-new",
   "url": "https://bolt.new",
-  "what_its_for": "Generates web apps and sites with AI.",
+  "what_its_for": "AI builder that generates web apps and sites.",
   "tags": [
    "coding/website"
   ],
@@ -619,13 +619,13 @@
   "paid_from": "$25/mo (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Create a working web tool from a description."
  },
  {
   "name": "Beautiful.ai",
   "slug": "beautiful-ai",
   "url": "https://www.beautiful.ai",
-  "what_its_for": "Designs professional slide decks easily.",
+  "what_its_for": "Presentation tool that designs slides automatically.",
   "tags": [
    "productivity",
    "images/design"
@@ -634,13 +634,13 @@
   "paid_from": "$14.50/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Make client decks that look polished without design skills."
  },
  {
   "name": "Microsoft Teams Premium (Intelligent Recap)",
   "slug": "teams-premium",
   "url": "https://www.microsoft.com/en-us/microsoft-teams/premium",
-  "what_its_for": "Summarizes Teams meetings automatically.",
+  "what_its_for": "AI meeting summary feature inside Teams.",
   "tags": [
    "meetings/notes"
   ],
@@ -648,13 +648,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Get a written recap of Teams meetings automatically."
  },
  {
   "name": "Zoom AI Companion",
   "slug": "zoom-ai-companion",
   "url": "https://www.zoom.com/en/products/ai-assistant/",
-  "what_its_for": "Takes notes and summarizes Zoom meetings.",
+  "what_its_for": "AI meeting assistant inside Zoom.",
   "tags": [
    "meetings/notes",
    "productivity"
@@ -663,13 +663,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Get notes and summaries from Zoom calls without typing."
  },
  {
   "name": "Read.ai",
   "slug": "read-ai",
   "url": "https://www.read.ai",
-  "what_its_for": "Gives meeting summaries and participation insights.",
+  "what_its_for": "Meeting tool that summarizes calls and tracks engagement.",
   "tags": [
    "meetings/notes"
   ],
@@ -677,13 +677,13 @@
   "paid_from": "$15/user/mo billed yearly (Pro)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "See what was decided and who spoke after the call."
  },
  {
   "name": "Mailchimp AI",
   "slug": "mailchimp-ai",
   "url": "https://mailchimp.com",
-  "what_its_for": "Helps design and send email campaigns.",
+  "what_its_for": "AI writing and design helper inside Mailchimp.",
   "tags": [
    "marketing/social",
    "writing"
@@ -692,13 +692,13 @@
   "paid_from": "$13/mo (lowest plan shown)",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Draft email newsletters without starting from zero."
  },
  {
   "name": "Klaviyo AI",
   "slug": "klaviyo-ai",
   "url": "https://www.klaviyo.com",
-  "what_its_for": "Automates personalized email and text marketing.",
+  "what_its_for": "AI features inside Klaviyo for email and SMS.",
   "tags": [
    "marketing/social",
    "automation"
@@ -707,13 +707,13 @@
   "paid_from": "See site",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Send better-timed emails without manual setup."
  },
  {
   "name": "Freshdesk Freddy AI",
   "slug": "freshdesk-freddy",
   "url": "https://www.freshworks.com/freshdesk/",
-  "what_its_for": "Suggests answers and handles support tickets.",
+  "what_its_for": "AI assistant inside Freshdesk support software.",
   "tags": [
    "customer service"
   ],
@@ -721,6 +721,6 @@
   "paid_from": "$19/agent/mo billed yearly",
   "date_added": "2026-11-04",
   "last_checked": "2026-11-04",
-  "why": ""
+  "why": "Suggest replies and route tickets faster."
  }
 ]
