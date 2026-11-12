@@ -7,6 +7,14 @@ REQ={"title":(20,65),"meta_description":(70,160),"summary":(40,600),"good_for":N
      "what_youll_get":(40,2000),"missing":None,"verdict_tier":None,"verdict":(20,1500),"one_liner":(20,600),"why_care":(20,2000),"when_to_use":(20,2000),"when_to_skip":(20,1500),"privacy":(20,1500),"alternatives":(20,1000),"missing_text":(20,3000),"price_free":(5,300),
      "price_paid":(5,400),"last_checked":(6,20)}
 H=lambda s:html.escape(str(s))
+def price_txt(s,prefixes):
+    t=str(s).strip()
+    for p in prefixes:
+        if t.lower().startswith(p.lower()):
+            t=t[len(p):].lstrip(" :")
+            break
+    return H(t)
+
 def rich(txt):
     """Plain text -> HTML: bullet lines -> ul, tab rows -> table, 'Ready-to-paste prompt:' block -> pre, rest -> p."""
     out=[];ul=[];tb=[];lines=txt.split("\n");i=0
@@ -84,7 +92,7 @@ for f in sorted(glob.glob("reviews_src/content/*.json")):
 <section><h2>WHAT YOU'RE MISSING</h2>{rich(c["missing_text"])}</section>
 <section><h2>PRIVACY</h2>{rich(c["privacy"])}</section>
 <section><h2>ALTERNATIVES</h2>{rich(c["alternatives"])}</section>
-<section><h2>Price</h2><p><b>Free:</b> {H(c["price_free"])}</p><p><b>Paid:</b> {H(c["price_paid"])}</p><p>Sources (official, checked {H(c["last_checked"])}):</p><ul>{src}</ul><p>Official site: <a href="{H(t["official_url"])}" rel="nofollow noopener" target="_blank">{H(t["official_url"])}</a></p></section>
+<section><h2>Price</h2><p><b>Free:</b> {price_txt(c["price_free"],("Free",))}</p><p><b>Paid:</b> {price_txt(c["price_paid"],("Paid",))}</p><p>Sources (official, checked {H(c["last_checked"])}):</p><ul>{src}</ul><p>Official site: <a href="{H(t["official_url"])}" rel="nofollow noopener" target="_blank">{H(t["official_url"])}</a></p></section>
 <section><h2>VERDICT</h2><p class="verdict">{badge(c["verdict_tier"])} <span>Rank {rank_no(c["verdict_tier"])} of 6: {H(MEANING[c["verdict_tier"]])}</span></p>{rich(c["verdict"])}</section>
 <p>Spot a wrong price or fact? Email <a href="mailto:info@bowandarrowconsultingco.com">info@bowandarrowconsultingco.com</a> and we'll fix it. <a href="/reviews#how-we-review">How we review</a>.</p>
 <p>See every AI tool we track in the <a href="/directory">AI tool directory</a>{cat_link}.</p>
