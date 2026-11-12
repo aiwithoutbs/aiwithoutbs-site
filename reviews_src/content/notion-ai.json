@@ -1,5 +1,5 @@
 {
- "verdict_tier": "Niche",
+ "verdict_tier": "Could be left alone",
  "last_checked": "Nov 4, 2026",
  "date_iso": "2026-11-04",
  "title": "Notion AI Review (2026): Honest Take for Small Business Owners",
@@ -22,7 +22,7 @@
   "Not a search engine or general chat tool. For general questions, ChatGPT or Perplexity is faster.",
   "Custom Agents are free to try, then cost $10 per 1,000 Notion credits a month."
  ],
- "verdict": "TOOL\n\nNotion AI is useful. But useful does not automatically mean necessary.\n\nIf you already run your business inside Notion, this could save you time and make your information easier to manage.\n\nIf you do not use Notion, do not start paying for another subscription just because somebody says AI is the future.\n\nOrganizing your business is smart. Paying $100 a month to organize five people's digital junk without a plan? That's a different kind of business.",
+ "verdict": "Notion AI is useful. But useful does not automatically mean necessary.\n\nIf you already run your business inside Notion, this could save you time and make your information easier to manage.\n\nIf you do not use Notion, do not start paying for another subscription just because somebody says AI is the future.\n\nOrganizing your business is smart. Paying $100 a month to organize five people's digital junk without a plan? That's a different kind of business.",
  "price_free": "Free: $0, with a limited trial of Notion AI. Plus ($10/member/month) also gets only the trial.",
  "price_paid": "Business $20/member/month: full Notion AI (chat, writing, autofill, AI Meeting Notes). Enterprise: custom pricing. Custom Agents: $10 per 1,000 credits a month after the trial.",
  "one_liner": "You have 47 notes, 19 unfinished projects, three customer lists, and absolutely no idea where you put that important information. Notion AI is here to clean up the crime scene.",
