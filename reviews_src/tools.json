@@ -90,5 +90,13 @@
   "price_sources": [
    "https://www.meta.com/help/subscriptions/1021145227643680/"
   ]
+ },
+ {
+  "slug": "make",
+  "name": "Make.com",
+  "official_url": "https://www.make.com",
+  "price_sources": [
+   "https://www.make.com/en/pricing"
+  ]
  }
 ]

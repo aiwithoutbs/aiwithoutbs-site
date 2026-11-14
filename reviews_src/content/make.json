@@ -1,0 +1,35 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 14, 2026",
+ "date_iso": "2026-11-14",
+ "title": "Make.com Review (2026): Honest Take for Small Business",
+ "meta_description": "Plain-English Make.com review for small business owners: what it automates, how its AI agents work, what credits cost, and the catches.",
+ "summary": "Make is Zapier's cheaper, more hands-on cousin. You drag boxes onto a screen, connect your apps, and the work moves itself. Now it has AI agents that can make simple judgment calls. Powerful, yes. Plug-and-play, no.",
+ "one_liner": "A visual, no-code tool that wires your business apps together, now with AI agents that can make simple judgment calls.",
+ "why_care": "If you or somebody on your payroll keeps moving the same information from one app to another, Make can do that for you on a schedule.\n\nIt connects to thousands of apps, according to Make, and you build each workflow on a visual map instead of writing code.\n\nThe new AI agents are for messy jobs, like sorting incoming emails or messages, where a plain if-this-then-that rule won't cut it.\n\nIf you don't use more than two or three business apps, skip it.",
+ "good_for": [
+  "Send every new web form lead into a Google Sheet and your CRM at once.",
+  "Copy new rows from one app to another without anyone typing.",
+  "Sort incoming messages or emails with an AI agent before a person sees them.",
+  "Run follow-ups and reminders on a schedule.",
+  "Build bigger multi-step workflows for less money than Zapier at the same volume.",
+  "Try it free with 1,000 credits a month before paying."
+ ],
+ "how_to_use": "Step 1: Sign up for the free plan at make.com.\n\nStep 2: Create a new scenario (that's Make's word for a workflow). Pick your trigger app, like Google Forms, then the app it should send data to, like Google Sheets.\n\nStep 3: Run it once with a test entry and check the result before you turn it on.\n\nReady-to-paste prompt:\n\nI'm a small business owner using Make.com for the first time. Walk me step by step through building a scenario that takes each new Google Form response, adds it as a row in my Google Sheet, and emails me a short notice. Tell me which modules to add, what to connect, and how many credits each run will use.",
+ "what_youll_get": "A workflow that moves information between your apps without you babysitting it.\n\nExpect a learning curve. The visual map is clear once you get it, but the first build takes longer than it looks, and you need to test before trusting it.\n\nWe have not run our own test build for this review.",
+ "missing": [
+  "Free plan is 1,000 credits a month. When credits run out, your scenarios stop until you add more.",
+  "Paid plans start around $9 to $12 a month billed yearly for 10,000 credits. Outside reports disagree, so check make.com/pricing.",
+  "Every step in a run uses a credit, and some AI steps use more than one.",
+  "Unused credits expire at the end of the term. They don't roll over.",
+  "Steeper learning curve than Zapier. If you want easiest, start with Zapier."
+ ],
+ "verdict": "Make is good, cheap automation if you're willing to learn its visual builder, or you have someone who will.\n\nIf you want something you can figure out in 10 minutes, Zapier is easier. If you're going to run a lot of automations and watch the bill, Make gives you more for the money.\n\nStart with one boring task. Automate it. See if it's worth the learning.",
+ "price_free": "Free: $0. Up to 1,000 credits a month (Make's own FAQ). Most actions use 1 credit; some AI features use more.",
+ "price_paid": "Core, Pro and Teams start with 10,000 credits a month. Third-party checks in Oct and Nov 2026 list Core between $9 and $12 a month billed yearly [CHECK make.com/pricing]. Yearly billing is cheaper than monthly, per Make.",
+ "when_to_use": "* Your team re-types the same info into two or more apps every week.\n* You want lots of automations and care about the monthly bill.\n* You have messy inputs, like emails or messages, that need sorting before a person handles them. That's what Make's AI agents are for.\n* You or someone on your team doesn't mind learning a new tool.",
+ "when_to_skip": "* You use one or two apps and nothing needs to move between them.\n* You want the easiest setup possible. Zapier is simpler for beginners.\n* You want AI to write, research, or answer questions. Use ChatGPT or Claude for that.",
+ "missing_text": "Here's how the money works.\n\nMake bills in credits. Most actions in a workflow use 1 credit. Some AI features use more. A workflow that reads a form, changes the data, and writes a row uses about three credits per run.\n\nPlan\tCredits a month\tPrice\nFree\tUp to 1,000\t$0\nCore\t10,000 to start\tAbout $9 to $12/month billed yearly [CHECK]\nPro\t10,000 to start\tHigher than Core [CHECK]\nTeams\t10,000 to start\tHigher than Pro [CHECK]\nEnterprise\tCustom\tTalk to sales\n\nThe catches:\n\n* Out of credits means your workflows stop until you buy more or upgrade.\n* Credits expire at the end of the term.\n* Make offers a Start-up Plan at 50% off Business for companies under 20 employees, if you qualify.\n* Make's pricing page loads its prices with a script, and outside reports from Oct and Nov 2026 disagree on the numbers. Confirm on make.com/pricing before you buy.\n\nBottom line: Start free. Pay only when one workflow is clearly saving you time.",
+ "privacy": "Make moves your business data between the apps you connect, so it can see whatever you give it access to.\n\nConnect only the apps a workflow needs. Keep customer financial info and sensitive records out until you've read Make's security and privacy pages.\n\nThis review doesn't cover Make's data retention or AI training policies. Check Make's current privacy documentation before connecting sensitive information.",
+ "alternatives": "* Zapier — Easier to learn, usually more expensive at the same volume.\n* n8n — More control for people who are technical or have a tech person."
+}
