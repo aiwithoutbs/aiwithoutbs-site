@@ -98,5 +98,14 @@
   "price_sources": [
    "https://www.make.com/en/pricing"
   ]
+ },
+ {
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "official_url": "https://www.midjourney.com",
+  "price_sources": [
+   "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+   "https://docs.midjourney.com/hc/en-us/articles/27870399340173-Free-Trials"
+  ]
  }
 ]
