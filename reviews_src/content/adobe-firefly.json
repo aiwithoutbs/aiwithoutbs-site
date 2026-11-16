@@ -1,0 +1,35 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 16, 2026",
+ "date_iso": "2026-11-16",
+ "title": "Adobe Firefly Review (2026): Honest Take for Small Business",
+ "meta_description": "Plain-English Adobe Firefly review for small business owners: what it makes, what the free plan and paid plans get you, how credits work, and the catches.",
+ "summary": "Adobe Firefly makes and edits images, short videos, and audio from a typed description. Its big selling point is that Adobe says its own models are safe for commercial use. There's a free plan with daily generations, but the credit system gets confusing fast once you touch video.",
+ "one_liner": "Adobe's AI studio that makes and edits images, video clips, and audio from a sentence.",
+ "why_care": "If you need pictures for social posts, ads, or your website and you worry about getting sued over an AI image, Firefly is built for you. Adobe says its own models are trained on licensed Adobe Stock and public domain content, and that it doesn't train on what you upload.\n\nIt also fixes photos you already have: remove an object, widen a shot, or upscale for print.\n\nIf you rarely need images, or you already pay for Canva, skip it.",
+ "good_for": [
+  "Make a custom image for a social post or ad without hunting stock photos.",
+  "Remove a person, sign, or mess from a photo you already took.",
+  "Widen a photo so it fits a banner or a different post size.",
+  "Upscale a small image so it prints clean.",
+  "Make a short B-roll clip or sound effect for a promo video.",
+  "Lay out a mood board of ideas before you pay a designer."
+ ],
+ "how_to_use": "Step 1: Go to firefly.adobe.com and sign in with a free Adobe account. The free plan gives you daily generations.\n\nStep 2: Pick Generate Image and type what you want. Be specific about subject, setting, and light.\n\nStep 3: Pick the best result, then use the edit tools to remove objects or expand the frame.\n\nReady-to-paste prompt:\n\nBright, friendly photo-style image of a small-town bakery counter, a smiling older owner handing a customer a box of pastries, warm morning light, clean background, room on the left for a headline",
+ "what_youll_get": "A handful of image options in a minute or so, usually usable after a couple of tries.\n\nVideo and audio cost credits, and the free daily allowance won't get you far there.\n\nWe have not run our own test images for this review.",
+ "missing": [
+  "The free plan gives daily generations, but Adobe doesn't spell out the exact number on its product page. [CHECK]",
+  "Paid plans run on monthly credits that don't roll over. Video eats credits fast, so the headline numbers overstate how many clips you get.",
+  "Only Adobe's own models are pitched as commercially safe. Partner models from Google, OpenAI, and others are in the app too, so check which one you used before you put it in an ad.",
+  "If you want quick flyers and posts with text and layout, Canva is the easier tool.",
+  "If you want the best-looking pure images and don't care about the Adobe ecosystem, Midjourney is stronger."
+ ],
+ "verdict": "Firefly is a solid, safe choice for business images, especially if you already pay for Adobe.\n\nThe free plan is enough to try it. Standard at $9.99 a month is cheap if you mostly make images, since standard image work doesn't spend credits on paid plans.\n\nDon't buy a plan for video until you've done the credit math.",
+ "price_free": "Free plan with free daily generations for images, video, and audio, per Adobe's Firefly page. Exact daily limit not stated there [CHECK].",
+ "price_paid": "Firefly Standard $9.99/month (2,000 credits), Pro $19.99/month (4,000 credits), Pro Plus $49.99/month (10,000 credits), Premium $199.99/month (50,000 credits). Prices as reported from Adobe's US plans page in mid-November 2026 [CHECK at checkout].",
+ "when_to_use": "* You need fresh images for posts, ads, or your website and want low legal risk.\n* You already use Photoshop, Illustrator, Premiere, or Adobe Express.\n* You need to clean up or resize photos you already have.\n* You want images, short clips, and sound effects in one place.",
+ "when_to_skip": "* You only need an image now and then. The free plan or Microsoft Designer may be enough.\n* You need flyers and posts with lots of text and layout. Canva is better for that.\n* You want lots of AI video on a small budget. The credits run out fast.",
+ "missing_text": "Here's how the money works.\n\nAdobe sells Firefly as a monthly plan with a pile of generative credits. Credits reset each billing cycle and don't roll over.\n\nPlan\tMonthly\tCredits a month\nFree\t$0\tFree daily generations\nStandard\t$9.99\t2,000\nPro\t$19.99\t4,000\nPro Plus\t$49.99\t10,000\nPremium\t$199.99\t50,000\n\nThe catches:\n\n* On paid plans, standard image work (Adobe's standard image models, Generative Fill, Generative Expand) reportedly doesn't spend credits. Video, audio, and partner models do. [CHECK]\n* One reviewer's math on Adobe's credit table: 1080p video costs about 100 credits a second, so Standard's 2,000 credits make roughly four 5-second 1080p clips. [CHECK]\n* Adobe says it won't charge for extra credits unless you choose to buy an add-on.\n* Prices above come from third-party reports of Adobe's plans page. Confirm on adobe.com before you buy.\n\nBottom line: Start free. Move to Standard only if you hit the daily limit on images.",
+ "privacy": "Adobe says it does not train Firefly models or partner models on Creative Cloud subscribers' personal content, and that Firefly models never train on what you create or upload.\n\nFirefly outputs carry Content Credentials, a tag that shows AI was used to make the file.\n\nDon't upload confidential client material without reading Adobe's terms first.",
+ "alternatives": "* Canva AI — Easier for flyers and social posts with text and layout.\n* Midjourney — Better-looking pure images, but no free plan and public by default.\n* Microsoft Designer — Free option if you only need images now and then."
+}

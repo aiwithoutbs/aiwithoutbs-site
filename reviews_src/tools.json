@@ -107,5 +107,14 @@
    "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
    "https://docs.midjourney.com/hc/en-us/articles/27870399340173-Free-Trials"
   ]
+ },
+ {
+  "slug": "adobe-firefly",
+  "name": "Adobe Firefly",
+  "official_url": "https://www.adobe.com/products/firefly.html",
+  "price_sources": [
+   "https://www.adobe.com/products/firefly/plans.html",
+   "https://www.adobe.com/products/firefly.html"
+  ]
  }
 ]
