@@ -1,0 +1,33 @@
+{
+ "verdict_tier": "Badass",
+ "last_checked": "Nov 17, 2026",
+ "date_iso": "2026-11-17",
+ "title": "DeepL Review (2026): Honest Take for Small Business",
+ "meta_description": "Plain-English DeepL review for small business owners: what it translates, what the free plan and paid plans get you, the file limits, and the catches.",
+ "summary": "DeepL translates text and whole documents between languages, and it's known for translations that read like a person wrote them. There's a free version, and paid plans start around $8.74 a month billed yearly. If you deal with customers, suppliers, or contracts in another language, it does that one job really well.",
+ "one_liner": "A translator for text and documents that reads like a human wrote it.",
+ "why_care": "If you've got Spanish-speaking customers, a supplier overseas, or a contract in another language, you need a translation you can trust more than a quick copy-paste into a free box.\n\nDeepL handles text, Word and PDF files, and it can match a formal or casual tone. Paid plans don't use your text to train its AI.\n\nIf you never deal with another language, skip it.",
+ "good_for": [
+  "Translate a customer email and write back in their language.",
+  "Translate a supplier contract or quote so you know what you're signing.",
+  "Put your flyer, menu, or price sheet in Spanish without hiring a translator for a first draft.",
+  "Translate a whole Word or PDF file and keep the layout.",
+  "Keep your business terms consistent with a glossary."
+ ],
+ "how_to_use": "Step 1: Go to deepl.com and paste in your text. You can start without paying.\n\nStep 2: Pick the language you want. If the option shows, set the tone to formal for customers and contracts.\n\nStep 3: Read it once. For anything legal or money-related, have a native speaker check it before you send it.\n\nReady-to-paste test: take your last customer email, paste it in, translate it to Spanish, then translate the result back to English and see what changed.",
+ "what_youll_get": "A translation in seconds that usually reads naturally enough to send for everyday email.\n\nFor contracts or anything with legal weight, treat it as a strong first draft, not a final answer.\n\nWe have not run our own translation tests for this review.",
+ "missing": [
+  "The free version caps you at 50,000 characters a month and 1 file translation.",
+  "Individual gives only 3 file translations a month.",
+  "Write Pro, its rewriting tool, costs extra on Individual and Team.",
+  "The developer API is a separate plan."
+ ],
+ "verdict": "DeepL does one job, translation, and it's the one we'd point at it.\n\nStart free. Pay for Individual only if you hit the character cap or need your text kept out of AI training.\n\nFor contracts, still get a human to check before you sign.",
+ "price_free": "Free version with 50,000 characters a month, 1 file translation a month (up to 5 MB), and 1 glossary, per DeepL's plans page.",
+ "price_paid": "Individual $8.74/month billed yearly or $10.49 monthly (300,000 characters, 3 files). Team $28.74/user/month yearly or $34.49 monthly. Business $57.49/user/month yearly or $68.99 monthly. Enterprise is custom. US prices from third-party reports of DeepL's plans page, Nov 2026 [CHECK at checkout].",
+ "when_to_use": "* You get emails, quotes, or contracts in another language.\n* You serve customers who'd rather read Spanish or another language.\n* You need whole documents translated and want the formatting kept.\n* You want business data kept out of AI training (paid plans).",
+ "when_to_skip": "* You never deal with another language.\n* You need a certified or legal translation. DeepL isn't that.\n* You mostly need writing help in English. ChatGPT or Claude covers that.",
+ "missing_text": "Here's how the money works.\n\nPlan\tYearly (per month)\tMonthly\tCharacters a month\tFiles a month\nFree\t$0\t$0\t50,000\t1\nIndividual\t$8.74\t$10.49\t300,000\t3\nTeam\t$28.74/user\t$34.49/user\t1,000,000/user\t20/user\nBusiness\t$57.49/user\t$68.99/user\tUnlimited (fair use)\t100/user\n\nThe catches:\n\n* File limits are small on the cheap plans. Three files a month on Individual goes fast.\n* Write Pro is a paid add-on on Individual and Team. It's included on Business.\n* The API for developers is a separate purchase. Pro plans don't include it.\n* DeepL says Individual and Team come with a free trial, but not if you've had a DeepL trial before.\n* US dollar prices above come from third-party reports. DeepL's own page showed euros when we checked. Confirm before you buy.\n\nBottom line: Start free. Move to Individual if you need privacy or more room.",
+ "privacy": "DeepL says that for Pro subscribers it stores your text only as long as needed to translate it, deletes it afterward, and never uses it to train its AI. It lists ISO 27001 and SOC 2 Type 2 certification.\n\nThe free version may use your text to improve the service, per a third-party pricing guide [CHECK]. Don't paste client contracts or private data into the free version.",
+ "alternatives": "* Google Translate — Free and fine for a quick gist.\n* ChatGPT or Claude — Can translate and rewrite in the same step, but aren't built for document layouts.\n* A human translator — Still the answer for certified or legal documents."
+}

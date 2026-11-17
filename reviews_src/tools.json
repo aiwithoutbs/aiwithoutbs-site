@@ -116,5 +116,14 @@
    "https://www.adobe.com/products/firefly/plans.html",
    "https://www.adobe.com/products/firefly.html"
   ]
+ },
+ {
+  "slug": "deepl",
+  "name": "DeepL",
+  "official_url": "https://www.deepl.com/",
+  "price_sources": [
+   "https://www.deepl.com/en/pro",
+   "https://www.deepl.com/en/pro#compare"
+  ]
  }
 ]
