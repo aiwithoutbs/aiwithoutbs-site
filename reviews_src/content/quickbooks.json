@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 18, 2026",
+ "date_iso": "2026-11-18",
+ "title": "QuickBooks AI (Intuit Assist) Review (2026): Honest Take",
+ "meta_description": "Plain-English review of the AI built into QuickBooks Online for small business owners: what it does, which plans get which AI, prices, and the catches.",
+ "summary": "QuickBooks Online now comes with AI built in, which Intuit calls Intuit Intelligence (you may know it as Intuit Assist). It sorts expenses, chases invoices, and answers questions about your numbers. Good if you already run your books in QuickBooks. Not a reason to switch by itself.",
+ "one_liner": "The AI bookkeeping help built into QuickBooks Online.",
+ "why_care": "If you already keep your books in QuickBooks, the AI is in there whether you use it or not. It learns how you sort expenses, drafts invoice reminders, and lets you ask questions about your reports in plain English.\n\nYou and your accountant still approve what it does. Intuit says it never replaces your accountant.\n\nIf you don't use QuickBooks and aren't shopping for bookkeeping software, skip it.",
+ "good_for": [
+  "Sort bank and card transactions into the right categories without doing every one by hand.",
+  "Send polite invoice reminders it drafts for you so you get paid faster.",
+  "Ask \"what did I spend on supplies last quarter?\" instead of building a report.",
+  "Flag likely tax deductions and estimate quarterly tax payments (Essentials and up).",
+  "Catch odd transactions and sales tax problems before you file (Plus and up)."
+ ],
+ "how_to_use": "Step 1: Log in to QuickBooks Online and open the AI chat (Intuit lists AI Chat on Simple Start and up, marked beta with limited capacity).\n\nStep 2: Paste this: \"Show me my top 5 expense categories for the last 90 days and anything that looks unusual compared to the 90 days before.\"\n\nStep 3: Click into anything it flags and check the actual transactions before you change a thing.",
+ "what_youll_get": "Faster sorting of routine transactions and a quick read on your numbers without digging through reports.\n\nExpect to correct it early on while it learns your patterns. Several of the features are labeled beta.\n\nWe have not run our own tests for this review.",
+ "missing": [
+  "The best AI (auto-reconciling, anomaly checks, Sales Tax AI, Customer AI) starts on Plus at $140 a month list price.",
+  "AI Chat on the cheaper plans is beta with limited capacity.",
+  "The 70% off deal only lasts 3 months. Budget for the full price.",
+  "QuickBooks Free has no mobile app or third-party integrations.",
+  "If you just want answers about a spreadsheet, ChatGPT or Claude can do that without switching software."
+ ],
+ "verdict": "Useful if you already live in QuickBooks. Turn it on and let it sort the boring stuff.\n\nDon't move your books or jump to Plus just for the AI. Your accountant still signs off.",
+ "price_free": "QuickBooks Free is $0/month with no credit card, but has no mobile app or third-party integrations, per Intuit's pricing page. Which AI features it includes isn't listed [CHECK]. Paid plans offer a 30-day trial window for phone support.",
+ "price_paid": "List prices per month: Simple Start $38 (1 user), Essentials $85 (3 users), Plus $140 (5 users), Advanced $340 (25 users). Intuit was showing 70% off for the first 3 months ($11.40 / $25.50 / $42 / $102) on Nov 18, 2026. Confirm at checkout.",
+ "when_to_use": "* You already do your books in QuickBooks Online.\n* You spend hours a month sorting transactions or chasing invoices.\n* You want quick answers about your numbers without building reports.\n* Your accountant already works in QuickBooks.",
+ "when_to_skip": "* You don't use QuickBooks and aren't switching accounting software.\n* You're on QuickBooks Desktop. This review covers QuickBooks Online.\n* You'd only pay for Plus to get the AI. That's a lot of money for a beta feature set.",
+ "missing_text": "Here's how the money works.\n\nPlan\tList price a month\tFirst 3 months (sale)\tUsers\tAI highlights\nFree\t$0\t$0\t[CHECK]\tNot listed\nSimple Start\t$38\t$11.40\t1\tAI Chat (beta), auto-categorizing, deduction finder\nEssentials\t$85\t$25.50\t3\tAccounting AI, Payments AI, Business Tax AI\nPlus\t$140\t$42\t5\tAuto-reconcile, Sales Tax AI, Customer AI, anomaly checks\nAdvanced\t$340\t$102\t25\tProject Management AI, Finance AI\n\nThe catches:\n\n* The sale price ends after 3 months.\n* A lot of the AI is marked beta or new.\n* The features that save the most time sit on the higher plans.\n* ACH bill pay costs $0.50 per standard transaction past your monthly allotment.\n\nBottom line: Use the AI in the plan you already have. Upgrade for your books, not for the AI.",
+ "privacy": "Intuit says you and your accountant stay in control: you review and edit AI-drafted messages, estimates, reminders, and bills, and you decide on its suggested fixes.\n\nWe did not review Intuit's data and AI training policy for this review [CHECK]. Read it before you connect client or payroll data.",
+ "alternatives": "* Xero — Another cloud bookkeeping option if you're choosing from scratch [CHECK pricing].\n* ChatGPT or Claude — Can explain an exported report, but don't touch your books.\n* Your accountant — Still the one who should sign off on taxes."
+}

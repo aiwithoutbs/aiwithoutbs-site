@@ -125,5 +125,14 @@
    "https://www.deepl.com/en/pro",
    "https://www.deepl.com/en/pro#compare"
   ]
+ },
+ {
+  "slug": "quickbooks",
+  "name": "QuickBooks (Intuit Assist)",
+  "official_url": "https://quickbooks.intuit.com/",
+  "price_sources": [
+   "https://quickbooks.intuit.com/pricing/",
+   "https://quickbooks.intuit.com/ai-accounting/"
+  ]
  }
 ]
