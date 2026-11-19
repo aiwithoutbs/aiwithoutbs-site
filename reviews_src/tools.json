@@ -134,5 +134,14 @@
    "https://quickbooks.intuit.com/pricing/",
    "https://quickbooks.intuit.com/ai-accounting/"
   ]
+ },
+ {
+  "slug": "tidio",
+  "name": "Tidio",
+  "official_url": "https://www.tidio.com/",
+  "price_sources": [
+   "https://www.tidio.com/pricing/",
+   "https://www.tidio.com/lyro/"
+  ]
  }
 ]

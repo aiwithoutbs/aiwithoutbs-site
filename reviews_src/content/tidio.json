@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 19, 2026",
+ "date_iso": "2026-11-19",
+ "title": "Tidio Review (2026): AI Chat for Small Business Sites",
+ "meta_description": "Plain-English Tidio review for small business owners: what its Lyro AI chat agent does, what it costs, the conversation limits, and the catches.",
+ "summary": "Tidio puts a chat box on your website, and its Lyro AI agent answers customer questions from your own content, then hands the hard ones to you. Worth a look if your phone and inbox fill up with the same five questions. Watch the conversation limits.",
+ "one_liner": "Website live chat with an AI agent that answers customers for you.",
+ "why_care": "If customers keep asking the same questions (hours, shipping, pricing, returns), Lyro can answer them on your site and by email while you're busy or asleep. It learns from your website, FAQ, and product catalog, and hands off to a human when it should.\n\nIf you don't get many customer questions online, skip it.",
+ "good_for": [
+  "Answer \"what are your hours?\" and \"do you ship to Texas?\" at 2 AM without you.",
+  "Reply to routine customer emails, not just website chat (Lyro for emails is on Starter and up).",
+  "Hand tricky or high-value customers to you with handoff rules you set.",
+  "Recommend products from your store catalog in the chat.",
+  "Keep chat, email, and social messages in one inbox for a small team."
+ ],
+ "how_to_use": "Step 1: Sign up at tidio.com. Tidio says no credit card is needed, and you get a 7-day trial plus 50 one-time free Lyro conversations.\n\nStep 2: Point Lyro at your website and FAQ so it learns from your own content, then add the chat widget to your site.\n\nStep 3: Open the chat yourself and ask it your 5 most common customer questions. Fix any answer it gets wrong before real customers see it.",
+ "what_youll_get": "A chat box that can answer your routine questions around the clock and pass the rest to you or your team.\n\nTidio says Lyro only answers from the content you give it, so it's only as good as your FAQ. We have not run our own tests for this review.",
+ "missing": [
+  "Every plan has a monthly cap on conversations, and AI and human chats share the same cap. Starter is 50 a month.",
+  "Automatic upgrades can bump you to the next tier (and its price) when you hit 95% of your limit. Check that setting at checkout.",
+  "The 50 free Lyro conversations are one-time. They don't renew.",
+  "Removing \"Powered by Tidio\" costs $20 a month extra. Help Center, Flows, and Voice are paid add-ons too.",
+  "Tidio's 70% resolution claim is for the Plus plan, which starts at $300 a month. Don't expect that on Starter."
+ ],
+ "verdict": "Worth setting up if the same customer questions eat your day. Load your FAQ first and watch the conversation cap.\n\nDon't buy it for a website nobody chats on.",
+ "price_free": "Free plan: 50 human conversations and 100 Flows visitors a month, plus a one-time 50 Lyro AI conversations, per Tidio's pricing page. Paid plans have a 7-day free trial with no credit card.",
+ "price_paid": "Billed annually: Starter $33/mo ($390/yr, 50 conversations), Growth from $63/mo ($750/yr, 100 conversations, up to 1,000), Plus from $300/mo plus usage, Premium by quote. Month-to-month prices weren't on the page we read [CHECK]. Checked Nov 19, 2026.",
+ "when_to_use": "* Customers ask you the same questions over and over.\n* You get website or email questions after hours.\n* You run an online store (Tidio lists native Shopify actions on Growth).\n* You have a decent FAQ or can write one.",
+ "when_to_skip": "* Your website gets few visitors or almost no chats.\n* Your customers call, they don't type.\n* Every question needs a custom quote or a judgment call.",
+ "missing_text": "Here's how the money works.\n\nPlan\tPrice (billed yearly)\tConversations a month\tAI\nFree\t$0\t50 human, plus 50 Lyro one-time\tTrial only\nStarter\t$33/mo ($390/yr)\t50\tLyro for chat and email\nGrowth\tFrom $63/mo ($750/yr)\t100 to 1,000\tLyro plus routing, Shopify actions\nPlus\tFrom $300/mo plus usage\tCustom\tMore Lyro tools, success manager\nPremium\tQuote\tCustom\tFrom 3,000 Lyro conversations\n\nAdd-ons: Flows $24/mo, Inbox AI from $8/mo, Help Center $10/mo, Voice $16/mo, No Tidio branding $20/mo.\n\nThe catches:\n\n* AI and human chats count against the same monthly cap.\n* A conversation counts once your team or Lyro replies, no matter how many messages.\n* Add-ons stack up fast.\n\nBottom line: Start on the free plan and the trial, count how many chats you actually get, then pick the smallest tier that fits.",
+ "privacy": "Tidio says Lyro works only from the content and guidance you give it, and you can watch conversations live and jump in anytime.\n\nWe did not review Tidio's data and AI training policy for this review [CHECK]. Read it before you let it handle customer account or payment questions.",
+ "alternatives": "* Intercom Fin — Another AI support agent, aimed at bigger support teams [CHECK pricing].\n* A good FAQ page — Free, and it may cut your questions on its own.\n* ChatGPT or Claude — Can help you write that FAQ, but won't sit on your website and answer customers."
+}
