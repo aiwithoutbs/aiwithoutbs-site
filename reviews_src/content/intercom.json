@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 20, 2026",
+ "date_iso": "2026-11-20",
+ "title": "Intercom Fin Review (2026): AI Support Agent, Pay Per Answer",
+ "meta_description": "Plain-English Intercom Fin review for small business owners: what the Fin AI agent does, how the $0.99-per-outcome pricing works, and the catches.",
+ "summary": "Fin is Intercom's AI agent that answers customer questions by chat, email, and more, and you pay $0.99 each time it actually solves one. Strong tool, built for real support teams. For a small shop, the per-answer bill plus seats adds up.",
+ "one_liner": "An AI support agent that answers customers and charges per problem solved.",
+ "why_care": "If customer questions pile up faster than you can answer them, Fin can take the routine ones on chat, email, and other channels, then hand the rest to a person. You only pay when it gets the job done, and you can set a monthly spending limit.\n\nIf you get a handful of customer questions a week, skip it.",
+ "good_for": [
+  "Answer the same \"where's my order?\" and \"how do I reset my password?\" questions around the clock.",
+  "Handle customer email and website chat from one place, with handoff to you when it can't help.",
+  "Plug into the helpdesk you already have (Intercom lists Zendesk, Freshdesk, and Salesforce) without switching.",
+  "Set a hard monthly spending cap so the AI bill can't run away from you.",
+  "Give a growing support team one shared inbox, ticketing, and a help center (Intercom helpdesk plans)."
+ ],
+ "how_to_use": "Step 1: Start the free 14-day trial at fin.ai or intercom.com/pricing. Add-ons are included in the trial, per Intercom.\n\nStep 2: Feed Fin your help articles or FAQ, connect your website chat or support email, and set your monthly spending limit right away.\n\nStep 3: Ask it your 10 most common customer questions yourself. Fix any wrong answer before real customers see it.",
+ "what_youll_get": "An AI agent that answers routine questions and passes the hard ones to you or your team. Each solved conversation costs $0.99, charged once per conversation at most.\n\nIntercom publishes big resolution numbers from big customers. Those aren't your numbers. We have not run our own tests for this review.",
+ "missing": [
+  "No free plan. After the 14-day trial you pay per seat plus $0.99 per Fin outcome.",
+  "The $19 Essential seat is a new-customer price (normally $29). Check what it renews at [CHECK].",
+  "An \"outcome\" also counts when the customer just doesn't ask for more help after Fin answers. That's not the same as a happy customer.",
+  "Fin with another helpdesk has a minimum monthly commitment (Intercom's example: 50 outcomes).",
+  "Extras cost extra: Copilot is $29 per agent a month, Pro from $100 a month, phone answering is $1.99 per voice outcome through sales."
+ ],
+ "verdict": "A serious support agent with fair pay-for-results pricing. Worth it once your support volume is real. A small shop with a few chats a day can start cheaper with Tidio.",
+ "price_free": "No free plan. Free 14-day trial, per Intercom's Fin pricing page. Startups with under $10M raised and 15 or fewer employees can apply for a steep first-year discount.",
+ "price_paid": "Fin AI Agent: $0.99 per outcome, at most once per conversation. Intercom helpdesk seats (billed yearly): Essential $19/seat/mo for new customers (list $29), Advanced $85, Expert $132. Month-to-month prices weren't captured [CHECK]. Checked Nov 20, 2026.",
+ "when_to_use": "* Customer questions eat hours of your week.\n* You already use a helpdesk like Zendesk or Freshdesk and want AI on top.\n* You have solid help articles or an FAQ it can learn from.\n* You want to pay only when the AI actually solves something.",
+ "when_to_skip": "* You get only a few customer questions a week.\n* Your customers mostly call instead of typing.\n* You have no FAQ or help articles to feed it yet.\n* You want a flat, predictable monthly bill with no per-answer charges.",
+ "missing_text": "Here's how the money works.\n\nPiece\tPrice\tWhat you get\nFin AI Agent\t$0.99 per outcome\tAI answers on chat, email, and more\nEssential seat\t$19/seat/mo yearly (new customers; list $29)\tInbox, ticketing, help center, Messenger\nAdvanced seat\t$85/seat/mo yearly\tWorkflows, multiple inboxes, 20 free Lite seats\nExpert seat\t$132/seat/mo yearly\tSSO, HIPAA support, SLAs, 50 free Lite seats\nFin Voice\t$1.99 per voice outcome\tThrough sales\n\nAdd-ons: Copilot $29 per agent/mo, Pro from $100/mo, Proactive Support Plus $99/mo.\n\nThe catches:\n\n* You pay nothing if Fin can't answer or the customer asks for a human, per Intercom.\n* An outcome also counts if the customer simply doesn't ask for more help.\n* Using Fin on another helpdesk has a monthly minimum.\n\nBottom line: Set a spending limit on day one, run the trial on real questions, then do the math against your actual monthly chat count.",
+ "privacy": "Intercom says you can set spending limits and alerts, and Fin hands off to a person when asked.\n\nWe did not review Intercom's data and AI training policy for this review [CHECK]. Read it before you let Fin handle customer account or payment questions.",
+ "alternatives": "* Tidio — Cheaper website chat with its Lyro AI agent and a free plan. Better fit for a small shop. Read our Tidio review.\n* A good FAQ page — Free, and it may cut your questions on its own.\n* ChatGPT or Claude — Can help you write that FAQ, but won't answer customers on your site."
+}

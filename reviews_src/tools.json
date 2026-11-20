@@ -143,5 +143,14 @@
    "https://www.tidio.com/pricing/",
    "https://www.tidio.com/lyro/"
   ]
+ },
+ {
+  "slug": "intercom",
+  "name": "Intercom Fin",
+  "official_url": "https://www.intercom.com/",
+  "price_sources": [
+   "https://www.intercom.com/pricing",
+   "https://fin.ai/pricing"
+  ]
  }
 ]
