@@ -152,5 +152,14 @@
    "https://www.intercom.com/pricing",
    "https://fin.ai/pricing"
   ]
+ },
+ {
+  "slug": "calendly",
+  "name": "Calendly",
+  "official_url": "https://calendly.com/",
+  "price_sources": [
+   "https://calendly.com/pricing",
+   "https://calendly.com/features"
+  ]
  }
 ]

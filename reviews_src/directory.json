@@ -396,10 +396,10 @@
    "productivity",
    "meetings/notes"
   ],
-  "free_tier": null,
-  "paid_from": "$10/seat/mo (Standard)",
+  "free_tier": true,
+  "paid_from": "$10/seat/mo (Standard, yearly)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-21",
   "why": "Stop the back-and-forth emails to set meetings."
  },
  {

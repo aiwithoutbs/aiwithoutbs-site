@@ -1,0 +1,35 @@
+{
+ "verdict_tier": "Badass",
+ "last_checked": "Nov 21, 2026",
+ "date_iso": "2026-11-21",
+ "title": "Calendly Review (2026): Booking Links, Notetaker, and Callie",
+ "meta_description": "Plain-English Calendly review for small business owners: what the free plan does, what Standard and Teams cost, and whether the new AI add-ons are worth it.",
+ "summary": "Calendly kills the \"does Tuesday work?\" email chain. Send a link, they pick a time, it lands on your calendar. The free plan covers one meeting type. The new AI pieces (Notetaker and Callie) cost extra.",
+ "one_liner": "A booking link that lets people grab open time on your calendar.",
+ "why_care": "Every \"how about Thursday at 2?\" email you send is time you don't bill. Calendly checks your calendar, shows only the times you're free, and books the meeting for you, reminders included.\n\nIf you take two meetings a month, skip it.",
+ "good_for": [
+  "Put a \"book a call\" link on your website, email signature, or LinkedIn so leads schedule themselves.",
+  "Stop double bookings by connecting your Google or Outlook calendars.",
+  "Send automatic reminders before meetings to cut down on no-shows (paid plans).",
+  "Take a deposit or payment at booking through Stripe or PayPal (paid plans).",
+  "Split incoming sales calls between teammates automatically (Teams plan).",
+  "Get a meeting recap and a drafted follow-up email from Zoom, Google Meet, or Teams calls (Notetaker, paid add-on)."
+ ],
+ "how_to_use": "Step 1: Sign up free at calendly.com and connect your Google or Outlook calendar.\n\nStep 2: Set your hours and add a 15-minute buffer between meetings (a buffer is a cushion of free time so calls don't run back to back).\n\nStep 3: Copy your booking link into your email signature. Next time someone asks \"when are you free?\", send the link instead.",
+ "what_youll_get": "A booking page where people pick an open time and the meeting shows up on your calendar, no back-and-forth. Paying unlocks reminders, more meeting types, and payments.\n\nCalendly publishes customer quotes about time saved. Those aren't your numbers. We have not run our own tests for this review.",
+ "missing": [
+  "Free plan is thin: one meeting type and one calendar connection.",
+  "Reminders, payments, and HubSpot or Mailchimp hookups start on Standard at $10 a seat a month billed yearly ($12 monthly).",
+  "The AI pieces are extra. Notetaker and Callie come in Standard Plus ($18 yearly, $24 monthly) or Teams Plus ($24 yearly, $32 monthly).",
+  "Notetaker and Callie work in English only, and Callie is still labeled beta.",
+  "Already paying for Zoom or Otter.ai to take meeting notes? You may not need Notetaker. Read our Otter.ai review."
+ ],
+ "verdict": "Does one job really well: it ends the scheduling email chain. Start free, pay for Standard when you need reminders, and skip the AI add-on unless you don't already have a notetaker.",
+ "price_free": "Free forever plan: one meeting type, one calendar connection, one-on-one scheduling, a booking page, and the browser extension. Paid plans come with a 14-day trial, then drop you back to Free automatically, per Calendly.",
+ "price_paid": "Per seat per month (only the host needs a seat; the people booking don't): Standard $10 yearly / $12 monthly. Standard Plus (adds Notetaker and Callie) $18 / $24. Teams $16 / $20. Teams Plus $24 / $32. Enterprise starts at $15,000 a year for 50 seats. Checked Nov 21, 2026.",
+ "when_to_use": "* You book calls, consults, or estimates every week.\n* Leads find you online and you want them to book without waiting on you.\n* You want deposits or payments taken at booking.\n* No-shows cost you money and you want automatic reminders.",
+ "when_to_skip": "* You only set a few meetings a month.\n* Your customers would rather call than click a link.\n* Your calendar already has a free booking page you're happy with [CHECK: Google Calendar and Microsoft Bookings offer one on some plans].\n* You only want AI meeting notes. A dedicated notetaker may fit better.",
+ "missing_text": "Here's how the money works.\n\nPlan\tPrice per seat/mo (yearly / monthly)\tWhat you get\nFree\t$0\tOne meeting type, one calendar, booking page\nStandard\t$10 / $12\tUnlimited meeting types, multiple calendars, reminders, Stripe and PayPal\nStandard Plus\t$18 / $24\tStandard plus Notetaker and Callie\nTeams\t$16 / $20\tRound-robin, lead routing forms, Salesforce\nTeams Plus\t$24 / $32\tTeams plus Notetaker and Callie\nEnterprise\tFrom $15k/yr\t50+ seats, SSO, audit logs\n\nThe catches:\n\n* Only hosts need a seat. The people booking with you don't pay or need an account.\n* The AI add-ons are English only, and Callie is in beta.\n* Yearly billing saves up to 20%, per Calendly. You pay a year up front.\n\nBottom line: Start free. Upgrade to Standard the day you want reminders or payments. Only pay for Plus if you don't already have something taking meeting notes.",
+ "privacy": "Calendly lists data deletion tools, and SSO (single sign-on, one company login for everything) on Teams as an add-on and Enterprise.\n\nWe did not review Calendly's data and AI training policy for this review [CHECK]. Read it before you let Notetaker record calls with clients.",
+ "alternatives": "* Otter.ai — If all you want is AI meeting notes, not scheduling. Read our Otter.ai review.\n* Google Calendar booking pages or Microsoft Bookings — May already come with your email plan [CHECK].\n* Zapier — Can push new Calendly bookings into your other apps. Read our Zapier AI review."
+}
