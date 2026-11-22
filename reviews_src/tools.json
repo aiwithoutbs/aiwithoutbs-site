@@ -161,5 +161,14 @@
    "https://calendly.com/pricing",
    "https://calendly.com/features"
   ]
+ },
+ {
+  "slug": "loom",
+  "name": "Loom",
+  "official_url": "https://www.loom.com/",
+  "price_sources": [
+   "https://www.loom.com/pricing",
+   "https://www.loom.com/ai"
+  ]
  }
 ]
