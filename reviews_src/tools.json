@@ -170,5 +170,17 @@
    "https://www.loom.com/pricing",
    "https://www.loom.com/ai"
   ]
+ },
+ {
+  "slug": "capcut",
+  "name": "CapCut",
+  "official_url": "https://www.capcut.com/",
+  "price_sources": [
+   "https://www.capcut.com/pricing",
+   "https://www.capcut.com/tools/desktop-video-editor",
+   "https://www.capcut.com/tools/auto-caption-generator",
+   "https://www.capcut.com/clause/terms-of-service",
+   "https://www.capcut.com/clause/material-license-agreement"
+  ]
  }
 ]
