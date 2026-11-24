@@ -182,5 +182,15 @@
    "https://www.capcut.com/clause/terms-of-service",
    "https://www.capcut.com/clause/material-license-agreement"
   ]
+ },
+ {
+  "slug": "zoom-ai-companion",
+  "name": "Zoom AI Companion",
+  "official_url": "https://www.zoom.com/en/products/ai-assistant/",
+  "price_sources": [
+   "https://www.zoom.com/en/products/ai-assistant/",
+   "https://zoom.us/pricing",
+   "https://zoom.us/pricing/aic"
+  ]
  }
 ]

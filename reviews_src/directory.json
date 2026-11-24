@@ -654,15 +654,15 @@
   "name": "Zoom AI Companion",
   "slug": "zoom-ai-companion",
   "url": "https://www.zoom.com/en/products/ai-assistant/",
-  "what_its_for": "AI meeting assistant inside Zoom.",
+  "what_its_for": "AI meeting assistant inside Zoom (now branded ZoomMate).",
   "tags": [
    "meetings/notes",
    "productivity"
   ],
-  "free_tier": null,
-  "paid_from": "Included on paid Zoom plans; Workplace Pro $16.99/user/mo",
+  "free_tier": true,
+  "paid_from": "Summaries unlimited on Workplace Pro $16.99/user/mo ($14.16 yearly); ZoomMate add-on $20/user/mo",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-24",
   "why": "Get notes and summaries from Zoom calls without typing."
  },
  {

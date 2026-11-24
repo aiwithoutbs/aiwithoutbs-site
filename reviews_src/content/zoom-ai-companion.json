@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 24, 2026",
+ "date_iso": "2026-11-24",
+ "title": "Zoom AI Companion Review (2026): Free Limits, Pro Price",
+ "meta_description": "Plain-English review of Zoom's AI Companion, now called ZoomMate: what the free plan gives you, what Pro and the $20 ZoomMate add-on cost, and when to skip it.",
+ "summary": "Zoom's AI Companion, now branded ZoomMate on Zoom's own pages, writes meeting summaries and answers questions about your Zoom calls. The free plan gives you 3 summarized meetings a month. Zoom Pro ($16.99 a user a month, or $14.16 billed yearly) makes summaries unlimited. The full ZoomMate add-on, with agents and workflows, is another $20 a user a month and runs on credits.",
+ "one_liner": "Zoom's built-in AI that writes your meeting notes and answers questions about calls.",
+ "why_care": "If your sales calls, client check-ins, and team meetings already happen on Zoom, this writes the recap so you don't have to. On a paid Pro plan, meeting summaries are unlimited at no extra charge.\n\nIf you don't run your meetings on Zoom, skip it.",
+ "good_for": [
+  "Get a written recap of a client call, with next steps, without taking notes yourself.",
+  "Join late and ask \"What did I miss?\" during the meeting (in-meeting questions).",
+  "Take AI notes on a Google Meet or Teams call too, using My Notes (3 uses a month free, per Zoom).",
+  "Set your own summary format, like \"decisions, owners, deadlines\" (custom templates, 8 a month on Pro).",
+  "Draft a follow-up email or a slide deck from the meeting (ZoomMate add-on; results unverified)."
+ ],
+ "how_to_use": "Step 1: Sign in to Zoom and host a meeting. Free Basic accounts get summaries for 3 hosted meetings a month, per Zoom's pricing page.\n\nStep 2: Turn on the meeting summary from the AI Companion / ZoomMate control in the meeting [CHECK: the button label may have changed with the ZoomMate rename]. Tell everyone on the call that the AI is taking notes.\n\nStep 3: Near the end, ask it this, then compare the answer to what you heard:\n\nWhat did we agree to, who owns each next step, and by when?",
+ "what_youll_get": "A written summary of the meeting and answers to questions about what was said, inside Zoom. Treat it as a first draft: read it before you send it to a client.\n\nWe have not run our own tests for this review.",
+ "missing": [
+  "Free Basic is tight: summaries and in-meeting questions for 3 hosted meetings a month, 20 AI queries a month, and 40-minute meetings.",
+  "Zoom's pricing page says AI features don't apply to users with Basic permissions on paid accounts. Every person who needs the AI needs a paid license.",
+  "The agents, unlimited AI note-taking, deep research, and third-party workflows are in the ZoomMate add-on at $20 a user a month ($16.67 billed yearly), and AI actions use up credits (2,200 a user a month).",
+  "Zoom's \"Workflow Automation\" unlimited runs are a limited-time promo; Zoom says pricing and terms may change after it ends.",
+  "If your calls happen on Google Meet or Teams, a dedicated notetaker like Otter.ai fits better."
+ ],
+ "verdict": "If you already pay for Zoom Pro, the unlimited meeting summaries are a free win, so turn them on. The $20-a-user ZoomMate add-on is credit-metered agent stuff most small businesses don't need yet, which keeps this at \"It's alright.\"",
+ "price_free": "Zoom Workplace Basic, $0: meeting summaries and in-meeting questions for 3 hosted meetings a month, AI note-taking (My Notes) 3 uses a month, 20 AI queries a month, 40-minute meetings, up to 100 participants.",
+ "price_paid": "Listed in USD per user per month: Pro $16.99 billed monthly or $14.16 billed yearly (unlimited meeting summaries, 30-hour meetings, 10 GB cloud recording). Business $21.99 monthly or $18.33 yearly (300 participants). ZoomMate add-on $20.00 monthly or $16.67 yearly (2,200 AI credits a month, agents, workflows, deep research, live voice translation). Checked Nov 24, 2026.",
+ "when_to_use": "* Your meetings already run on Zoom.\n* You already pay for Zoom Pro or Business, so summaries cost nothing extra.\n* You forget to write down who promised what on calls.\n* You want one tool for meetings, chat, and notes instead of adding another app.",
+ "when_to_skip": "* Your meetings run on Google Meet or Teams.\n* You're on free Zoom and have more than 3 meetings a month worth summarizing. Pay for Pro or use a dedicated notetaker.\n* You don't want an AI listening to client calls, or your clients don't.\n* You're tempted by the ZoomMate add-on but don't have a real workflow for agents to run.",
+ "missing_text": "Here's how the money works, as listed on Zoom's pricing pages.\n\nPlan\tListed price (USD, per user per month)\tWhat you get for AI\nBasic\t$0\tSummaries for 3 hosted meetings a month, 20 AI queries, My Notes 3 uses\nPro\t$16.99 monthly / $14.16 yearly\tUnlimited meeting summaries and queries, 8 custom summary templates a month\nBusiness\t$21.99 monthly / $18.33 yearly\tSame AI as Pro, plus 300-person meetings\nZoomMate add-on\t$20.00 monthly / $16.67 yearly\t2,200 AI credits, unlimited AI notes, agents, workflows, deep research\n\nThe catches:\n\n* The ZoomMate add-on runs on credits. Zoom says some features don't use credits, but AI actions and agents do. Watch the meter.\n* Zoom's ZoomMate pricing page lists 40-minute, 100-person meetings under the ZoomMate plan, which suggests the add-on alone doesn't include Pro meetings [CHECK].\n* \"Billed yearly\" prices mean paying for the year up front.\n\nBottom line: If you're on Zoom Pro, use the summaries you already pay for. Hold off on the add-on until you can name the job you'd give it.",
+ "privacy": "ZoomMate connects to your meetings, chats, calendar, and apps like Google Drive, Salesforce, and Jira, per Zoom's product page, and it keeps a \"memory\" of your past interactions. Zoom says its answers are \"permission-aware.\"\n\nWe did not read Zoom's AI privacy terms for this review [CHECK: whether Zoom uses your meeting content to train AI, and how long it keeps it]. Let people know when the AI is taking notes, and keep confidential client calls out of it until you've read Zoom's terms.",
+ "alternatives": "* Otter.ai: If you want AI meeting notes that work across Zoom, Google Meet, and Teams. Read our Otter.ai review.\n* Microsoft Copilot: If your team lives in Teams and Microsoft 365. Read our Microsoft Copilot review.\n* Fathom: A free AI notetaker for calls [CHECK: not reviewed here]."
+}
