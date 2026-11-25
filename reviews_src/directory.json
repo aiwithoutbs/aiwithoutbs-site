@@ -683,15 +683,15 @@
   "name": "Mailchimp AI",
   "slug": "mailchimp-ai",
   "url": "https://mailchimp.com",
-  "what_its_for": "AI writing and design helper inside Mailchimp.",
+  "what_its_for": "AI writing and send-time helper inside Mailchimp (Intuit Assist).",
   "tags": [
    "marketing/social",
    "writing"
   ],
-  "free_tier": null,
-  "paid_from": "$13/mo (lowest plan shown)",
+  "free_tier": false,
+  "paid_from": "Generative AI on Standard and Premium only; price set by contact count",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-25",
   "why": "Draft email newsletters without starting from zero."
  },
  {

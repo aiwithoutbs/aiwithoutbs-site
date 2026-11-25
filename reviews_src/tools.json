@@ -192,5 +192,15 @@
    "https://zoom.us/pricing",
    "https://zoom.us/pricing/aic"
   ]
+ },
+ {
+  "slug": "mailchimp-ai",
+  "name": "Mailchimp AI",
+  "official_url": "https://mailchimp.com/features/content-optimizer/",
+  "price_sources": [
+   "https://mailchimp.com/pricing/marketing/",
+   "https://mailchimp.com/features/content-optimizer/",
+   "https://mailchimp.com/help/about-mailchimp-pricing-plans/"
+  ]
  }
 ]

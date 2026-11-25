@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 25, 2026",
+ "date_iso": "2026-11-25",
+ "title": "Mailchimp AI Review (2026): Which Plans Get It, Catches",
+ "meta_description": "Plain-English review of Mailchimp's AI (Intuit Assist): what it writes, which plans include it, what Free and Essentials miss, and when to skip it.",
+ "summary": "Mailchimp's AI, branded Intuit Assist, writes and rewrites email copy inside the editor, suggests send times, and builds pre-made automation flows. Per Mailchimp's pricing page, the generative AI features come only with the Standard and Premium plans, at no extra cost for now. Free and Essentials don't get them. Price depends on how many contacts you store.",
+ "one_liner": "AI inside Mailchimp that drafts your email copy and tells you when to send.",
+ "why_care": "If you already send a newsletter or promo emails through Mailchimp, the AI gets you past the blank page and picks a send time based on when your list actually clicks. If your store is connected, Mailchimp says it can also explain which campaigns are bringing in money.\n\nIf you don't do email marketing, or you're on Mailchimp's Free plan and plan to stay there, skip it.",
+ "good_for": [
+  "Draft this month's newsletter from a few bullet points with \"Write with AI\" in the email editor.",
+  "Rewrite a stiff promo email so it sounds like you.",
+  "Pick the day and time to send, based on when your own list has clicked over the past year (send time optimization).",
+  "Set up a welcome series or win-back emails from pre-built flows that come with AI-written drafts you review and edit.",
+  "Ask which campaigns actually brought in sales, if your online store is connected (Analytics AI; results unverified)."
+ ],
+ "how_to_use": "Step 1: Make sure you're on Standard or Premium. Per Mailchimp's pricing page, generative AI isn't included on Free or Essentials. Standard has a 14-day free trial, but you have to enter a card.\n\nStep 2: Open a new email in the editor and click \"Write with AI\" [CHECK: exact button location varies between the new and classic editor].\n\nStep 3: Paste this, then edit the result before you send:\n\nWrite a short, friendly email to my customers announcing [your offer] that ends [date]. Plain language, no hype, one clear button that says [your call to action]. Under 150 words.",
+ "what_youll_get": "A first draft of your email copy inside Mailchimp and a suggested send time. Expect to fix the tone and check every claim, price, and date before it goes to your list.\n\nWe have not run our own tests for this review.",
+ "missing": [
+  "No AI on the Free or Essentials plans. Per Mailchimp's pricing page, generative AI comes only with Standard and Premium.",
+  "Mailchimp's own fine print calls Intuit Assist a beta, available to certain users in select countries in English only, at no additional cost \"at this time.\" Pricing and terms can change.",
+  "Price climbs with your contact count, and unsubscribed contacts still count. Go over your limit and Mailchimp bills you for the overage.",
+  "Mailchimp's pricing page didn't show dollar amounts when we checked [CHECK: current Standard price for your contact count on mailchimp.com/pricing].",
+  "If you just need email copy, ChatGPT or Claude will write it for free, and you can paste it into any email tool."
+ ],
+ "verdict": "Handy if you already run your email on Mailchimp Standard, because the AI comes along at no extra cost for now. Nobody should pick Mailchimp, or move up a plan, just for the AI, which keeps it at \"It's alright.\"",
+ "price_free": "Free plan, $0: up to 250 contacts and 500 sends a month (250 a day), 1 seat. No generative AI features.",
+ "price_paid": "Essentials, Standard, and Premium are priced by contact count; Standard and Premium start at 500 and 10,000 contacts. Generative AI is a no-extra-cost add-on on Standard and Premium only. Dollar amounts not shown when checked Nov 25, 2026 [CHECK].",
+ "when_to_use": "* You already send emails to customers through Mailchimp.\n* You're on Standard or Premium, so the AI costs nothing extra right now.\n* You stare at a blank email every month and put off sending it.\n* You have an online store connected and want to know which emails bring in sales.",
+ "when_to_skip": "* You're on Free or Essentials and don't need anything else Standard offers.\n* You don't do email marketing.\n* Your list is big and your bill already stings. More contacts means a higher price.\n* You only need help writing. A free chatbot does that and works with any email tool.",
+ "missing_text": "Here's how the plans line up, per Mailchimp's pricing page and help center.\n\nPlan\tContacts\tGenerative AI\nFree\tUp to 250\tNot included\nEssentials\tStarts at 500, up to 50,000\tNot included\nStandard\tStarts at 500, up to 100,000\tIncluded, no extra cost for now\nPremium\tStarts at 10,000, up to 200,000\tIncluded, no extra cost for now\n\nThe catches:\n\n* Every plan above Free is priced by contact count. Unsubscribed contacts count too, so clean your list.\n* Go over your contact limit and Mailchimp adds an overage charge rather than stopping your emails.\n* The 14-day trial needs a card, and you're billed when it ends unless you cancel.\n* Mailchimp says the AI is a beta, \"subject to change without notice.\"\n\nBottom line: The AI is a nice extra on a Standard plan you'd want anyway. It isn't a reason to upgrade.",
+ "privacy": "Mailchimp says its recommendations are built on your own store's sales, campaigns, and customer behavior, and that it connects to ChatGPT, Claude, Perplexity, and Google Workspace.\n\nWe did not read Mailchimp's or Intuit's AI data terms for this review [CHECK: whether your customer list or email content is used to train AI]. Don't paste customer details you wouldn't put in a regular email into the AI prompt until you've read those terms.",
+ "alternatives": "* ChatGPT: If you only need the email written. Read our ChatGPT review.\n* Claude: If the wording has to be just right. Read our Claude review.\n* Klaviyo AI: An email and SMS platform built for online stores [CHECK: not reviewed here]."
+}
