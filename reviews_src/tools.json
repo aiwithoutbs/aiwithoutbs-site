@@ -202,5 +202,14 @@
    "https://mailchimp.com/features/content-optimizer/",
    "https://mailchimp.com/help/about-mailchimp-pricing-plans/"
   ]
+ },
+ {
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "official_url": "https://www.synthesia.io/features",
+  "price_sources": [
+   "https://www.synthesia.io/pricing",
+   "https://www.synthesia.io/features"
+  ]
  }
 ]

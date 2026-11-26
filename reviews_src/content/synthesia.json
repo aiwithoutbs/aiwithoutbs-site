@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 26, 2026",
+ "date_iso": "2026-11-26",
+ "title": "Synthesia Review (2026): AI Avatar Videos, Real Costs",
+ "meta_description": "Plain-English Synthesia review: what the AI avatar videos are good for, what the free plan gets you, how credits work, and when to skip it.",
+ "summary": "Synthesia turns a script, a slide deck, or a PDF into a video with an AI presenter reading it, so you never get on camera. It's free to try with a watermark. Paid plans start at $19 a month, and every video spends credits.",
+ "one_liner": "Type a script, and an AI presenter reads it on video for you.",
+ "why_care": "If you need training, onboarding, or how-to videos and hate being on camera, Synthesia gives you a presenter, a voice, and captions without a mic or a film crew. Synthesia says it can also translate a finished video into 140+ languages.\n\nIf you don't make videos to teach or explain something, skip it.",
+ "good_for": [
+  "Turn your new-hire checklist into a short onboarding video an AI presenter walks through.",
+  "Make a how-to video for customers (\"How to book with us\") from a script you already wrote.",
+  "Turn a slide deck, PDF, or web page into a draft video with the AI video assistant.",
+  "Translate a finished training video into Spanish or another language (Synthesia lists 140+).",
+  "Add quizzes or clickable buttons inside a training video (listed features; plan limits unverified)."
+ ],
+ "how_to_use": "Step 1: Sign up for the free Basic plan at synthesia.io. Synthesia's features page says no credit card is required.\n\nStep 2: Start a new video from a template, paste your script, and pick a stock avatar and voice [CHECK: exact menu names].\n\nStep 3: Use this script for a first test, then generate and watch the result:\n\nHi, I'm here to walk you through [your process] in under two minutes. Step one: [first step]. Step two: [second step]. Step three: [third step]. If you get stuck, call us at [your number].",
+ "what_youll_get": "A short video with a stock AI presenter reading your script, and a Synthesia watermark if you're on the free plan. Expect to fix pronunciation of names and local terms, and judge for yourself whether the presenter looks natural enough for your customers.\n\nWe have not run our own tests for this review.",
+ "missing": [
+  "Free videos carry a Synthesia watermark and the free allowance is 10 minutes of Studio video a month, per the pricing page.",
+  "Everything runs on credits. Run out and video creation pauses until your plan renews unless you buy more. Unused credits don't roll over.",
+  "No pay-per-video option. It's a monthly or yearly subscription, per Synthesia's FAQ.",
+  "A Studio-quality custom avatar of yourself is a $1,000-a-year add-on on annual plans; basic personal avatars come with paid plans.",
+  "If you're fine being on camera, a phone and a free editor like CapCut gets you a more personal video for $0."
+ ],
+ "verdict": "Does one job well: training and how-to videos without filming yourself. Most small businesses don't make enough of those to justify a subscription, which keeps it at \"It's alright.\"",
+ "price_free": "Basic, $0: 500 credits a month, 10 minutes of Studio video or dubbing, videos carry a Synthesia watermark. No credit card required, per Synthesia.",
+ "price_paid": "Starter: $19 a month ($9 the first month, per the pricing page), up to about 150 minutes of Studio video in credits. Pro comes in several credit levels [CHECK: Pro price]. Team listed at $99 a month for up to 5 editors, with a $79 price shown during a promotion when checked Nov 26, 2026 [CHECK].",
+ "when_to_use": "* You make training, onboarding, or how-to videos and hate being on camera.\n* You need the same video in more than one language.\n* You update your training often and want to edit text instead of reshooting.\n* You already have scripts or slide decks sitting around.",
+ "when_to_skip": "* You make one or two videos a year. Use the free plan or your phone.\n* Your customers buy from you because they know your face. A real you beats an avatar.\n* You need social clips and ads more than training. Look at CapCut or Canva first.\n* You don't want another monthly subscription that runs on credits.",
+ "missing_text": "Here's how the plans line up, per Synthesia's pricing page on Nov 26, 2026.\n\nPlan\tPrice\tWhat you get\nBasic\t$0\t10 min of Studio video a month, watermark\nStarter\t$19/month ($9 first month)\tUp to about 150 min of Studio video in credits, 125+ stock avatars\nPro\tSeveral credit levels [CHECK]\tUp to about 720 min of Studio video in credits, 180+ stock avatars\nTeam\t$99/month listed\tUp to 5 editors, shared credit pool\n\nThe catches:\n\n* Credits are one shared pool for video, dubbing, surveys, and AI b-roll. Synthesia says a typical finished minute of avatar video uses about 100 credits.\n* Credits reset every billing period. Extra credits you buy are good for 12 months.\n* Lip-synced dubbing costs 80 credits a minute, or 40 without lip-sync.\n* A Studio Express-1 avatar is $1,000 a year, annual plans only, and can take up to 10 days to process.\n\nBottom line: Start on the free plan. Pay only once you know you'll make videos every month.",
+ "privacy": "Synthesia says it applies content moderation to all videos. Making a personal avatar means recording your own face and voice.\n\nWe did not read Synthesia's data and likeness terms for this review [CHECK: how your face, voice, and scripts are stored and used]. Read them before you create an avatar of yourself or an employee.",
+ "alternatives": "* HeyGen: Another AI avatar video tool [CHECK: not reviewed here yet].\n* CapCut: If you'll film yourself and just need captions and quick edits. Read our CapCut review.\n* Loom: If a quick screen recording with your real voice does the job. Read our Loom review."
+}

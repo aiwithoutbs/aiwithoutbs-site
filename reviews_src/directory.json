@@ -450,15 +450,15 @@
   "name": "Synthesia",
   "slug": "synthesia",
   "url": "https://www.synthesia.io",
-  "what_its_for": "AI video tool that creates talking avatar videos.",
+  "what_its_for": "AI video tool: type a script and an AI presenter reads it on video.",
   "tags": [
    "video",
    "voice"
   ],
   "free_tier": true,
-  "paid_from": "$19/mo (Starter; first month $9)",
+  "paid_from": "$19/mo (Starter; $9 first month)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-26",
   "why": "Make training or explainer videos without filming yourself."
  },
  {
