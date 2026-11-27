@@ -1,7 +1,7 @@
 const NAME='AI without BS',API='https://api.resend.com';
 const ADMIN='Admin@anchorsenterprisemanagement.com';
 const PASSIVE='passive-stack';
-const GUIDE='https://cursor.com/canvas/store-5e71f174-5811-44b3-a366-d9f5f8708065/fcb27091-4b12-4819-9195-ee1729864033';
+const GUIDE='https://aiwithoutbs.net/passive-stack-guide';
 const DISCLOSURE='Straight talk: the guide includes one clearly labeled referral link (SurveySavvy). Everything else is plain, direct, and tested on real devices.';
 const h=()=>({Authorization:`Bearer ${process.env.RESEND_API_KEY}`,'Content-Type':'application/json'});
 function isDup(status,text){return status===409||/already exists/i.test(text||'');}
