@@ -11,7 +11,7 @@ _feath=""
 if _feat:
     fs,fn,fc=_feat
     _feath=f'''<div class="feature" id="featured"><div class="wrap grid"><div class="big">#{rank_no(fc["verdict_tier"])}<small>Top-ranked review</small></div><div><span class="label">Featured review · {H(fn)}</span><h2>{H(CARD.get(fs,fn))}</h2><p>{H(DEK.get(fs,fc["one_liner"]))}</p><div class="ctas">{badge(fc["verdict_tier"])}<a class="btn inv" href="/reviews/{fs}">Read the full review →</a></div></div></div></div>'''
-_home=f'''<aside class="stack-promo" aria-label="Passive income audit"><div class="wrap"><p><span class="label">2026 real-world audit</span> What pays cleanly (~$15–$37/month), and what to cut before it touches your home internet. <a href="/passive-stack">Read the stack →</a></p></div></aside><div class="wrap"><div class="cover"><div class="lead"><span class="label red">The cover story</span>
+_home=f'''<aside class="stack-promo" aria-label="Passive income audit"><div class="wrap"><p><a href="/passive-stack">Earn $180–$444/year ($0 out of pocket)</a></p></div></aside><div class="wrap"><div class="cover"><div class="lead"><span class="label red">The cover story</span>
 <h1>You've already done harder things. <i>Now make AI work for you.</i></h1>
 <p class="dek">Stop letting the jargon and the kids make you feel behind. You've got the judgment and the scars. We make the tools make sense and show you exactly how to point them so they do the work.</p>
 <div class="ctas"><a class="btn k" href="/directory">Browse the directory</a><a class="btn o" href="/reviews">Read the reviews</a><a class="btn o" href="/glossary">AI jargon, translated</a></div></div>
