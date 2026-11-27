@@ -156,16 +156,22 @@ test('the landing page, homepage promo, footer, and sitemap carry the audit', ()
   const required = [
     '2026 Passive Income App Stack — Real-World Audit | AIwithoutBS',
     'The real-world 2026 audit of passive income apps: what pays cleanly (~$15–$37/month), what to cut immediately, and the free interactive setup guide + AI maintenance prompt.',
-    '2026 REAL-WORLD AUDIT · $0 OUT OF POCKET · ZERO PROXY RISK',
-    'Earn $180–$444/Year Without Spending a Dime Out of Pocket',
-    'Big research companies (Nielsen, TVision, SavvyConnect, Google) pay you quietly in the background on the devices you already own. Set up in minutes—no shady proxy apps, no surveys, no hype. (~$15–$37/month; won\'t buy a boat, will pay a bill.)',
+    '2026 REAL-WORLD AUDIT · 100% FREE TO JOIN · COMPANIES PAY YOU',
+    'Get Paid $180–$444/Year — 100% Free, They Pay You',
+    'Real research companies pay you cash every month to keep passive measurement apps running in the background (~$15–$37/month paid directly to you via PayPal or gift cards — you never pay a dime).',
+    'Paid to you / mo',
+    'Your cost: $0',
+    'Cost to join: $0',
+    'The guide is 100% free. Companies pay you — you never pay a dime.',
+    'Send me the free guide',
+    'Open the free interactive guide',
     'Safe Core',
     '~$15/month',
-    '~$180/year',
+    '~$180/year paid to you',
     'Phone + Computer (Nielsen Pulse + SavvyConnect)',
     'Clean Ceiling',
     '~$34–$37/month',
-    '~$408–$444/year',
+    '~$408–$444/year paid to you',
     'Adding TVision, Nielsen on supported TVs, &amp; Google Screenwise Meter (invite-only)',
     'Cut Immediately',
     '0% Proxy Risk',
@@ -186,7 +192,7 @@ test('the landing page, homepage promo, footer, and sitemap carry the audit', ()
   assert.doesNotMatch(page, /\$\d+\s*-\s*\$?\d+/);
   assert.ok(home.includes('class="stack-promo"'));
   assert.ok(home.indexOf('stack-promo') < home.indexOf('class="cover"'));
-  assert.match(home, /<a href="\/passive-stack">Earn \$180–\$444\/year \(\$0 out of pocket\)<\/a>/);
+  assert.match(home, /<a href="\/passive-stack">Get Paid \$180–\$444\/Year \(100% Free — Companies Pay You\)<\/a>/);
   assert.ok(home.includes('href="/passive-stack"'));
   assert.ok(css.includes('body.edition{--ink:#000000;--red:#d62828;--cream:#fffdf7;--gold:#f4b400}'));
   assert.ok(sitemap.includes('https://aiwithoutbs.vercel.app/passive-stack'));
