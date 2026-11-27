@@ -156,9 +156,9 @@ test('the landing page, homepage promo, footer, and sitemap carry the audit', ()
   const required = [
     '2026 Passive Income App Stack — Real-World Audit | AIwithoutBS',
     'The real-world 2026 audit of passive income apps: what pays cleanly (~$15–$37/month), what to cut immediately, and the free interactive setup guide + AI maintenance prompt.',
-    '2026 REAL-WORLD AUDIT · NO HYPE · ZERO PROXY RISK',
-    'The Real-World 2026 Passive Income App Stack',
-    'I audited every "passive income" app so you don\'t wreck your home internet for $15. Won\'t buy a boat—will pay a bill.',
+    '2026 REAL-WORLD AUDIT · $0 OUT OF POCKET · ZERO PROXY RISK',
+    'Earn $180–$444/Year Without Spending a Dime Out of Pocket',
+    'Big research companies (Nielsen, TVision, SavvyConnect, Google) pay you quietly in the background on the devices you already own. Set up in minutes—no shady proxy apps, no surveys, no hype. (~$15–$37/month; won\'t buy a boat, will pay a bill.)',
     'Safe Core',
     '~$15/month',
     '~$180/year',
@@ -186,7 +186,7 @@ test('the landing page, homepage promo, footer, and sitemap carry the audit', ()
   assert.doesNotMatch(page, /\$\d+\s*-\s*\$?\d+/);
   assert.ok(home.includes('class="stack-promo"'));
   assert.ok(home.indexOf('stack-promo') < home.indexOf('class="cover"'));
-  assert.match(home, /~\$15–\$37\/month/);
+  assert.match(home, /<a href="\/passive-stack">Earn \$180–\$444\/year \(\$0 out of pocket\)<\/a>/);
   assert.ok(home.includes('href="/passive-stack"'));
   assert.ok(css.includes('body.edition{--ink:#000000;--red:#d62828;--cream:#fffdf7;--gold:#f4b400}'));
   assert.ok(sitemap.includes('https://aiwithoutbs.vercel.app/passive-stack'));
