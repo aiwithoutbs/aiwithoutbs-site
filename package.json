@@ -1,1 +1,12 @@
-{ "name": "aiwithoutbs-site", "private": true, "dependencies": { "nodemailer": "^6.9.16" } }
+{
+  "name": "aiwithoutbs-site",
+  "private": true,
+  "scripts": {
+    "typecheck": "node --check api/subscribe.js",
+    "lint": "node --check api/subscribe.js",
+    "test": "node --check api/subscribe.js && node --test test/subscribe.test.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
