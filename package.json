@@ -4,8 +4,7 @@
   "scripts": {
     "typecheck": "node --check api/subscribe.js",
     "lint": "node --check api/subscribe.js",
-    "test": "node --test test/subscribe.test.js",
-    "build": "node --check api/subscribe.js && node --test test/subscribe.test.js"
+    "test": "node --check api/subscribe.js && node --test test/subscribe.test.js"
   },
   "dependencies": {
     "nodemailer": "^6.9.16"
