@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 27, 2026",
+ "date_iso": "2026-11-27",
+ "title": "HeyGen Review (2026): AI Avatar Videos, Plans and Catches",
+ "meta_description": "Plain-English HeyGen review: what the AI avatar videos are good for, what the free plan gets you, what paid plans cost, and when to skip it.",
+ "summary": "HeyGen turns a script, a PDF, a slide deck, or a link into a video with an AI presenter, either a stock one or a digital twin of you. It's free to try with a watermark. Paid plans start at $29 a month and run on credits.",
+ "one_liner": "Type a script, and an AI presenter, or an AI copy of you, reads it on video.",
+ "why_care": "If you need sales, how-to, or social videos and don't have time to film every one, HeyGen gives you a presenter, a voice, and captions without a camera. You can also record yourself once and let an AI version of you do the talking, and HeyGen says it can translate a finished video into 175+ languages with matched lip movement.\n\nIf you don't make videos for your business, skip it.",
+ "good_for": [
+  "Turn a property listing or product sheet into a short walkthrough video an AI presenter reads.",
+  "Make a weekly update or how-to video with your own AI avatar instead of filming it.",
+  "Turn a PDF, PowerPoint, or web link into a draft video with HeyGen's script-to-video tools.",
+  "Translate a finished video into Spanish or another language with lip sync (175+ languages on paid plans).",
+  "Send personalized outreach videos that greet each prospect by name (listed feature; plan limits unverified)."
+ ],
+ "how_to_use": "Step 1: Sign up for the free plan at heygen.com. Free gives you 3 watermarked videos a month, up to 1 minute each.\n\nStep 2: Start a new video, pick a stock presenter (or upload one clear photo of yourself for a talking photo avatar), and paste your script [CHECK: exact menu names].\n\nStep 3: Use this script for a first test, then generate and watch the result:\n\nHi, I'm [your name] with [your business]. In under a minute, here's how [your service] works. Step one: [first step]. Step two: [second step]. Step three: [third step]. Questions? Call us at [your number].",
+ "what_youll_get": "A short video, up to 1 minute on the free plan, with an AI presenter reading your script and HeyGen branding on it. Expect to fix how it says names and local terms, and judge for yourself whether the presenter looks natural enough for your customers.\n\nWe have not run our own tests for this review.",
+ "missing": [
+  "Free videos are watermarked, capped at 3 a month and 1 minute each, per the pricing page.",
+  "Paid plans run on credits (600 on Creator, 1,000 on Pro). We couldn't confirm how many minutes of video a credit buys [CHECK].",
+  "Creator credits roll over only one month. 4K export and the most lifelike avatar engine are Pro only.",
+  "Team features (shared workspace, SCORM export, Zapier and HubSpot links) start at the $149 Business plan, plus $20 a seat.",
+  "If you're fine on camera, a phone and a free editor like CapCut gets you a more personal video for $0."
+ ],
+ "verdict": "Strong at one job: presenter videos without filming every time, plus translation. Most small businesses won't make enough videos to justify a credit-based subscription, which keeps it at \"It's alright.\"",
+ "price_free": "Free, $0: 3 videos a month, up to 1 minute each, watermarked, one custom video avatar plus 500+ ready-made presenters, 30+ languages, per HeyGen's pricing page.",
+ "price_paid": "Creator: $29 a month, 600 credits, 1080p, no branding, your own avatar and voice. Pro: $49 a month, 1,000 credits, 4K, videos up to 30 minutes. Business: $149 a month plus $20 per extra seat. Yearly billing is listed as 2 months free [CHECK: whether listed prices are monthly or yearly rates].",
+ "when_to_use": "* You make sales, social, or how-to videos often and filming each one eats your week.\n* You want one video in more than one language.\n* You're comfortable with an AI copy of your face and voice representing your business.\n* You already have scripts, listings, or slide decks sitting around.",
+ "when_to_skip": "* You make a handful of videos a year. Use the free plan or your phone.\n* Your customers buy from you because they know you. A real you on camera beats an avatar.\n* You mostly make training videos for staff. Compare Synthesia before you pick.\n* You don't want another monthly subscription that runs on credits.",
+ "missing_text": "Here's how the plans line up, per HeyGen's pricing page on Nov 27, 2026.\n\nPlan\tPrice\tWhat you get\nFree\t$0\t3 watermarked videos a month, up to 1 min each\nCreator\t$29/month\t600 credits, 1080p, no branding, your own avatar\nPro\t$49/month\t1,000 credits, 4K, videos up to 30 min\nBusiness\t$149/month\t1,500 credits, shared workspace, +$20 per seat\nEnterprise\tContact sales\tCustom credits and terms\n\nThe catches:\n\n* Credits drive everything on paid plans. HeyGen's page doesn't spell out what one credit buys [CHECK].\n* Creator credits roll over one month only. Pro lets you raise credits any time, with rollover.\n* The pricing page lists yearly billing as 2 months free [CHECK: which rate the listed prices show].\n* HeyGen's own pages disagree on counts (500+ presenters on pricing, 1,100+ on features; 175 vs 177+ languages). Treat the numbers as ballpark.\n\nBottom line: Start free. Pay only once you know you'll make videos every month.",
+ "privacy": "HeyGen says a Personal Avatar or voice clone only gets made with the person's verified permission: you read a short consent statement on camera. Making one means handing over your face and voice.\n\nWe did not read HeyGen's privacy policy or terms for this review [CHECK: how your face, voice, and scripts are stored and used]. Read them before you make an avatar of yourself or an employee.",
+ "alternatives": "* Synthesia: Similar avatar videos, built more for training. Read our Synthesia review.\n* CapCut: If you'll film yourself and just need captions and quick edits. Read our CapCut review.\n* Loom: If a quick screen recording with your real voice does the job. Read our Loom review."
+}

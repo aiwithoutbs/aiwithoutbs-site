@@ -465,7 +465,7 @@
   "name": "HeyGen",
   "slug": "heygen",
   "url": "https://www.heygen.com",
-  "what_its_for": "AI video tool that creates talking avatar videos.",
+  "what_its_for": "AI video tool: type a script and an AI presenter, or an AI copy of you, reads it on video.",
   "tags": [
    "video",
    "voice"
@@ -473,7 +473,7 @@
   "free_tier": true,
   "paid_from": "$29/mo (Creator)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-27",
   "why": "Turn a script into a video with a talking person."
  },
  {

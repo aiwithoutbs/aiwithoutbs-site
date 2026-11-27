@@ -211,5 +211,14 @@
    "https://www.synthesia.io/pricing",
    "https://www.synthesia.io/features"
   ]
+ },
+ {
+  "slug": "heygen",
+  "name": "HeyGen",
+  "official_url": "https://www.heygen.com/avatars",
+  "price_sources": [
+   "https://www.heygen.com/pricing",
+   "https://www.heygen.com/avatars"
+  ]
  }
 ]
