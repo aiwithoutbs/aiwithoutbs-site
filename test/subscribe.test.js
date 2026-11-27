@@ -90,6 +90,8 @@ test('passive-stack tags a passive-stack audience and emails the guide', async (
   assert.equal(res.statusCode, 200);
   assert.equal(res.body.ok, true);
   assert.equal(res.body.source, PASSIVE);
+  assert.equal(GUIDE, 'https://aiwithoutbs.net/passive-stack-guide');
+  assert.equal(res.body.guide, 'https://aiwithoutbs.net/passive-stack-guide');
   assert.equal(res.body.guide, GUIDE);
   assert.equal(res.body.emailed, true);
   const created = calls.find(c => c.method === 'POST' && c.url === `${API}/audiences`);
@@ -115,6 +117,7 @@ test('an existing subscriber still gets the guide email', async () => {
   await handler({method: 'POST', body: {email: 'ada@example.com', source: PASSIVE}}, res);
   assert.equal(res.statusCode, 200);
   assert.equal(res.body.ok, true);
+  assert.equal(res.body.guide, 'https://aiwithoutbs.net/passive-stack-guide');
   assert.equal(res.body.guide, GUIDE);
 });
 
@@ -189,4 +192,70 @@ test('the landing page, homepage promo, footer, and sitemap carry the audit', ()
   assert.ok(sitemap.includes('https://aiwithoutbs.vercel.app/passive-stack'));
   assert.ok(review.includes('href="/passive-stack">2026 passive stack</a>'));
   assert.ok(page.includes('href="/passive-stack">2026 passive stack</a>'));
+  assert.equal(GUIDE, 'https://aiwithoutbs.net/passive-stack-guide');
+  assert.equal(page.includes('https://aiwithoutbs.net/passive-stack-guide'), true);
+});
+
+test('the public guide replaces the canvas login wall', () => {
+  const guideUrl = 'https://aiwithoutbs.net/passive-stack-guide';
+  assert.equal(GUIDE, guideUrl);
+  const guide = fs.readFileSync(path.join(ROOT, 'passive-stack-guide.html'), 'utf8');
+  const page = fs.readFileSync(path.join(ROOT, 'passive-stack.html'), 'utf8');
+  const api = fs.readFileSync(path.join(ROOT, 'api/subscribe.js'), 'utf8');
+  const sitemap = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+  assert.ok(guide.includes(guideUrl));
+  assert.ok(page.includes(guideUrl));
+  assert.ok(api.includes(guideUrl));
+  assert.ok(sitemap.includes(guideUrl));
+  assert.equal(page.split(guideUrl).length - 1, 4);
+  assert.ok(guide.includes('Copy Full AI Prompt'));
+  assert.ok(guide.includes('id="copy-prompt"'));
+  assert.ok(guide.includes('Copied!'));
+  assert.ok(guide.includes('id="proxy-toggle"'));
+  assert.ok(guide.includes('Include risky bandwidth-proxy stack (+$13/mo midpoint; exposes home IP)'));
+  assert.ok(guide.includes('data-filter="recommended"'));
+  assert.ok(guide.includes('https://www.surveysavvy.com/?m=9049737'));
+  assert.ok(guide.split('(referral)').length - 1 >= 2);
+  assert.ok(guide.includes(DISCLOSURE));
+  assert.ok(guide.includes('FBI IC3\'s March 12, 2026 PSA'));
+  assert.ok(guide.includes('PHASE 0'));
+  assert.ok(guide.includes('PHASE 5'));
+  assert.ok(guide.includes('A. AI ROUTINE'));
+  assert.ok(guide.includes('B. CALENDAR EVENT'));
+  assert.ok(guide.includes('https://calendar.google.com/calendar/render?action=TEMPLATE'));
+  assert.ok(guide.includes('https://apps.apple.com/us/app/nielsen-pulse/id6755230383'));
+  assert.ok(guide.includes('https://play.google.com/store/apps/details?id=com.nlsn.psc'));
+  assert.ok(guide.includes('lekkladnjnbpgcoljekpnopdllnggmeo'));
+  assert.ok(guide.includes('Nielsen Pulse — $12/mo (12 apps)'));
+  assert.ok(guide.includes('$34–$37/mo'));
+  assert.ok(guide.includes('$10–$16/mo'));
+  assert.ok(guide.includes('$15–$37/month'));
+  assert.ok(guide.includes('+$19–$22/mo'));
+  assert.ok(guide.includes('$0–$5/mo'));
+  assert.ok(guide.includes('$0–$2/mo'));
+  assert.ok(guide.includes('$4–$6/mo'));
+  assert.ok(guide.includes('$25–$50/mo'));
+  assert.ok(guide.includes('$5–$12/mo'));
+  assert.doesNotMatch(guide, /\$\d+\s*-\s*\$?\d+/);
+  const banned = [
+    ['cursor.com', 'canvas'].join('/'),
+    ['cursor.com', 'canvas'].join('%2F'),
+    ['cursor.com', 'canvas'].join('%2f')
+  ];
+  function walk(dir) {
+    for (const name of fs.readdirSync(dir)) {
+      if (name === 'node_modules' || name === '.git') continue;
+      const p = path.join(dir, name);
+      const st = fs.statSync(p);
+      if (st.isDirectory()) walk(p);
+      else if (st.isFile() && st.size < 2000000) {
+        const buf = fs.readFileSync(p);
+        const lower = buf.toString('utf8').toLowerCase();
+        for (const needle of banned) {
+          assert.equal(lower.includes(needle), false, `${needle} in ${path.relative(ROOT, p)}`);
+        }
+      }
+    }
+  }
+  walk(ROOT);
 });
