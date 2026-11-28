@@ -495,7 +495,7 @@
   "name": "Buffer AI Assistant",
   "slug": "buffer",
   "url": "https://buffer.com",
-  "what_its_for": "AI writing helper inside Buffer.",
+  "what_its_for": "AI caption writer built into Buffer, the social post scheduler. Free on every plan.",
   "tags": [
    "marketing/social",
    "writing"
@@ -503,7 +503,7 @@
   "free_tier": true,
   "paid_from": "$5/mo per channel (Essentials)",
   "date_added": "2026-11-04",
-  "last_checked": "2026-11-04",
+  "last_checked": "2026-11-28",
   "why": "Draft social posts without starting from scratch."
  },
  {

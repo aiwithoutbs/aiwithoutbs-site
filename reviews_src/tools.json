@@ -220,5 +220,14 @@
    "https://www.heygen.com/pricing",
    "https://www.heygen.com/avatars"
   ]
+ },
+ {
+  "slug": "buffer",
+  "name": "Buffer AI Assistant",
+  "official_url": "https://support.buffer.com/en-us/articles/using-buffers-ai-assistant-qbBulfw9sn",
+  "price_sources": [
+   "https://buffer.com/pricing",
+   "https://support.buffer.com/en-us/articles/using-buffers-ai-assistant-qbBulfw9sn"
+  ]
  }
 ]

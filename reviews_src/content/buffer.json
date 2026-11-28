@@ -1,0 +1,34 @@
+{
+ "verdict_tier": "It's alright",
+ "last_checked": "Nov 28, 2026",
+ "date_iso": "2026-11-28",
+ "title": "Buffer AI Assistant Review (2026): Free Social Post Helper",
+ "meta_description": "Plain-English Buffer AI Assistant review: what the free AI caption writer does, what Buffer's plans cost per channel, and when to skip it.",
+ "summary": "Buffer's AI Assistant writes and reworks social media captions right inside Buffer, the post scheduler. It's included on every plan, including Free, with unlimited use. Paid plans start at $5 a month per channel, billed yearly.",
+ "one_liner": "A caption writer built into Buffer, the tool that schedules your social posts.",
+ "why_care": "If you post to Facebook, Instagram, LinkedIn, or your Google Business Profile and stare at a blank box every time, the AI Assistant drafts the caption where you already schedule it. It can shorten or rephrase a post to fit each network's limits, and it costs nothing extra on any plan.\n\nIf you don't post to social media for your business, skip it.",
+ "good_for": [
+  "Draft a caption for this week's listing, special, or job photo from a one-line idea.",
+  "Rework one post for Instagram, LinkedIn, and Facebook so each fits that network's character limit.",
+  "Make a stiff post more casual, or a casual one more formal, with one click.",
+  "Brainstorm post ideas by typing in what your business does and who your customers are.",
+  "Shorten a long announcement so it fits a short-post network."
+ ],
+ "how_to_use": "Step 1: Sign up for the free plan at buffer.com and connect up to 3 social accounts.\n\nStep 2: Open a new post, click AI Assistant on the side of the composer, and type a prompt of at least 4 words.\n\nStep 3: Use this prompt for a first test, then click Generate:\n\nWrite a friendly Facebook post for [your business] in [your town] announcing [your offer or news]. Audience: [who your customers are]. End with: call [your number] or reply here. Keep it under 80 words.",
+ "what_youll_get": "A draft caption in a few seconds that you can regenerate, rephrase, shorten, expand, or make more casual or formal before you insert it into your post. Buffer itself says to double-check what it suggests, so expect to fix facts, prices, and anything that doesn't sound like you.\n\nWe have not run our own tests for this review.",
+ "missing": [
+  "It writes text only. Buffer's help page doesn't describe it making images or video [CHECK].",
+  "The free plan caps you at 3 channels and 10 scheduled posts per channel at a time.",
+  "Paid plans are priced per channel. Ten social accounts means paying for ten channels.",
+  "Going paid means paying for every channel, including the 3 you had free.",
+  "If you only need the words, ChatGPT or Claude writes captions free and works with any scheduler."
+ ],
+ "verdict": "A handy, free caption helper if you already schedule posts in Buffer. It's the same kind of writing help you get from ChatGPT, just closer to the post button, so it's not a reason to sign up on its own. That keeps it at \"It's alright.\"",
+ "price_free": "Free, $0: up to 3 channels, 10 scheduled posts per channel at a time, 100 ideas, 1 user, AI Assistant with unlimited use, per Buffer's pricing page.",
+ "price_paid": "Essentials: $5 a month per channel, billed yearly ($60 a year), unlimited scheduled posts, 1 user. Team: $10 a month per channel, billed yearly ($120 a year), unlimited team members and approval workflows. 14-day free trial on paid plans [CHECK: month-to-month price].",
+ "when_to_use": "* You already schedule posts in Buffer, or plan to.\n* You post to a few social accounts every week and the blank caption box slows you down.\n* You want one post reworked for each network without copy-pasting between tools.\n* You want AI writing help without paying for another subscription.",
+ "when_to_skip": "* You post once in a while. Write it on your phone and post it directly.\n* You already pay for ChatGPT or Claude and are happy pasting captions in.\n* You need images or videos made, not words. Look at Canva first.\n* You manage lots of social accounts and don't want a bill that grows with every one.",
+ "missing_text": "Here's how the plans line up, per Buffer's pricing page on Nov 28, 2026.\n\nPlan\tPrice\tWhat you get\nFree\t$0\tUp to 3 channels, 10 scheduled posts per channel, AI Assistant\nEssentials\t$5/month per channel, billed yearly\tUnlimited scheduled posts, 1 user, AI Assistant\nTeam\t$10/month per channel, billed yearly\tUnlimited team members, approvals, AI Assistant\n\nThe catches:\n\n* The AI Assistant is the same on every plan. You don't get a better AI by paying more.\n* A channel is one social account. One Facebook page plus one Instagram is 2 channels.\n* Listed paid prices are the yearly rate. Buffer says yearly billing saves you 20% [CHECK: month-to-month price].\n* Channels past 10 cost less each. Nonprofits get 50% off paid plans.\n\nBottom line: Start free. Pay only if you outgrow 3 accounts or 10 queued posts.",
+ "privacy": "Whatever you type into the AI Assistant, like your business details and post ideas, goes through Buffer's AI feature. Connecting your social accounts gives Buffer permission to post for you.\n\nWe did not read Buffer's privacy policy or terms for this review [CHECK: which AI provider Buffer uses and how your prompts are stored]. Read them before you paste in anything private.",
+ "alternatives": "* ChatGPT: Writes captions free and works with any scheduler. Read our ChatGPT review.\n* Canva AI: If you need the post graphic, not just the words. Read our Canva AI review.\n* Claude: Strong writer if you want posts that sound less canned. Read our Claude review."
+}
